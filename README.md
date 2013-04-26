@@ -14,6 +14,7 @@ Given I had not written tests along the way, other than the "algoritm cannot los
 Looking at the YAML data I realized that I could come up with method of defining the next move as a simple set of "if" conditions. I was already representing the game board as an array of symbols, X, O and empty. If we mapped these to values, say 2, 1, 0 and then wrote out any board in the array order, we could consider this a base-3 number.
 
 For example, this board:
+
     XO.
     ..X
     ...
@@ -48,4 +49,5 @@ I was able to run this code through the compiler and then the assembler to get a
 
 However, I could not assemble the output when using the longer of the two data sets, when the computer goes last. The assembler kept running out of memory. I rented an Amazon EC2 instance with a rediculous amount of memory and ran the compiler/assembler through it to generate my output. Total cost: $5.00
 
+![piet tic tac toe](master/piet/tic-tac-toe.png)
 
