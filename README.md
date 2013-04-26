@@ -49,5 +49,5 @@ I was able to run this code through the compiler and then the assembler to get a
 
 However, I could not assemble the output when using the longer of the two data sets, when the computer goes last. The assembler kept running out of memory. I rented an Amazon EC2 instance with a rediculous amount of memory and ran the compiler/assembler through it to generate my output. Total cost: $5.00
 
-![piet tic tac toe](master/piet/tic-tac-toe.png)
+![piet tic tac toe](piet/tic-tac-toe.png)
 
