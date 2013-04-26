@@ -1,151 +1,164 @@
-class Algorithm
-  attr_accessor :symbol
+require_relative "../lib/tic-tac-toe"
 
-  def initialize(symbol)
-    @symbol = symbol
-  end
+describe Algorithm do
+  it "knows the competitor's symbol" do
+    algorithm = Algorithm.new(Board::X)
 
-  def competitor_symbol
-    Board.other_player(symbol)
+    algorithm.competitor_symbol.should == Board::O
   end
 end
 
-class UnbeatableTicTacToe < Algorithm
-  def moves(board)
-    best = min_max_score(board, true) || {:space => nil}
+describe PlaysAllPossibleMoves do
+  it "suggests all empty spaces as possible moves" do
+    board = Board.new
+    board[0] = Board::X
+    board[8] = Board::O
 
-    Array(best[:space])
+    PlaysAllPossibleMoves.new(Board::X).moves(board).should == [1,2,3,4,5,6,7]
+    PlaysAllPossibleMoves.new(Board::O).moves(board).should == [1,2,3,4,5,6,7]
+  end
+end
+
+describe Board do
+  it "can create a new board with a move at a specific space" do
+    board = Board.new
+
+    new_board = board.with_move(4, Board::X)
+
+    new_board[4].should == Board::X
   end
 
-  private
+  it "can store an X or an O at a specific board location" do
+    board = Board.new
 
-  def min_max_score(board, is_me)
-    current_symbol = is_me ? symbol : competitor_symbol
-    min_max_method = is_me ? :max_by : :min_by
-    value          = is_me ? 1 : -1
+    board[0] = Board::X
+    board[0].should == Board::X
 
-    results = board.empty_spaces.map do |space|
-      new_board = board.with_move(space, current_symbol)
+    board[1] = Board::O
+    board[1].should == Board::O
+  end
 
-      case
-        when new_board.won_by?(current_symbol) then
-          { space: space, value: value }
-        when new_board.full?
-          { space: space, value: 0 }
-        else
-          { space: space, value: min_max_score(new_board, !is_me)[:value] }
-      end
+  it "can determine if a space is empty" do
+    board = Board.new
+
+    unoccupied_space = 2
+
+    board.should be_empty(unoccupied_space)
+  end
+
+  it "can determine if a space is not empty" do
+    board = Board.new
+
+    occupied_space   = 4
+
+    board[occupied_space] = Board::X
+
+    board.should_not be_empty(occupied_space)
+  end
+
+  it "knows a player's competitor" do
+    Board.other_player(Board::X).should == Board::O
+    Board.other_player(Board::O).should == Board::X
+  end
+
+  context "non empty board" do
+    it "has a human friendly string representation" do
+      board = Board.new
+      board[3] = Board::X
+      board[4] = Board::O
+
+      board.to_s.should == "\n...\nXO.\n..."
+    end
+  end
+
+  context "new board" do
+    let(:board) { Board.new }
+
+    it "is not full" do
+      board.should_not be_full
     end
 
-    results.send(min_max_method) { |result| result[:value]  }
-  end
-end
-
-class PlaysAllPossibleMoves < Algorithm
-  def moves(board)
-    board.empty_spaces
-  end
-end
-
-class Board
-  attr_reader :spaces
-
-  X     = 'X'
-  O     = 'O'
-  EMPTY = '.'
-
-  IllegalMove = Class.new(StandardError)
-
-  def initialize
-    @spaces = [EMPTY]*9
-  end
-
-  def self.other_player(symbol)
-    symbol == Board::X ? Board::O : Board::X
-  end
-
-  def initialize_copy(other)
-    @spaces = other.spaces.dup
-  end
-
-  def []=(space, symbol)
-    @spaces[space] = symbol
-  end
-
-  def [](space)
-    @spaces[space]
-  end
-
-  def full?
-    empty_spaces.empty?
-  end
-
-  def empty?(space)
-    self[space] == EMPTY
-  end
-
-  def empty_spaces
-    ALL_SPACES.select { |index| empty?(index) }
-  end
-
-  def with_move(space, symbol)
-    raise IllegalMove unless empty?(space)
-
-    board = self.dup
-    board[space] = symbol
-    board
-  end
-
-  def won_by?(player_symbol)
-    WINNING_SPACES.any? { |moves| moves.all? { |move| self[move] == player_symbol } }
-  end
-
-  def to_s
-    @spaces.each_slice(3).map(&:join).join("\n")
-  end
-
-  def print(message="")
-    puts "#{to_s}\n#{message}"
-  end
-
-  ALL_SPACES = (0..8)
-
-  WINNING_SPACES = [
-    # Horizontals
-    [0, 1, 2], [3, 4, 5], [6, 7, 8],
-
-    # Verticals
-    [0, 3, 6], [1, 4, 7], [2, 5, 8],
-
-    # Diagonals
-    [0, 4, 8], [2, 4, 6],
-  ]
-end
-
-class Game
-  attr_accessor :player_1, :player_2
-
-  def initialize(player_1, player_2)
-    @player_1 = player_1
-    @player_2 = player_2
-  end
-
-  def play
-    play_out_all_moves(Board.new)
-  end
-
-  def play_out_all_moves(board)
-    player_1.moves(board).each do |move|
-      player_1_board = board.with_move(move, player_1.symbol)
-      next if after_move(player_1_board) || player_1_board.full?
-
-      player_2.moves(player_1_board).each do |move|
-        player_2_board = player_1_board.with_move(move, player_2.symbol)
-        next if after_move(player_2_board) || player_2_board.full?
-
-        play_out_all_moves(player_2_board)
-      end
+    it "has all spaces as empty" do
+      board.spaces.should == [Board::EMPTY, Board::EMPTY, Board::EMPTY,
+                              Board::EMPTY, Board::EMPTY, Board::EMPTY,
+                              Board::EMPTY, Board::EMPTY, Board::EMPTY]
     end
+
+    it "returns all spaces as empty" do
+      board.empty_spaces.should == [0,1,2,3,4,5,6,7,8]
+    end
+
+    it "can compare to another board" do
+      empty_board = Board.new
+
+      non_empty_board = Board.new
+      non_empty_board[4] = Board::X
+
+      board.should be_eql(empty_board)
+      board.should_not be_eql(non_empty_board)
+    end
+
+    it "has a human friendly string representation" do
+      board.to_s.should == "\n...\n...\n..."
+    end
+  end
+
+  context "full board" do
+    let(:board) { board = Board.new; Board::ALL_SPACES.each { |i| board[i] = Board::X }; board }
+
+    it do
+      board.should be_full
+    end
+
+    it "has a human friendly string representation" do
+      board.to_s.should == "\nXXX\nXXX\nXXX"
+    end
+  end
+
+  context "non empty board" do
+    let(:board) { board = Board.new; board[4] = Board::X; board }
+
+    it "can compare to another board" do
+      empty_board = Board.new
+
+      same_board = Board.new
+      same_board[4] = Board::X
+
+      different_board = Board.new
+      different_board[4] = Board::O
+
+      board.should eql(same_board)
+      board.should_not be_eql(empty_board)
+      board.should_not be_eql(different_board)
+    end
+
+    it "can determine the non empty spaces" do
+      board.empty_spaces.should == [0,1,2,3,5,6,7,8]
+    end
+  end
+
+  it "can determine a game won by player X" do
+    board = Board.new
+    board[0] = Board::X
+    board[1] = Board::X
+    board[2] = Board::X
+
+    board.should be_won_by(Board::X)
+    board.should_not be_won_by(Board::O)
+  end
+
+  it "can determine a game won by player O" do
+    board = Board.new
+    board[0] = Board::O
+    board[1] = Board::O
+    board[2] = Board::O
+
+    board.should be_won_by(Board::O)
+    board.should_not be_won_by(Board::X)
+  end
+
+  it "determins all the winning positions" do
+    pending "Should we iterate all these as examples?"
   end
 end
 
@@ -153,26 +166,46 @@ describe UnbeatableTicTacToe do
   UNBEATABLE = Board::X
   COMPETITOR = Board::O
 
+  class UnbeatablePlayerLostError < StandardError
+    def initialize(board)
+      @board = board
+    end
+
+    def to_s
+      "lost with board: #{@board}"
+    end
+  end
+
   class GameChecksForUnbeatableLoss < Game
     def after_move(board)
-      return true if board.won_by?(UNBEATABLE) || board.full?
+      raise UnbeatablePlayerLostError.new(board) if board.won_by?(COMPETITOR)
 
-      if board.won_by?(COMPETITOR) then
-        board.print("Unbeatable game was defeated!")
-        raise
-      end
+      board.won_by?(UNBEATABLE) || board.full?
     end
   end
 
   let(:unbeatable_player) { UnbeatableTicTacToe.new(UNBEATABLE) }
   let(:competitor)        { PlaysAllPossibleMoves.new(COMPETITOR) }
 
-  it "cannot lose a game when goes first" do
+  let(:unbeatable_player_from_cache_goes_first) { UnbeatableTicTacToeFromCache.new(UNBEATABLE, YAML::load(File.read("goes_first.yml"))) }
+  let(:unbeatable_player_from_cache_goes_last)  { UnbeatableTicTacToeFromCache.new(UNBEATABLE, YAML::load(File.read("goes_last.yml"))) }
+
+  it "cannot lose a game when goes first", :slow => true do
     GameChecksForUnbeatableLoss.new(unbeatable_player, competitor).play
   end
 
-  it "cannot lose a game when goes last" do
+  it "cannot lose a game when goes last", :slow => true do
     GameChecksForUnbeatableLoss.new(competitor, unbeatable_player).play
+  end
+
+  describe "from cache" do
+    it "cannot lose a game when goes first" do
+      GameChecksForUnbeatableLoss.new(unbeatable_player_from_cache_goes_first, competitor).play
+    end
+
+    it "cannot lose a game when goes last" do
+      GameChecksForUnbeatableLoss.new(competitor, unbeatable_player_from_cache_goes_last).play
+    end
   end
 end
 

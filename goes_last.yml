@@ -1,0 +1,11232 @@
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - .
+  - .
+  - X
+  - .
+  - .
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - .
+  - O
+  - X
+  - .
+  - X
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+  - X
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - .
+  - .
+  - X
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - O
+  - .
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - .
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+  - X
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+  - X
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - X
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - .
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+  - .
+  - .
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - O
+  - .
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - .
+  - X
+  - X
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - .
+  - .
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - O
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+  - O
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+  - O
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+  - X
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - .
+  - .
+  - X
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - O
+  - .
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - O
+  - .
+  - .
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+  - X
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+  - X
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - .
+  - .
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - .
+  - O
+  - O
+  - .
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - O
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - X
+  - O
+  - O
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - .
+  - O
+  - .
+  - O
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - X
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - O
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+  - .
+  - .
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+  - O
+  - X
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - O
+  - .
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+  - X
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - .
+  - .
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+  - X
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+  - O
+  - X
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - O
+  - .
+  - X
+  - O
+  - .
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+  - .
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - .
+  - .
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+  - .
+  - O
+  - .
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+  - X
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+  - X
+  - O
+  - X
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+  - X
+  - O
+  - .
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - O
+  - .
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+  - .
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - .
+  - .
+  - O
+  - O
+  - .
+: 8
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+  - O
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+  - O
+  - O
+  - X
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - O
+  - O
+  - X
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - X
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - X
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - O
+  - .
+  - .
+  - O
+  - O
+  - X
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+  - O
+  - X
+: 5
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+  - O
+  - O
+  - X
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - .
+  - O
+  - O
+  - O
+  - X
+: 4
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - .
+  - O
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+  - O
+  - O
+  - X
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - .
+  - X
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - O
+  - .
+  - O
+  - X
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - O
+  - .
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - O
+  - .
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - O
+  - .
+  - O
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - O
+  - O
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - X
+  - .
+  - .
+  - O
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - .
+  - O
+: 4
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - .
+  - X
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - .
+  - X
+  - X
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - .
+  - X
+  - X
+  - .
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - X
+  - O
+  - .
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - X
+  - .
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - .
+  - .
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - O
+  - X
+  - X
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - X
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - O
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - .
+  - O
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - X
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - X
+  - O
+  - X
+  - O
+  - .
+  - .
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - .
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - X
+  - .
+  - X
+  - O
+  - X
+  - O
+  - .
+  - O
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - X
+  - .
+  - X
+  - O
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - .
+  - O
+: 7
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - O
+  - X
+  - O
+: 1
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - .
+  - .
+  - O
+  - O
+: 6
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - .
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - .
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - X
+  - O
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - .
+  - X
+  - .
+  - X
+  - O
+  - O
+: 5
+? !ruby/object:Board
+  spaces:
+  - O
+  - .
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - O
+  - O
+  - .
+  - X
+  - X
+  - X
+  - O
+  - O
+: 3
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - O
+  - O
+  - X
+  - X
+  - X
+  - O
+  - O
+: 0
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - O
+  - X
+  - .
+  - X
+  - O
+  - O
+: 2
+? !ruby/object:Board
+  spaces:
+  - .
+  - .
+  - .
+  - .
+  - X
+  - O
+  - X
+  - O
+  - O
+: 2
