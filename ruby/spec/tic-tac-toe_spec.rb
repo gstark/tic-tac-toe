@@ -163,9 +163,6 @@ describe Board do
 end
 
 describe UnbeatableTicTacToe do
-  UNBEATABLE = Board::X
-  COMPETITOR = Board::O
-
   class UnbeatablePlayerLostError < StandardError
     def initialize(board)
       @board = board
@@ -178,17 +175,21 @@ describe UnbeatableTicTacToe do
 
   class GameChecksForUnbeatableLoss < Game
     def after_move(board)
-      raise UnbeatablePlayerLostError.new(board) if board.won_by?(COMPETITOR)
+      raise UnbeatablePlayerLostError.new(board) if board.won_by?(Game::HUMAN)
 
-      board.won_by?(UNBEATABLE) || board.full?
+      board.won_by?(Game::COMPUTER) || board.full?
     end
   end
 
-  let(:unbeatable_player) { UnbeatableTicTacToe.new(UNBEATABLE) }
-  let(:competitor)        { PlaysAllPossibleMoves.new(COMPETITOR) }
+  let(:unbeatable_player) { UnbeatableTicTacToe.new(Game::COMPUTER) }
+  let(:competitor)        { PlaysAllPossibleMoves.new(Game::HUMAN) }
 
-  let(:unbeatable_player_from_cache_goes_first) { UnbeatableTicTacToeFromCache.new(UNBEATABLE, YAML::load(File.read("goes_first.yml"))) }
-  let(:unbeatable_player_from_cache_goes_last)  { UnbeatableTicTacToeFromCache.new(UNBEATABLE, YAML::load(File.read("goes_last.yml"))) }
+  unless File.exist?("goes_first.yml") && File.exist?("goes_last.yml")
+    raise "Run rake generates_yaml_files first"
+  end
+
+  let(:unbeatable_player_from_cache_goes_first) { UnbeatableTicTacToeFromCache.new(Game::COMPUTER, YAML::load(File.read("goes_first.yml"))) }
+  let(:unbeatable_player_from_cache_goes_last)  { UnbeatableTicTacToeFromCache.new(Game::COMPUTER, YAML::load(File.read("goes_last.yml"))) }
 
   it "cannot lose a game when goes first", :slow => true do
     GameChecksForUnbeatableLoss.new(unbeatable_player, competitor).play

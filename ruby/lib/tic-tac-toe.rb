@@ -20,7 +20,8 @@ class UnbeatableTicTacToeFromCache < Algorithm
   end
 
   def moves(board)
-    Array(@boards.fetch(board))
+    board_to_i = board.to_i
+    @boards.select { |move, boards| boards.include?(board_to_i) }.keys
   end
 end
 
@@ -160,6 +161,9 @@ class Board
 end
 
 class Game
+  COMPUTER = Board::X
+  HUMAN    = Board::O
+
   attr_reader :player_1, :player_2, :boards
 
   def initialize(player_1, player_2)
@@ -171,20 +175,58 @@ class Game
     play_out_all_moves(Board.new)
   end
 
+  def player_1_move(move, board)
+    # Nothing to do
+  end
+
+  def player_2_move(move, board)
+    # Nothing to do
+  end
+
   def play_out_all_moves(board)
     moves = player_1.moves(board)
     moves.each do |move|
+      player_1_move(move, board)
       player_1_board = board.with_move(move, player_1.symbol)
       next if after_move(player_1_board) || player_1_board.full?
 
       moves = player_2.moves(player_1_board)
       moves.each do |move|
+        player_2_move(move, player_1_board)
         player_2_board = player_1_board.with_move(move, player_2.symbol)
         next if after_move(player_2_board) || player_2_board.full?
 
         play_out_all_moves(player_2_board)
       end
     end
+  end
+end
+
+class SavesResults < Game
+  attr_reader :saves_on_player
+  attr_reader :results
+
+  def initialize(player_1, player_2, saves_on_player)
+    super(player_1, player_2)
+
+    @saves_on_player = saves_on_player
+    @results = {}
+  end
+
+  def after_move(board)
+    board.won_by?(COMPUTER) || board.full?
+  end
+
+  def player_1_move(move, board)
+    return unless saves_on_player == 1
+    @results[move] ||= []
+    @results[move] << board.to_i
+  end
+
+  def player_2_move(move, board)
+    return unless saves_on_player == 2
+    @results[move] ||= []
+    @results[move] << board.to_i
   end
 end
 
