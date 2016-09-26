@@ -13161,7 +13161,7 @@ b._track_0
 
 .track
  # track for function main
-.btbl __entry_0 __entry_1 __entry_2 __entry_3 __entry_4 __entry_5 __entry_6 __entry_7 __entry_8 __entry_9
+.btbl __entry_0 __entry_1 __entry_2 __entry_3 __entry_4 __entry_5 __entry_6 __entry_7 __entry_8 __entry_9 __entry_10
 halt
 __entry_0:
 @"If you want to go first enter 1, otherwise 0\r\n"
@@ -13172,7 +13172,7 @@ inn
 in
 pop
 add
- # (((human_firstderef53)==0)
+ # (((human_firstderef60)==0)
 dup
 0
 sub
@@ -13193,7 +13193,7 @@ b.1f
 1:
 1
 bz.2f
- # (((human_firstderef68)==0)
+ # (((human_firstderef75)==0)
 3
 2
 roll
@@ -13256,8 +13256,8 @@ pop
 1
 roll
  # ) 
- # (((2*(expderef78))+(boardderef78))
- # ((2*(expderef78))
+ # (((2*(expderef85))+(boardderef85))
+ # ((2*(expderef85))
 2
 3
 2
@@ -13304,7 +13304,7 @@ __entry_3:
 pop
  # )
 pop
- # (call check_for_win
+ # (call check_for_win_or_tie
 1 # __retval
 4
 3
@@ -13348,7 +13348,7 @@ pop
  # (assign to invalid_move
  # ) 
 3:
- # (((invalid_movederef89)==1)
+ # (((invalid_movederef96)==1)
 dup
 1
 sub
@@ -13392,10 +13392,10 @@ pop
 1
 roll
  # ) 
- # ((((((boardderef105)/(expderef105))%3)!=0)||(((movederef105)<0)||((movederef105)>8)))
- # (((((boardderef105)/(expderef105))%3)!=0)
- # ((((boardderef105)/(expderef105))%3)
- # (((boardderef105)/(expderef105))
+ # ((((((boardderef112)/(expderef112))%3)!=0)||(((movederef112)<0)||((movederef112)>8)))
+ # (((((boardderef112)/(expderef112))%3)!=0)
+ # ((((boardderef112)/(expderef112))%3)
+ # (((boardderef112)/(expderef112))
 5
 4
 roll
@@ -13420,8 +13420,8 @@ sub
 not
 not
  # )
- # ((((movederef105)<0)||((movederef105)>8))
- # (((movederef105)<0)
+ # ((((movederef112)<0)||((movederef112)>8))
+ # (((movederef112)<0)
 2
 1
 roll
@@ -13435,7 +13435,7 @@ roll
 roll
 gt
  # )
- # (((movederef105)>8)
+ # (((movederef112)>8)
 3
 2
 roll
@@ -13487,7 +13487,7 @@ pop
 pop
 b.3b
 4:
- # (((expderef115)+(boardderef115))
+ # (((expderef122)+(boardderef122))
 2
 1
 roll
@@ -13513,7 +13513,25 @@ pop
 1
 roll
  # ) 
- # (((human_firstderef118)==1)
+ # (call check_for_win_or_tie
+1 # __retval
+4
+3
+roll
+dup
+5
+1
+roll
+7 # return ep
+3 # return track
+0 # callee ep
+6 # callee track
+b._track_0 # call dispatcher
+__entry_7:
+pop
+ # )
+pop
+ # (((human_firstderef127)==1)
 4
 3
 roll
@@ -13536,12 +13554,12 @@ dup
 5
 1
 roll
-7 # return ep
+8 # return ep
 3 # return track
 0 # callee ep
 2 # callee track
 b._track_0 # call dispatcher
-__entry_7:
+__entry_8:
 pop
  # )
  # (assign to move
@@ -13559,12 +13577,12 @@ dup
 3
 1
 roll
-8 # return ep
+9 # return ep
 3 # return track
 0 # callee ep
 4 # callee track
 b._track_0 # call dispatcher
-__entry_8:
+__entry_9:
 pop
  # )
  # (assign to exp
@@ -13576,8 +13594,8 @@ pop
 1
 roll
  # ) 
- # (((2*(expderef128))+(boardderef128))
- # ((2*(expderef128))
+ # (((2*(expderef137))+(boardderef137))
+ # ((2*(expderef137))
 2
 4
 3
@@ -13606,7 +13624,7 @@ pop
 1
 roll
  # ) 
- # (call check_for_win
+ # (call check_for_win_or_tie
 1 # __retval
 5
 4
@@ -13615,12 +13633,12 @@ dup
 6
 1
 roll
-9 # return ep
+10 # return ep
 3 # return track
 0 # callee ep
 6 # callee track
 b._track_0 # call dispatcher
-__entry_9:
+__entry_10:
 pop
  # )
 pop
@@ -13657,7 +13675,7 @@ __entry_0:
  # (assign to i
  # ) 
 1:
- # (((ideref200)<(positionderef200))
+ # (((ideref221)<(positionderef221))
 dup
 6
 5
@@ -13672,7 +13690,7 @@ roll
 gt
  # )
 bz.2f
- # (((expderef202)*3)
+ # (((expderef223)*3)
 2
 1
 roll
@@ -13742,8 +13760,8 @@ halt
 __entry_0:
  # (call print_piece
 1 # __retval
- # ((((boardderef167)/exponent(0))%3)
- # (((boardderef167)/exponent(0))
+ # ((((boardderef188)/exponent(0))%3)
+ # (((boardderef188)/exponent(0))
 4
 3
 roll
@@ -13781,8 +13799,8 @@ pop
 @" "
  # (call print_piece
 1 # __retval
- # ((((boardderef169)/exponent(1))%3)
- # (((boardderef169)/exponent(1))
+ # ((((boardderef190)/exponent(1))%3)
+ # (((boardderef190)/exponent(1))
 4
 3
 roll
@@ -13820,8 +13838,8 @@ pop
 @" "
  # (call print_piece
 1 # __retval
- # ((((boardderef171)/exponent(2))%3)
- # (((boardderef171)/exponent(2))
+ # ((((boardderef192)/exponent(2))%3)
+ # (((boardderef192)/exponent(2))
 4
 3
 roll
@@ -13860,8 +13878,8 @@ pop
 @"\r\n"
  # (call print_piece
 1 # __retval
- # ((((boardderef174)/exponent(3))%3)
- # (((boardderef174)/exponent(3))
+ # ((((boardderef195)/exponent(3))%3)
+ # (((boardderef195)/exponent(3))
 4
 3
 roll
@@ -13899,8 +13917,8 @@ pop
 @" "
  # (call print_piece
 1 # __retval
- # ((((boardderef176)/exponent(4))%3)
- # (((boardderef176)/exponent(4))
+ # ((((boardderef197)/exponent(4))%3)
+ # (((boardderef197)/exponent(4))
 4
 3
 roll
@@ -13938,8 +13956,8 @@ pop
 @" "
  # (call print_piece
 1 # __retval
- # ((((boardderef178)/exponent(5))%3)
- # (((boardderef178)/exponent(5))
+ # ((((boardderef199)/exponent(5))%3)
+ # (((boardderef199)/exponent(5))
 4
 3
 roll
@@ -13978,8 +13996,8 @@ pop
 @"\r\n"
  # (call print_piece
 1 # __retval
- # ((((boardderef181)/exponent(6))%3)
- # (((boardderef181)/exponent(6))
+ # ((((boardderef202)/exponent(6))%3)
+ # (((boardderef202)/exponent(6))
 4
 3
 roll
@@ -14017,8 +14035,8 @@ pop
 @" "
  # (call print_piece
 1 # __retval
- # ((((boardderef183)/exponent(7))%3)
- # (((boardderef183)/exponent(7))
+ # ((((boardderef204)/exponent(7))%3)
+ # (((boardderef204)/exponent(7))
 4
 3
 roll
@@ -14056,8 +14074,8 @@ pop
 @" "
  # (call print_piece
 1 # __retval
- # ((((boardderef185)/exponent(8))%3)
- # (((boardderef185)/exponent(8))
+ # ((((boardderef206)/exponent(8))%3)
+ # (((boardderef206)/exponent(8))
 4
 3
 roll
@@ -14108,12 +14126,12 @@ b._track_0
 
 
 .track
- # track for function check_for_win
-.btbl __entry_0 __entry_1 __entry_2 __entry_3 __entry_4 __entry_5 __entry_6 __entry_7 __entry_8 __entry_9 __entry_10
+ # track for function check_for_win_or_tie
+.btbl __entry_0 __entry_1 __entry_2 __entry_3 __entry_4 __entry_5 __entry_6 __entry_7 __entry_8 __entry_9 __entry_10 __entry_11
 halt
 __entry_0:
- # ((((boardderef137)/exponent(0))%3)
- # (((boardderef137)/exponent(0))
+ # ((((boardderef146)/exponent(0))%3)
+ # (((boardderef146)/exponent(0))
 3
 2
 roll
@@ -14139,8 +14157,8 @@ mod
  # )
  # (assign to pos_0
  # ) 
- # ((((boardderef138)/exponent(1))%3)
- # (((boardderef138)/exponent(1))
+ # ((((boardderef147)/exponent(1))%3)
+ # (((boardderef147)/exponent(1))
 4
 3
 roll
@@ -14166,8 +14184,8 @@ mod
  # )
  # (assign to pos_1
  # ) 
- # ((((boardderef139)/exponent(2))%3)
- # (((boardderef139)/exponent(2))
+ # ((((boardderef148)/exponent(2))%3)
+ # (((boardderef148)/exponent(2))
 5
 4
 roll
@@ -14193,8 +14211,8 @@ mod
  # )
  # (assign to pos_2
  # ) 
- # ((((boardderef140)/exponent(3))%3)
- # (((boardderef140)/exponent(3))
+ # ((((boardderef149)/exponent(3))%3)
+ # (((boardderef149)/exponent(3))
 6
 5
 roll
@@ -14220,8 +14238,8 @@ mod
  # )
  # (assign to pos_3
  # ) 
- # ((((boardderef141)/exponent(4))%3)
- # (((boardderef141)/exponent(4))
+ # ((((boardderef150)/exponent(4))%3)
+ # (((boardderef150)/exponent(4))
 7
 6
 roll
@@ -14247,8 +14265,8 @@ mod
  # )
  # (assign to pos_4
  # ) 
- # ((((boardderef142)/exponent(5))%3)
- # (((boardderef142)/exponent(5))
+ # ((((boardderef151)/exponent(5))%3)
+ # (((boardderef151)/exponent(5))
 8
 7
 roll
@@ -14274,8 +14292,8 @@ mod
  # )
  # (assign to pos_5
  # ) 
- # ((((boardderef143)/exponent(6))%3)
- # (((boardderef143)/exponent(6))
+ # ((((boardderef152)/exponent(6))%3)
+ # (((boardderef152)/exponent(6))
 9
 8
 roll
@@ -14301,8 +14319,8 @@ mod
  # )
  # (assign to pos_6
  # ) 
- # ((((boardderef144)/exponent(7))%3)
- # (((boardderef144)/exponent(7))
+ # ((((boardderef153)/exponent(7))%3)
+ # (((boardderef153)/exponent(7))
 10
 9
 roll
@@ -14328,8 +14346,8 @@ mod
  # )
  # (assign to pos_7
  # ) 
- # ((((boardderef145)/exponent(8))%3)
- # (((boardderef145)/exponent(8))
+ # ((((boardderef154)/exponent(8))%3)
+ # (((boardderef154)/exponent(8))
 11
 10
 roll
@@ -14355,9 +14373,9 @@ mod
  # )
  # (assign to pos_8
  # ) 
- # (((((pos_0deref147)==2)&&(((pos_1deref147)==2)&&((pos_2deref147)==2)))||((((pos_3deref148)==2)&&(((pos_4deref148)==2)&&((pos_5deref148)==2)))||((((pos_6deref149)==2)&&(((pos_7deref149)==2)&&((pos_8deref149)==2)))||((((pos_0deref150)==2)&&(((pos_3deref150)==2)&&((pos_6deref150)==2)))||((((pos_1deref151)==2)&&(((pos_4deref151)==2)&&((pos_7deref151)==2)))||((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))||((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2))))))))))
- # ((((pos_0deref147)==2)&&(((pos_1deref147)==2)&&((pos_2deref147)==2)))
- # (((pos_0deref147)==2)
+ # (((((pos_0deref156)==2)&&(((pos_1deref156)==2)&&((pos_2deref156)==2)))||((((pos_3deref157)==2)&&(((pos_4deref157)==2)&&((pos_5deref157)==2)))||((((pos_6deref158)==2)&&(((pos_7deref158)==2)&&((pos_8deref158)==2)))||((((pos_0deref159)==2)&&(((pos_3deref159)==2)&&((pos_6deref159)==2)))||((((pos_1deref160)==2)&&(((pos_4deref160)==2)&&((pos_7deref160)==2)))||((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))||((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2))))))))))
+ # ((((pos_0deref156)==2)&&(((pos_1deref156)==2)&&((pos_2deref156)==2)))
+ # (((pos_0deref156)==2)
 9
 8
 roll
@@ -14369,8 +14387,8 @@ roll
 sub
 not
  # )
- # ((((pos_1deref147)==2)&&((pos_2deref147)==2))
- # (((pos_1deref147)==2)
+ # ((((pos_1deref156)==2)&&((pos_2deref156)==2))
+ # (((pos_1deref156)==2)
 9
 8
 roll
@@ -14382,7 +14400,7 @@ roll
 sub
 not
  # )
- # (((pos_2deref147)==2)
+ # (((pos_2deref156)==2)
 9
 8
 roll
@@ -14402,9 +14420,9 @@ mul
 not
 not
  # )
- # (((((pos_3deref148)==2)&&(((pos_4deref148)==2)&&((pos_5deref148)==2)))||((((pos_6deref149)==2)&&(((pos_7deref149)==2)&&((pos_8deref149)==2)))||((((pos_0deref150)==2)&&(((pos_3deref150)==2)&&((pos_6deref150)==2)))||((((pos_1deref151)==2)&&(((pos_4deref151)==2)&&((pos_7deref151)==2)))||((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))||((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2)))))))))
- # ((((pos_3deref148)==2)&&(((pos_4deref148)==2)&&((pos_5deref148)==2)))
- # (((pos_3deref148)==2)
+ # (((((pos_3deref157)==2)&&(((pos_4deref157)==2)&&((pos_5deref157)==2)))||((((pos_6deref158)==2)&&(((pos_7deref158)==2)&&((pos_8deref158)==2)))||((((pos_0deref159)==2)&&(((pos_3deref159)==2)&&((pos_6deref159)==2)))||((((pos_1deref160)==2)&&(((pos_4deref160)==2)&&((pos_7deref160)==2)))||((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))||((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2)))))))))
+ # ((((pos_3deref157)==2)&&(((pos_4deref157)==2)&&((pos_5deref157)==2)))
+ # (((pos_3deref157)==2)
 7
 6
 roll
@@ -14416,8 +14434,8 @@ roll
 sub
 not
  # )
- # ((((pos_4deref148)==2)&&((pos_5deref148)==2))
- # (((pos_4deref148)==2)
+ # ((((pos_4deref157)==2)&&((pos_5deref157)==2))
+ # (((pos_4deref157)==2)
 7
 6
 roll
@@ -14429,7 +14447,7 @@ roll
 sub
 not
  # )
- # (((pos_5deref148)==2)
+ # (((pos_5deref157)==2)
 7
 6
 roll
@@ -14449,9 +14467,9 @@ mul
 not
 not
  # )
- # (((((pos_6deref149)==2)&&(((pos_7deref149)==2)&&((pos_8deref149)==2)))||((((pos_0deref150)==2)&&(((pos_3deref150)==2)&&((pos_6deref150)==2)))||((((pos_1deref151)==2)&&(((pos_4deref151)==2)&&((pos_7deref151)==2)))||((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))||((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2))))))))
- # ((((pos_6deref149)==2)&&(((pos_7deref149)==2)&&((pos_8deref149)==2)))
- # (((pos_6deref149)==2)
+ # (((((pos_6deref158)==2)&&(((pos_7deref158)==2)&&((pos_8deref158)==2)))||((((pos_0deref159)==2)&&(((pos_3deref159)==2)&&((pos_6deref159)==2)))||((((pos_1deref160)==2)&&(((pos_4deref160)==2)&&((pos_7deref160)==2)))||((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))||((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2))))))))
+ # ((((pos_6deref158)==2)&&(((pos_7deref158)==2)&&((pos_8deref158)==2)))
+ # (((pos_6deref158)==2)
 5
 4
 roll
@@ -14463,8 +14481,8 @@ roll
 sub
 not
  # )
- # ((((pos_7deref149)==2)&&((pos_8deref149)==2))
- # (((pos_7deref149)==2)
+ # ((((pos_7deref158)==2)&&((pos_8deref158)==2))
+ # (((pos_7deref158)==2)
 5
 4
 roll
@@ -14476,7 +14494,7 @@ roll
 sub
 not
  # )
- # (((pos_8deref149)==2)
+ # (((pos_8deref158)==2)
 5
 4
 roll
@@ -14496,9 +14514,9 @@ mul
 not
 not
  # )
- # (((((pos_0deref150)==2)&&(((pos_3deref150)==2)&&((pos_6deref150)==2)))||((((pos_1deref151)==2)&&(((pos_4deref151)==2)&&((pos_7deref151)==2)))||((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))||((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2)))))))
- # ((((pos_0deref150)==2)&&(((pos_3deref150)==2)&&((pos_6deref150)==2)))
- # (((pos_0deref150)==2)
+ # (((((pos_0deref159)==2)&&(((pos_3deref159)==2)&&((pos_6deref159)==2)))||((((pos_1deref160)==2)&&(((pos_4deref160)==2)&&((pos_7deref160)==2)))||((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))||((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2)))))))
+ # ((((pos_0deref159)==2)&&(((pos_3deref159)==2)&&((pos_6deref159)==2)))
+ # (((pos_0deref159)==2)
 12
 11
 roll
@@ -14510,8 +14528,8 @@ roll
 sub
 not
  # )
- # ((((pos_3deref150)==2)&&((pos_6deref150)==2))
- # (((pos_3deref150)==2)
+ # ((((pos_3deref159)==2)&&((pos_6deref159)==2))
+ # (((pos_3deref159)==2)
 10
 9
 roll
@@ -14523,7 +14541,7 @@ roll
 sub
 not
  # )
- # (((pos_6deref150)==2)
+ # (((pos_6deref159)==2)
 8
 7
 roll
@@ -14543,9 +14561,9 @@ mul
 not
 not
  # )
- # (((((pos_1deref151)==2)&&(((pos_4deref151)==2)&&((pos_7deref151)==2)))||((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))||((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2))))))
- # ((((pos_1deref151)==2)&&(((pos_4deref151)==2)&&((pos_7deref151)==2)))
- # (((pos_1deref151)==2)
+ # (((((pos_1deref160)==2)&&(((pos_4deref160)==2)&&((pos_7deref160)==2)))||((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))||((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2))))))
+ # ((((pos_1deref160)==2)&&(((pos_4deref160)==2)&&((pos_7deref160)==2)))
+ # (((pos_1deref160)==2)
 12
 11
 roll
@@ -14557,8 +14575,8 @@ roll
 sub
 not
  # )
- # ((((pos_4deref151)==2)&&((pos_7deref151)==2))
- # (((pos_4deref151)==2)
+ # ((((pos_4deref160)==2)&&((pos_7deref160)==2))
+ # (((pos_4deref160)==2)
 10
 9
 roll
@@ -14570,7 +14588,7 @@ roll
 sub
 not
  # )
- # (((pos_7deref151)==2)
+ # (((pos_7deref160)==2)
 8
 7
 roll
@@ -14590,9 +14608,9 @@ mul
 not
 not
  # )
- # (((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))||((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2)))))
- # ((((pos_2deref152)==2)&&(((pos_5deref152)==2)&&((pos_8deref152)==2)))
- # (((pos_2deref152)==2)
+ # (((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))||((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2)))))
+ # ((((pos_2deref161)==2)&&(((pos_5deref161)==2)&&((pos_8deref161)==2)))
+ # (((pos_2deref161)==2)
 12
 11
 roll
@@ -14604,8 +14622,8 @@ roll
 sub
 not
  # )
- # ((((pos_5deref152)==2)&&((pos_8deref152)==2))
- # (((pos_5deref152)==2)
+ # ((((pos_5deref161)==2)&&((pos_8deref161)==2))
+ # (((pos_5deref161)==2)
 10
 9
 roll
@@ -14617,7 +14635,7 @@ roll
 sub
 not
  # )
- # (((pos_8deref152)==2)
+ # (((pos_8deref161)==2)
 8
 7
 roll
@@ -14637,9 +14655,9 @@ mul
 not
 not
  # )
- # (((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))||(((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2))))
- # ((((pos_0deref153)==2)&&(((pos_4deref153)==2)&&((pos_8deref153)==2)))
- # (((pos_0deref153)==2)
+ # (((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))||(((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2))))
+ # ((((pos_0deref162)==2)&&(((pos_4deref162)==2)&&((pos_8deref162)==2)))
+ # (((pos_0deref162)==2)
 15
 14
 roll
@@ -14651,8 +14669,8 @@ roll
 sub
 not
  # )
- # ((((pos_4deref153)==2)&&((pos_8deref153)==2))
- # (((pos_4deref153)==2)
+ # ((((pos_4deref162)==2)&&((pos_8deref162)==2))
+ # (((pos_4deref162)==2)
 12
 11
 roll
@@ -14664,7 +14682,7 @@ roll
 sub
 not
  # )
- # (((pos_8deref153)==2)
+ # (((pos_8deref162)==2)
 9
 8
 roll
@@ -14684,8 +14702,8 @@ mul
 not
 not
  # )
- # ((((pos_2deref154)==2)&&(((pos_4deref154)==2)&&((pos_6deref154)==2)))
- # (((pos_2deref154)==2)
+ # ((((pos_2deref163)==2)&&(((pos_4deref163)==2)&&((pos_6deref163)==2)))
+ # (((pos_2deref163)==2)
 14
 13
 roll
@@ -14697,8 +14715,8 @@ roll
 sub
 not
  # )
- # ((((pos_4deref154)==2)&&((pos_6deref154)==2))
- # (((pos_4deref154)==2)
+ # ((((pos_4deref163)==2)&&((pos_6deref163)==2))
+ # (((pos_4deref163)==2)
 13
 12
 roll
@@ -14710,7 +14728,7 @@ roll
 sub
 not
  # )
- # (((pos_6deref154)==2)
+ # (((pos_6deref163)==2)
 12
 11
 roll
@@ -14833,6 +14851,189 @@ bz.4f
 b.3b
 4:
 2:
+ # ((((pos_0deref173)!=0)&&(((pos_1deref173)!=0)&&(((pos_2deref173)!=0)&&(((pos_3deref174)!=0)&&(((pos_4deref174)!=0)&&(((pos_5deref174)!=0)&&(((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0)))))))))
+ # (((pos_0deref173)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_1deref173)!=0)&&(((pos_2deref173)!=0)&&(((pos_3deref174)!=0)&&(((pos_4deref174)!=0)&&(((pos_5deref174)!=0)&&(((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0))))))))
+ # (((pos_1deref173)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_2deref173)!=0)&&(((pos_3deref174)!=0)&&(((pos_4deref174)!=0)&&(((pos_5deref174)!=0)&&(((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0)))))))
+ # (((pos_2deref173)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_3deref174)!=0)&&(((pos_4deref174)!=0)&&(((pos_5deref174)!=0)&&(((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0))))))
+ # (((pos_3deref174)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_4deref174)!=0)&&(((pos_5deref174)!=0)&&(((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0)))))
+ # (((pos_4deref174)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_5deref174)!=0)&&(((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0))))
+ # (((pos_5deref174)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_6deref175)!=0)&&(((pos_7deref175)!=0)&&((pos_8deref175)!=0)))
+ # (((pos_6deref175)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # ((((pos_7deref175)!=0)&&((pos_8deref175)!=0))
+ # (((pos_7deref175)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+ # (((pos_8deref175)!=0)
+9
+8
+roll
+dup
+10
+1
+roll
+0
+sub
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+mul
+not
+not
+ # )
+bz.2f
+@"**** TIE! ****\r\n\r\n"
+ # (call print_board
+1 # __retval
+13
+12
+roll
+dup
+14
+1
+roll
+11 # return ep
+6 # return track
+0 # callee ep
+5 # callee track
+b._track_0 # call dispatcher
+__entry_11:
+pop
+ # )
+pop
+3:
+1
+bz.4f
+b.3b
+4:
+2:
 pop
 pop
 pop
@@ -14860,7 +15061,7 @@ b._track_0
 .btbl __entry_0
 halt
 __entry_0:
- # (((piecederef192)==0)
+ # (((piecederef213)==0)
 4
 3
 roll
@@ -14882,7 +15083,7 @@ dup
 roll
 outn
 2:
- # (((piecederef193)==1)
+ # (((piecederef214)==1)
 4
 3
 roll
@@ -14897,7 +15098,7 @@ not
 bz.2f
 @"O"
 2:
- # (((piecederef194)==2)
+ # (((piecederef215)==2)
 4
 3
 roll
