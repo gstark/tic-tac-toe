@@ -13657,7 +13657,7 @@ __entry_0:
  # (assign to i
  # ) 
 1:
- # (((ideref191)<(positionderef191))
+ # (((ideref200)<(positionderef200))
 dup
 6
 5
@@ -13672,7 +13672,7 @@ roll
 gt
  # )
 bz.2f
- # (((expderef193)*3)
+ # (((expderef202)*3)
 2
 1
 roll
@@ -13778,10 +13778,11 @@ pop
 pop
  # )
 pop
+@" "
  # (call print_piece
 1 # __retval
- # ((((boardderef168)/exponent(1))%3)
- # (((boardderef168)/exponent(1))
+ # ((((boardderef169)/exponent(1))%3)
+ # (((boardderef169)/exponent(1))
 4
 3
 roll
@@ -13816,10 +13817,11 @@ pop
 pop
  # )
 pop
+@" "
  # (call print_piece
 1 # __retval
- # ((((boardderef169)/exponent(2))%3)
- # (((boardderef169)/exponent(2))
+ # ((((boardderef171)/exponent(2))%3)
+ # (((boardderef171)/exponent(2))
 4
 3
 roll
@@ -13855,10 +13857,11 @@ pop
  # )
 pop
 @"\r\n"
+@"\r\n"
  # (call print_piece
 1 # __retval
- # ((((boardderef171)/exponent(3))%3)
- # (((boardderef171)/exponent(3))
+ # ((((boardderef174)/exponent(3))%3)
+ # (((boardderef174)/exponent(3))
 4
 3
 roll
@@ -13893,10 +13896,11 @@ pop
 pop
  # )
 pop
+@" "
  # (call print_piece
 1 # __retval
- # ((((boardderef172)/exponent(4))%3)
- # (((boardderef172)/exponent(4))
+ # ((((boardderef176)/exponent(4))%3)
+ # (((boardderef176)/exponent(4))
 4
 3
 roll
@@ -13931,10 +13935,11 @@ pop
 pop
  # )
 pop
+@" "
  # (call print_piece
 1 # __retval
- # ((((boardderef173)/exponent(5))%3)
- # (((boardderef173)/exponent(5))
+ # ((((boardderef178)/exponent(5))%3)
+ # (((boardderef178)/exponent(5))
 4
 3
 roll
@@ -13970,10 +13975,11 @@ pop
  # )
 pop
 @"\r\n"
+@"\r\n"
  # (call print_piece
 1 # __retval
- # ((((boardderef175)/exponent(6))%3)
- # (((boardderef175)/exponent(6))
+ # ((((boardderef181)/exponent(6))%3)
+ # (((boardderef181)/exponent(6))
 4
 3
 roll
@@ -14008,10 +14014,11 @@ pop
 pop
  # )
 pop
+@" "
  # (call print_piece
 1 # __retval
- # ((((boardderef176)/exponent(7))%3)
- # (((boardderef176)/exponent(7))
+ # ((((boardderef183)/exponent(7))%3)
+ # (((boardderef183)/exponent(7))
 4
 3
 roll
@@ -14046,10 +14053,11 @@ pop
 pop
  # )
 pop
+@" "
  # (call print_piece
 1 # __retval
- # ((((boardderef177)/exponent(8))%3)
- # (((boardderef177)/exponent(8))
+ # ((((boardderef185)/exponent(8))%3)
+ # (((boardderef185)/exponent(8))
 4
 3
 roll
@@ -14084,6 +14092,7 @@ pop
 pop
  # )
 pop
+@"\r\n"
 @"\r\n"
 1
  # (assign to __retval
@@ -14851,7 +14860,7 @@ b._track_0
 .btbl __entry_0
 halt
 __entry_0:
- # (((piecederef183)==0)
+ # (((piecederef192)==0)
 4
 3
 roll
@@ -14873,7 +14882,7 @@ dup
 roll
 outn
 2:
- # (((piecederef184)==1)
+ # (((piecederef193)==1)
 4
 3
 roll
@@ -14888,7 +14897,7 @@ not
 bz.2f
 @"O"
 2:
- # (((piecederef185)==2)
+ # (((piecederef194)==2)
 4
 3
 roll
