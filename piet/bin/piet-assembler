@@ -892,7 +892,7 @@ sub layout
 
   # header  
   print STDERR "$width x $height = ". ($width*$height). " pels.\n";  
-  my $out = "P6\n\n$width $height\n255\n";
+  my $out = "P6\n$width $height\n255\n";
   
   my $black = chr(0) . chr(0) . chr(0);
   
