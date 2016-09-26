@@ -13767,12 +13767,14 @@ div
 3
 mod
  # )
+0
 1 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_1:
+pop
 pop
  # )
 pop
@@ -13803,12 +13805,14 @@ div
 3
 mod
  # )
+1
 3 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_3:
+pop
 pop
  # )
 pop
@@ -13839,12 +13843,14 @@ div
 3
 mod
  # )
+2
 5 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_5:
+pop
 pop
  # )
 pop
@@ -13876,12 +13882,14 @@ div
 3
 mod
  # )
+3
 7 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_7:
+pop
 pop
  # )
 pop
@@ -13912,12 +13920,14 @@ div
 3
 mod
  # )
+4
 9 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_9:
+pop
 pop
  # )
 pop
@@ -13948,12 +13958,14 @@ div
 3
 mod
  # )
+5
 11 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_11:
+pop
 pop
  # )
 pop
@@ -13985,12 +13997,14 @@ div
 3
 mod
  # )
+6
 13 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_13:
+pop
 pop
  # )
 pop
@@ -14021,12 +14035,14 @@ div
 3
 mod
  # )
+7
 15 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_15:
+pop
 pop
  # )
 pop
@@ -14057,12 +14073,14 @@ div
 3
 mod
  # )
+8
 17 # return ep
 5 # return track
 0 # callee ep
 7 # callee track
 b._track_0 # call dispatcher
 __entry_17:
+pop
 pop
  # )
 pop
@@ -14834,11 +14852,11 @@ b._track_0
 halt
 __entry_0:
  # (((piecederef183)==0)
+4
 3
-2
 roll
 dup
-4
+5
 1
 roll
 0
@@ -14846,14 +14864,21 @@ sub
 not
  # )
 bz.2f
-@"."
-2:
- # (((piecederef184)==1)
 3
 2
 roll
 dup
 4
+1
+roll
+outn
+2:
+ # (((piecederef184)==1)
+4
+3
+roll
+dup
+5
 1
 roll
 1
@@ -14864,11 +14889,11 @@ bz.2f
 @"O"
 2:
  # (((piecederef185)==2)
+4
 3
-2
 roll
 dup
-4
+5
 1
 roll
 2
@@ -14880,11 +14905,11 @@ bz.2f
 2:
 1
  # (assign to __retval
+6
 5
-4
 roll
 pop
-4
+5
 1
 roll
  # ) 
