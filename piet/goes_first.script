@@ -2,14 +2,14 @@
       {
         new_move=99;
         if ((board == 0)) { new_move = 0; }
+        if ((board == 29) || (board == 83) || (board == 290) || (board == 344) || (board == 992) || (board == 2450) || (board == 6824) || (board == 731) || (board == 2234) || (board == 2288) || (board == 2936) || (board == 8768) || (board == 6608) || (board == 6662) || (board == 7310)) { new_move = 1; }
+        if ((board == 2651) || (board == 116) || (board == 278) || (board == 764) || (board == 2222) || (board == 6596) || (board == 332) || (board == 818) || (board == 2276) || (board == 6650) || (board == 245) || (board == 980) || (board == 2924) || (board == 7298) || (board == 2189) || (board == 6563)) { new_move = 2; }
         if ((board == 5) || (board == 11) || (board == 1799) || (board == 3743) || (board == 8117) || (board == 2615) || (board == 8123) || (board == 8285) || (board == 10229)) { new_move = 3; }
         if ((board == 68) || (board == 302) || (board == 788) || (board == 2246) || (board == 6620) || (board == 794) || (board == 2252) || (board == 7115) || (board == 7841) || (board == 9299) || (board == 44) || (board == 266) || (board == 746) || (board == 2210) || (board == 8069)) { new_move = 4; }
-        if ((board == 473) || (board == 140) || (board == 9230) || (board == 7025) || (board == 146) || (board == 308) || (board == 2657) || (board == 7193) || (board == 98) || (board == 455) || (board == 6989) || (board == 9446) || (board == 8933) || (board == 6584)) { new_move = 6; }
         if ((board == 959) || (board == 2417) || (board == 6791) || (board == 3137) || (board == 7511) || (board == 8969) || (board == 3143) || (board == 7517) || (board == 8975) || (board == 6626) || (board == 935) || (board == 1583) || (board == 2399)) { new_move = 5; }
-        if ((board == 1193) || (board == 3398) || (board == 1199) || (board == 3608) || (board == 2393) || (board == 4256) || (board == 1157) || (board == 3095) || (board == 3614) || (board == 3101)) { new_move = 8; }
-        if ((board == 2651) || (board == 116) || (board == 278) || (board == 764) || (board == 2222) || (board == 6596) || (board == 332) || (board == 818) || (board == 2276) || (board == 6650) || (board == 245) || (board == 980) || (board == 2924) || (board == 7298) || (board == 2189) || (board == 6563)) { new_move = 2; }
-        if ((board == 29) || (board == 83) || (board == 290) || (board == 344) || (board == 992) || (board == 2450) || (board == 6824) || (board == 731) || (board == 2234) || (board == 2288) || (board == 2936) || (board == 8768) || (board == 6608) || (board == 6662) || (board == 7310)) { new_move = 1; }
+        if ((board == 473) || (board == 140) || (board == 9230) || (board == 7025) || (board == 146) || (board == 308) || (board == 2657) || (board == 7193) || (board == 98) || (board == 455) || (board == 6989) || (board == 9446) || (board == 8933) || (board == 6584)) { new_move = 6; }
         if ((board == 449) || (board == 7982) || (board == 6767) || (board == 8630) || (board == 1151) || (board == 7469)) { new_move = 7; }
+        if ((board == 1193) || (board == 3398) || (board == 1199) || (board == 3608) || (board == 2393) || (board == 4256) || (board == 1157) || (board == 3095) || (board == 3614) || (board == 3101)) { new_move = 8; }
 
         if (new_move == 99)
         {

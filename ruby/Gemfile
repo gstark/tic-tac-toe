@@ -1,5 +1,5 @@
 source :rubygems
 
-gem 'rspec'
+gem 'rspec', '~> 3.4'
 gem 'simplecov'
 

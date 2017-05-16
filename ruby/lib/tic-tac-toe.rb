@@ -39,23 +39,24 @@ class UnbeatableTicTacToe < Algorithm
 
   def min_max_score(board, is_me)
     current_symbol = is_me ? symbol : competitor_symbol
-    min_max_method = is_me ? :max_by : :min_by
-    value          = is_me ? 1 : -1
 
-    results = board.empty_spaces.map { |space|
+    board.empty_spaces.map { |space|
       new_board = board.with_move(space, current_symbol)
 
       case
-        when new_board.won_by?(current_symbol) then
-          Score.new(space, value)
-        when new_board.full?
-          Score.new(space, 0)
-        else
-          Score.new(space, min_max_score(new_board, !is_me).value)
+      # There is a winner, give the appropriate points
+      when new_board.won_by?(current_symbol)
+        Score.new(space, is_me ? 1 : -1)
+      # It is a tie, give 0 points
+      when new_board.full?
+        Score.new(space, 0)
+      # Figure out the value by asking for the min_max
+      # of the board we generated but flip which player
+      # we are inquiring about
+      else
+        Score.new(space, min_max_score(new_board, !is_me).value)
       end
-    }
-
-    results.send(min_max_method, &:value) || NO_SCORE
+    }.send(is_me ? :max_by : :min_by, &:value) || NO_SCORE
   end
 end
 

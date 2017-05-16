@@ -42,8 +42,8 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef5)==5)||(((boardderef5)==11)||(((boardderef5)==1799)||(((boardderef5)==3743)||(((boardderef5)==8117)||(((boardderef5)==2615)||(((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229)))))))))
- # (((boardderef5)==5)
+ # ((((boardderef5)==29)||(((boardderef5)==83)||(((boardderef5)==290)||(((boardderef5)==344)||(((boardderef5)==992)||(((boardderef5)==2450)||(((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))))))))))))))
+ # (((boardderef5)==29)
 4
 3
 roll
@@ -51,12 +51,12 @@ dup
 5
 1
 roll
-5
+29
 sub
 not
  # )
- # ((((boardderef5)==11)||(((boardderef5)==1799)||(((boardderef5)==3743)||(((boardderef5)==8117)||(((boardderef5)==2615)||(((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229))))))))
- # (((boardderef5)==11)
+ # ((((boardderef5)==83)||(((boardderef5)==290)||(((boardderef5)==344)||(((boardderef5)==992)||(((boardderef5)==2450)||(((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310))))))))))))))
+ # (((boardderef5)==83)
 5
 4
 roll
@@ -64,12 +64,12 @@ dup
 6
 1
 roll
-11
+83
 sub
 not
  # )
- # ((((boardderef5)==1799)||(((boardderef5)==3743)||(((boardderef5)==8117)||(((boardderef5)==2615)||(((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229)))))))
- # (((boardderef5)==1799)
+ # ((((boardderef5)==290)||(((boardderef5)==344)||(((boardderef5)==992)||(((boardderef5)==2450)||(((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))))))))))))
+ # (((boardderef5)==290)
 6
 5
 roll
@@ -77,12 +77,12 @@ dup
 7
 1
 roll
-1799
+290
 sub
 not
  # )
- # ((((boardderef5)==3743)||(((boardderef5)==8117)||(((boardderef5)==2615)||(((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229))))))
- # (((boardderef5)==3743)
+ # ((((boardderef5)==344)||(((boardderef5)==992)||(((boardderef5)==2450)||(((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310))))))))))))
+ # (((boardderef5)==344)
 7
 6
 roll
@@ -90,12 +90,12 @@ dup
 8
 1
 roll
-3743
+344
 sub
 not
  # )
- # ((((boardderef5)==8117)||(((boardderef5)==2615)||(((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229)))))
- # (((boardderef5)==8117)
+ # ((((boardderef5)==992)||(((boardderef5)==2450)||(((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))))))))))
+ # (((boardderef5)==992)
 8
 7
 roll
@@ -103,12 +103,12 @@ dup
 9
 1
 roll
-8117
+992
 sub
 not
  # )
- # ((((boardderef5)==2615)||(((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229))))
- # (((boardderef5)==2615)
+ # ((((boardderef5)==2450)||(((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310))))))))))
+ # (((boardderef5)==2450)
 9
 8
 roll
@@ -116,12 +116,12 @@ dup
 10
 1
 roll
-2615
+2450
 sub
 not
  # )
- # ((((boardderef5)==8123)||(((boardderef5)==8285)||((boardderef5)==10229)))
- # (((boardderef5)==8123)
+ # ((((boardderef5)==6824)||(((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))))))))
+ # (((boardderef5)==6824)
 10
 9
 roll
@@ -129,12 +129,12 @@ dup
 11
 1
 roll
-8123
+6824
 sub
 not
  # )
- # ((((boardderef5)==8285)||((boardderef5)==10229))
- # (((boardderef5)==8285)
+ # ((((boardderef5)==731)||(((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310))))))))
+ # (((boardderef5)==731)
 11
 10
 roll
@@ -142,11 +142,12 @@ dup
 12
 1
 roll
-8285
+731
 sub
 not
  # )
- # (((boardderef5)==10229)
+ # ((((boardderef5)==2234)||(((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))))))
+ # (((boardderef5)==2234)
 12
 11
 roll
@@ -154,226 +155,12 @@ dup
 13
 1
 roll
-10229
+2234
 sub
 not
  # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-bz.2f
-3
- # (assign to new_move
-2
-1
-roll
-pop
- # ) 
-2:
- # ((((boardderef6)==68)||(((boardderef6)==302)||(((boardderef6)==788)||(((boardderef6)==2246)||(((boardderef6)==6620)||(((boardderef6)==794)||(((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))))))))))))))
- # (((boardderef6)==68)
-4
-3
-roll
-dup
-5
-1
-roll
-68
-sub
-not
- # )
- # ((((boardderef6)==302)||(((boardderef6)==788)||(((boardderef6)==2246)||(((boardderef6)==6620)||(((boardderef6)==794)||(((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069))))))))))))))
- # (((boardderef6)==302)
-5
-4
-roll
-dup
-6
-1
-roll
-302
-sub
-not
- # )
- # ((((boardderef6)==788)||(((boardderef6)==2246)||(((boardderef6)==6620)||(((boardderef6)==794)||(((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))))))))))))
- # (((boardderef6)==788)
-6
-5
-roll
-dup
-7
-1
-roll
-788
-sub
-not
- # )
- # ((((boardderef6)==2246)||(((boardderef6)==6620)||(((boardderef6)==794)||(((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069))))))))))))
- # (((boardderef6)==2246)
-7
-6
-roll
-dup
-8
-1
-roll
-2246
-sub
-not
- # )
- # ((((boardderef6)==6620)||(((boardderef6)==794)||(((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))))))))))
- # (((boardderef6)==6620)
-8
-7
-roll
-dup
-9
-1
-roll
-6620
-sub
-not
- # )
- # ((((boardderef6)==794)||(((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069))))))))))
- # (((boardderef6)==794)
-9
-8
-roll
-dup
-10
-1
-roll
-794
-sub
-not
- # )
- # ((((boardderef6)==2252)||(((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))))))))
- # (((boardderef6)==2252)
-10
-9
-roll
-dup
-11
-1
-roll
-2252
-sub
-not
- # )
- # ((((boardderef6)==7115)||(((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069))))))))
- # (((boardderef6)==7115)
-11
-10
-roll
-dup
-12
-1
-roll
-7115
-sub
-not
- # )
- # ((((boardderef6)==7841)||(((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))))))
- # (((boardderef6)==7841)
-12
-11
-roll
-dup
-13
-1
-roll
-7841
-sub
-not
- # )
- # ((((boardderef6)==9299)||(((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069))))))
- # (((boardderef6)==9299)
+ # ((((boardderef5)==2288)||(((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310))))))
+ # (((boardderef5)==2288)
 13
 12
 roll
@@ -381,12 +168,12 @@ dup
 14
 1
 roll
-9299
+2288
 sub
 not
  # )
- # ((((boardderef6)==44)||(((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))))
- # (((boardderef6)==44)
+ # ((((boardderef5)==2936)||(((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))))
+ # (((boardderef5)==2936)
 14
 13
 roll
@@ -394,12 +181,12 @@ dup
 15
 1
 roll
-44
+2936
 sub
 not
  # )
- # ((((boardderef6)==266)||(((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069))))
- # (((boardderef6)==266)
+ # ((((boardderef5)==8768)||(((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310))))
+ # (((boardderef5)==8768)
 15
 14
 roll
@@ -407,12 +194,12 @@ dup
 16
 1
 roll
-266
+8768
 sub
 not
  # )
- # ((((boardderef6)==746)||(((boardderef6)==2210)||((boardderef6)==8069)))
- # (((boardderef6)==746)
+ # ((((boardderef5)==6608)||(((boardderef5)==6662)||((boardderef5)==7310)))
+ # (((boardderef5)==6608)
 16
 15
 roll
@@ -420,12 +207,12 @@ dup
 17
 1
 roll
-746
+6608
 sub
 not
  # )
- # ((((boardderef6)==2210)||((boardderef6)==8069))
- # (((boardderef6)==2210)
+ # ((((boardderef5)==6662)||((boardderef5)==7310))
+ # (((boardderef5)==6662)
 17
 16
 roll
@@ -433,11 +220,11 @@ dup
 18
 1
 roll
-2210
+6662
 sub
 not
  # )
- # (((boardderef6)==8069)
+ # (((boardderef5)==7310)
 18
 17
 roll
@@ -445,7 +232,7 @@ dup
 19
 1
 roll
-8069
+7310
 sub
 not
  # )
@@ -604,7 +391,7 @@ not
 not
  # )
 bz.2f
-4
+1
  # (assign to new_move
 2
 1
@@ -612,887 +399,8 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef7)==473)||(((boardderef7)==140)||(((boardderef7)==9230)||(((boardderef7)==7025)||(((boardderef7)==146)||(((boardderef7)==308)||(((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584))))))))))))))
- # (((boardderef7)==473)
-4
-3
-roll
-dup
-5
-1
-roll
-473
-sub
-not
- # )
- # ((((boardderef7)==140)||(((boardderef7)==9230)||(((boardderef7)==7025)||(((boardderef7)==146)||(((boardderef7)==308)||(((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584)))))))))))))
- # (((boardderef7)==140)
-5
-4
-roll
-dup
-6
-1
-roll
-140
-sub
-not
- # )
- # ((((boardderef7)==9230)||(((boardderef7)==7025)||(((boardderef7)==146)||(((boardderef7)==308)||(((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584))))))))))))
- # (((boardderef7)==9230)
-6
-5
-roll
-dup
-7
-1
-roll
-9230
-sub
-not
- # )
- # ((((boardderef7)==7025)||(((boardderef7)==146)||(((boardderef7)==308)||(((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584)))))))))))
- # (((boardderef7)==7025)
-7
-6
-roll
-dup
-8
-1
-roll
-7025
-sub
-not
- # )
- # ((((boardderef7)==146)||(((boardderef7)==308)||(((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584))))))))))
- # (((boardderef7)==146)
-8
-7
-roll
-dup
-9
-1
-roll
-146
-sub
-not
- # )
- # ((((boardderef7)==308)||(((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584)))))))))
- # (((boardderef7)==308)
-9
-8
-roll
-dup
-10
-1
-roll
-308
-sub
-not
- # )
- # ((((boardderef7)==2657)||(((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584))))))))
- # (((boardderef7)==2657)
-10
-9
-roll
-dup
-11
-1
-roll
-2657
-sub
-not
- # )
- # ((((boardderef7)==7193)||(((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584)))))))
- # (((boardderef7)==7193)
-11
-10
-roll
-dup
-12
-1
-roll
-7193
-sub
-not
- # )
- # ((((boardderef7)==98)||(((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584))))))
- # (((boardderef7)==98)
-12
-11
-roll
-dup
-13
-1
-roll
-98
-sub
-not
- # )
- # ((((boardderef7)==455)||(((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584)))))
- # (((boardderef7)==455)
-13
-12
-roll
-dup
-14
-1
-roll
-455
-sub
-not
- # )
- # ((((boardderef7)==6989)||(((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584))))
- # (((boardderef7)==6989)
-14
-13
-roll
-dup
-15
-1
-roll
-6989
-sub
-not
- # )
- # ((((boardderef7)==9446)||(((boardderef7)==8933)||((boardderef7)==6584)))
- # (((boardderef7)==9446)
-15
-14
-roll
-dup
-16
-1
-roll
-9446
-sub
-not
- # )
- # ((((boardderef7)==8933)||((boardderef7)==6584))
- # (((boardderef7)==8933)
-16
-15
-roll
-dup
-17
-1
-roll
-8933
-sub
-not
- # )
- # (((boardderef7)==6584)
-17
-16
-roll
-dup
-18
-1
-roll
-6584
-sub
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-bz.2f
-6
- # (assign to new_move
-2
-1
-roll
-pop
- # ) 
-2:
- # ((((boardderef8)==959)||(((boardderef8)==2417)||(((boardderef8)==6791)||(((boardderef8)==3137)||(((boardderef8)==7511)||(((boardderef8)==8969)||(((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399)))))))))))))
- # (((boardderef8)==959)
-4
-3
-roll
-dup
-5
-1
-roll
-959
-sub
-not
- # )
- # ((((boardderef8)==2417)||(((boardderef8)==6791)||(((boardderef8)==3137)||(((boardderef8)==7511)||(((boardderef8)==8969)||(((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399))))))))))))
- # (((boardderef8)==2417)
-5
-4
-roll
-dup
-6
-1
-roll
-2417
-sub
-not
- # )
- # ((((boardderef8)==6791)||(((boardderef8)==3137)||(((boardderef8)==7511)||(((boardderef8)==8969)||(((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399)))))))))))
- # (((boardderef8)==6791)
-6
-5
-roll
-dup
-7
-1
-roll
-6791
-sub
-not
- # )
- # ((((boardderef8)==3137)||(((boardderef8)==7511)||(((boardderef8)==8969)||(((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399))))))))))
- # (((boardderef8)==3137)
-7
-6
-roll
-dup
-8
-1
-roll
-3137
-sub
-not
- # )
- # ((((boardderef8)==7511)||(((boardderef8)==8969)||(((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399)))))))))
- # (((boardderef8)==7511)
-8
-7
-roll
-dup
-9
-1
-roll
-7511
-sub
-not
- # )
- # ((((boardderef8)==8969)||(((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399))))))))
- # (((boardderef8)==8969)
-9
-8
-roll
-dup
-10
-1
-roll
-8969
-sub
-not
- # )
- # ((((boardderef8)==3143)||(((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399)))))))
- # (((boardderef8)==3143)
-10
-9
-roll
-dup
-11
-1
-roll
-3143
-sub
-not
- # )
- # ((((boardderef8)==7517)||(((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399))))))
- # (((boardderef8)==7517)
-11
-10
-roll
-dup
-12
-1
-roll
-7517
-sub
-not
- # )
- # ((((boardderef8)==8975)||(((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399)))))
- # (((boardderef8)==8975)
-12
-11
-roll
-dup
-13
-1
-roll
-8975
-sub
-not
- # )
- # ((((boardderef8)==6626)||(((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399))))
- # (((boardderef8)==6626)
-13
-12
-roll
-dup
-14
-1
-roll
-6626
-sub
-not
- # )
- # ((((boardderef8)==935)||(((boardderef8)==1583)||((boardderef8)==2399)))
- # (((boardderef8)==935)
-14
-13
-roll
-dup
-15
-1
-roll
-935
-sub
-not
- # )
- # ((((boardderef8)==1583)||((boardderef8)==2399))
- # (((boardderef8)==1583)
-15
-14
-roll
-dup
-16
-1
-roll
-1583
-sub
-not
- # )
- # (((boardderef8)==2399)
-16
-15
-roll
-dup
-17
-1
-roll
-2399
-sub
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-bz.2f
-5
- # (assign to new_move
-2
-1
-roll
-pop
- # ) 
-2:
- # ((((boardderef9)==1193)||(((boardderef9)==3398)||(((boardderef9)==1199)||(((boardderef9)==3608)||(((boardderef9)==2393)||(((boardderef9)==4256)||(((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101))))))))))
- # (((boardderef9)==1193)
-4
-3
-roll
-dup
-5
-1
-roll
-1193
-sub
-not
- # )
- # ((((boardderef9)==3398)||(((boardderef9)==1199)||(((boardderef9)==3608)||(((boardderef9)==2393)||(((boardderef9)==4256)||(((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101)))))))))
- # (((boardderef9)==3398)
-5
-4
-roll
-dup
-6
-1
-roll
-3398
-sub
-not
- # )
- # ((((boardderef9)==1199)||(((boardderef9)==3608)||(((boardderef9)==2393)||(((boardderef9)==4256)||(((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101))))))))
- # (((boardderef9)==1199)
-6
-5
-roll
-dup
-7
-1
-roll
-1199
-sub
-not
- # )
- # ((((boardderef9)==3608)||(((boardderef9)==2393)||(((boardderef9)==4256)||(((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101)))))))
- # (((boardderef9)==3608)
-7
-6
-roll
-dup
-8
-1
-roll
-3608
-sub
-not
- # )
- # ((((boardderef9)==2393)||(((boardderef9)==4256)||(((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101))))))
- # (((boardderef9)==2393)
-8
-7
-roll
-dup
-9
-1
-roll
-2393
-sub
-not
- # )
- # ((((boardderef9)==4256)||(((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101)))))
- # (((boardderef9)==4256)
-9
-8
-roll
-dup
-10
-1
-roll
-4256
-sub
-not
- # )
- # ((((boardderef9)==1157)||(((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101))))
- # (((boardderef9)==1157)
-10
-9
-roll
-dup
-11
-1
-roll
-1157
-sub
-not
- # )
- # ((((boardderef9)==3095)||(((boardderef9)==3614)||((boardderef9)==3101)))
- # (((boardderef9)==3095)
-11
-10
-roll
-dup
-12
-1
-roll
-3095
-sub
-not
- # )
- # ((((boardderef9)==3614)||((boardderef9)==3101))
- # (((boardderef9)==3614)
-12
-11
-roll
-dup
-13
-1
-roll
-3614
-sub
-not
- # )
- # (((boardderef9)==3101)
-13
-12
-roll
-dup
-14
-1
-roll
-3101
-sub
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-bz.2f
-8
- # (assign to new_move
-2
-1
-roll
-pop
- # ) 
-2:
- # ((((boardderef10)==2651)||(((boardderef10)==116)||(((boardderef10)==278)||(((boardderef10)==764)||(((boardderef10)==2222)||(((boardderef10)==6596)||(((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))))))))))))))
- # (((boardderef10)==2651)
+ # ((((boardderef6)==2651)||(((boardderef6)==116)||(((boardderef6)==278)||(((boardderef6)==764)||(((boardderef6)==2222)||(((boardderef6)==6596)||(((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))))))))))))))
+ # (((boardderef6)==2651)
 4
 3
 roll
@@ -1504,8 +412,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==116)||(((boardderef10)==278)||(((boardderef10)==764)||(((boardderef10)==2222)||(((boardderef10)==6596)||(((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))))))))))))))
- # (((boardderef10)==116)
+ # ((((boardderef6)==116)||(((boardderef6)==278)||(((boardderef6)==764)||(((boardderef6)==2222)||(((boardderef6)==6596)||(((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))))))))))))))
+ # (((boardderef6)==116)
 5
 4
 roll
@@ -1517,8 +425,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==278)||(((boardderef10)==764)||(((boardderef10)==2222)||(((boardderef10)==6596)||(((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))))))))))))
- # (((boardderef10)==278)
+ # ((((boardderef6)==278)||(((boardderef6)==764)||(((boardderef6)==2222)||(((boardderef6)==6596)||(((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))))))))))))
+ # (((boardderef6)==278)
 6
 5
 roll
@@ -1530,8 +438,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==764)||(((boardderef10)==2222)||(((boardderef10)==6596)||(((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))))))))))))
- # (((boardderef10)==764)
+ # ((((boardderef6)==764)||(((boardderef6)==2222)||(((boardderef6)==6596)||(((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))))))))))))
+ # (((boardderef6)==764)
 7
 6
 roll
@@ -1543,8 +451,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==2222)||(((boardderef10)==6596)||(((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))))))))))
- # (((boardderef10)==2222)
+ # ((((boardderef6)==2222)||(((boardderef6)==6596)||(((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))))))))))
+ # (((boardderef6)==2222)
 8
 7
 roll
@@ -1556,8 +464,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==6596)||(((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))))))))))
- # (((boardderef10)==6596)
+ # ((((boardderef6)==6596)||(((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))))))))))
+ # (((boardderef6)==6596)
 9
 8
 roll
@@ -1569,8 +477,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==332)||(((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))))))))
- # (((boardderef10)==332)
+ # ((((boardderef6)==332)||(((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))))))))
+ # (((boardderef6)==332)
 10
 9
 roll
@@ -1582,8 +490,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==818)||(((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))))))))
- # (((boardderef10)==818)
+ # ((((boardderef6)==818)||(((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))))))))
+ # (((boardderef6)==818)
 11
 10
 roll
@@ -1595,8 +503,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==2276)||(((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))))))
- # (((boardderef10)==2276)
+ # ((((boardderef6)==2276)||(((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))))))
+ # (((boardderef6)==2276)
 12
 11
 roll
@@ -1608,8 +516,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==6650)||(((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))))))
- # (((boardderef10)==6650)
+ # ((((boardderef6)==6650)||(((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))))))
+ # (((boardderef6)==6650)
 13
 12
 roll
@@ -1621,8 +529,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==245)||(((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))))
- # (((boardderef10)==245)
+ # ((((boardderef6)==245)||(((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))))
+ # (((boardderef6)==245)
 14
 13
 roll
@@ -1634,8 +542,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==980)||(((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))))
- # (((boardderef10)==980)
+ # ((((boardderef6)==980)||(((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))))
+ # (((boardderef6)==980)
 15
 14
 roll
@@ -1647,8 +555,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==2924)||(((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563))))
- # (((boardderef10)==2924)
+ # ((((boardderef6)==2924)||(((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563))))
+ # (((boardderef6)==2924)
 16
 15
 roll
@@ -1660,8 +568,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==7298)||(((boardderef10)==2189)||((boardderef10)==6563)))
- # (((boardderef10)==7298)
+ # ((((boardderef6)==7298)||(((boardderef6)==2189)||((boardderef6)==6563)))
+ # (((boardderef6)==7298)
 17
 16
 roll
@@ -1673,8 +581,8 @@ roll
 sub
 not
  # )
- # ((((boardderef10)==2189)||((boardderef10)==6563))
- # (((boardderef10)==2189)
+ # ((((boardderef6)==2189)||((boardderef6)==6563))
+ # (((boardderef6)==2189)
 18
 17
 roll
@@ -1686,7 +594,7 @@ roll
 sub
 not
  # )
- # (((boardderef10)==6563)
+ # (((boardderef6)==6563)
 19
 18
 roll
@@ -1872,8 +780,8 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef11)==29)||(((boardderef11)==83)||(((boardderef11)==290)||(((boardderef11)==344)||(((boardderef11)==992)||(((boardderef11)==2450)||(((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))))))))))))))
- # (((boardderef11)==29)
+ # ((((boardderef7)==5)||(((boardderef7)==11)||(((boardderef7)==1799)||(((boardderef7)==3743)||(((boardderef7)==8117)||(((boardderef7)==2615)||(((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229)))))))))
+ # (((boardderef7)==5)
 4
 3
 roll
@@ -1881,12 +789,12 @@ dup
 5
 1
 roll
-29
+5
 sub
 not
  # )
- # ((((boardderef11)==83)||(((boardderef11)==290)||(((boardderef11)==344)||(((boardderef11)==992)||(((boardderef11)==2450)||(((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310))))))))))))))
- # (((boardderef11)==83)
+ # ((((boardderef7)==11)||(((boardderef7)==1799)||(((boardderef7)==3743)||(((boardderef7)==8117)||(((boardderef7)==2615)||(((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229))))))))
+ # (((boardderef7)==11)
 5
 4
 roll
@@ -1894,12 +802,12 @@ dup
 6
 1
 roll
-83
+11
 sub
 not
  # )
- # ((((boardderef11)==290)||(((boardderef11)==344)||(((boardderef11)==992)||(((boardderef11)==2450)||(((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))))))))))))
- # (((boardderef11)==290)
+ # ((((boardderef7)==1799)||(((boardderef7)==3743)||(((boardderef7)==8117)||(((boardderef7)==2615)||(((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229)))))))
+ # (((boardderef7)==1799)
 6
 5
 roll
@@ -1907,12 +815,12 @@ dup
 7
 1
 roll
-290
+1799
 sub
 not
  # )
- # ((((boardderef11)==344)||(((boardderef11)==992)||(((boardderef11)==2450)||(((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310))))))))))))
- # (((boardderef11)==344)
+ # ((((boardderef7)==3743)||(((boardderef7)==8117)||(((boardderef7)==2615)||(((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229))))))
+ # (((boardderef7)==3743)
 7
 6
 roll
@@ -1920,12 +828,12 @@ dup
 8
 1
 roll
-344
+3743
 sub
 not
  # )
- # ((((boardderef11)==992)||(((boardderef11)==2450)||(((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))))))))))
- # (((boardderef11)==992)
+ # ((((boardderef7)==8117)||(((boardderef7)==2615)||(((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229)))))
+ # (((boardderef7)==8117)
 8
 7
 roll
@@ -1933,12 +841,12 @@ dup
 9
 1
 roll
-992
+8117
 sub
 not
  # )
- # ((((boardderef11)==2450)||(((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310))))))))))
- # (((boardderef11)==2450)
+ # ((((boardderef7)==2615)||(((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229))))
+ # (((boardderef7)==2615)
 9
 8
 roll
@@ -1946,12 +854,12 @@ dup
 10
 1
 roll
-2450
+2615
 sub
 not
  # )
- # ((((boardderef11)==6824)||(((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))))))))
- # (((boardderef11)==6824)
+ # ((((boardderef7)==8123)||(((boardderef7)==8285)||((boardderef7)==10229)))
+ # (((boardderef7)==8123)
 10
 9
 roll
@@ -1959,12 +867,12 @@ dup
 11
 1
 roll
-6824
+8123
 sub
 not
  # )
- # ((((boardderef11)==731)||(((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310))))))))
- # (((boardderef11)==731)
+ # ((((boardderef7)==8285)||((boardderef7)==10229))
+ # (((boardderef7)==8285)
 11
 10
 roll
@@ -1972,12 +880,11 @@ dup
 12
 1
 roll
-731
+8285
 sub
 not
  # )
- # ((((boardderef11)==2234)||(((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))))))
- # (((boardderef11)==2234)
+ # (((boardderef7)==10229)
 12
 11
 roll
@@ -1985,12 +892,226 @@ dup
 13
 1
 roll
-2234
+10229
 sub
 not
  # )
- # ((((boardderef11)==2288)||(((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310))))))
- # (((boardderef11)==2288)
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+bz.2f
+3
+ # (assign to new_move
+2
+1
+roll
+pop
+ # ) 
+2:
+ # ((((boardderef8)==68)||(((boardderef8)==302)||(((boardderef8)==788)||(((boardderef8)==2246)||(((boardderef8)==6620)||(((boardderef8)==794)||(((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))))))))))))))
+ # (((boardderef8)==68)
+4
+3
+roll
+dup
+5
+1
+roll
+68
+sub
+not
+ # )
+ # ((((boardderef8)==302)||(((boardderef8)==788)||(((boardderef8)==2246)||(((boardderef8)==6620)||(((boardderef8)==794)||(((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069))))))))))))))
+ # (((boardderef8)==302)
+5
+4
+roll
+dup
+6
+1
+roll
+302
+sub
+not
+ # )
+ # ((((boardderef8)==788)||(((boardderef8)==2246)||(((boardderef8)==6620)||(((boardderef8)==794)||(((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))))))))))))
+ # (((boardderef8)==788)
+6
+5
+roll
+dup
+7
+1
+roll
+788
+sub
+not
+ # )
+ # ((((boardderef8)==2246)||(((boardderef8)==6620)||(((boardderef8)==794)||(((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069))))))))))))
+ # (((boardderef8)==2246)
+7
+6
+roll
+dup
+8
+1
+roll
+2246
+sub
+not
+ # )
+ # ((((boardderef8)==6620)||(((boardderef8)==794)||(((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))))))))))
+ # (((boardderef8)==6620)
+8
+7
+roll
+dup
+9
+1
+roll
+6620
+sub
+not
+ # )
+ # ((((boardderef8)==794)||(((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069))))))))))
+ # (((boardderef8)==794)
+9
+8
+roll
+dup
+10
+1
+roll
+794
+sub
+not
+ # )
+ # ((((boardderef8)==2252)||(((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))))))))
+ # (((boardderef8)==2252)
+10
+9
+roll
+dup
+11
+1
+roll
+2252
+sub
+not
+ # )
+ # ((((boardderef8)==7115)||(((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069))))))))
+ # (((boardderef8)==7115)
+11
+10
+roll
+dup
+12
+1
+roll
+7115
+sub
+not
+ # )
+ # ((((boardderef8)==7841)||(((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))))))
+ # (((boardderef8)==7841)
+12
+11
+roll
+dup
+13
+1
+roll
+7841
+sub
+not
+ # )
+ # ((((boardderef8)==9299)||(((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069))))))
+ # (((boardderef8)==9299)
 13
 12
 roll
@@ -1998,12 +1119,12 @@ dup
 14
 1
 roll
-2288
+9299
 sub
 not
  # )
- # ((((boardderef11)==2936)||(((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))))
- # (((boardderef11)==2936)
+ # ((((boardderef8)==44)||(((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))))
+ # (((boardderef8)==44)
 14
 13
 roll
@@ -2011,12 +1132,12 @@ dup
 15
 1
 roll
-2936
+44
 sub
 not
  # )
- # ((((boardderef11)==8768)||(((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310))))
- # (((boardderef11)==8768)
+ # ((((boardderef8)==266)||(((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069))))
+ # (((boardderef8)==266)
 15
 14
 roll
@@ -2024,12 +1145,12 @@ dup
 16
 1
 roll
-8768
+266
 sub
 not
  # )
- # ((((boardderef11)==6608)||(((boardderef11)==6662)||((boardderef11)==7310)))
- # (((boardderef11)==6608)
+ # ((((boardderef8)==746)||(((boardderef8)==2210)||((boardderef8)==8069)))
+ # (((boardderef8)==746)
 16
 15
 roll
@@ -2037,12 +1158,12 @@ dup
 17
 1
 roll
-6608
+746
 sub
 not
  # )
- # ((((boardderef11)==6662)||((boardderef11)==7310))
- # (((boardderef11)==6662)
+ # ((((boardderef8)==2210)||((boardderef8)==8069))
+ # (((boardderef8)==2210)
 17
 16
 roll
@@ -2050,11 +1171,11 @@ dup
 18
 1
 roll
-6662
+2210
 sub
 not
  # )
- # (((boardderef11)==7310)
+ # (((boardderef8)==8069)
 18
 17
 roll
@@ -2062,7 +1183,7 @@ dup
 19
 1
 roll
-7310
+8069
 sub
 not
  # )
@@ -2221,7 +1342,7 @@ not
 not
  # )
 bz.2f
-1
+4
  # (assign to new_move
 2
 1
@@ -2229,8 +1350,650 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef12)==449)||(((boardderef12)==7982)||(((boardderef12)==6767)||(((boardderef12)==8630)||(((boardderef12)==1151)||((boardderef12)==7469))))))
- # (((boardderef12)==449)
+ # ((((boardderef9)==959)||(((boardderef9)==2417)||(((boardderef9)==6791)||(((boardderef9)==3137)||(((boardderef9)==7511)||(((boardderef9)==8969)||(((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399)))))))))))))
+ # (((boardderef9)==959)
+4
+3
+roll
+dup
+5
+1
+roll
+959
+sub
+not
+ # )
+ # ((((boardderef9)==2417)||(((boardderef9)==6791)||(((boardderef9)==3137)||(((boardderef9)==7511)||(((boardderef9)==8969)||(((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399))))))))))))
+ # (((boardderef9)==2417)
+5
+4
+roll
+dup
+6
+1
+roll
+2417
+sub
+not
+ # )
+ # ((((boardderef9)==6791)||(((boardderef9)==3137)||(((boardderef9)==7511)||(((boardderef9)==8969)||(((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399)))))))))))
+ # (((boardderef9)==6791)
+6
+5
+roll
+dup
+7
+1
+roll
+6791
+sub
+not
+ # )
+ # ((((boardderef9)==3137)||(((boardderef9)==7511)||(((boardderef9)==8969)||(((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399))))))))))
+ # (((boardderef9)==3137)
+7
+6
+roll
+dup
+8
+1
+roll
+3137
+sub
+not
+ # )
+ # ((((boardderef9)==7511)||(((boardderef9)==8969)||(((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399)))))))))
+ # (((boardderef9)==7511)
+8
+7
+roll
+dup
+9
+1
+roll
+7511
+sub
+not
+ # )
+ # ((((boardderef9)==8969)||(((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399))))))))
+ # (((boardderef9)==8969)
+9
+8
+roll
+dup
+10
+1
+roll
+8969
+sub
+not
+ # )
+ # ((((boardderef9)==3143)||(((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399)))))))
+ # (((boardderef9)==3143)
+10
+9
+roll
+dup
+11
+1
+roll
+3143
+sub
+not
+ # )
+ # ((((boardderef9)==7517)||(((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399))))))
+ # (((boardderef9)==7517)
+11
+10
+roll
+dup
+12
+1
+roll
+7517
+sub
+not
+ # )
+ # ((((boardderef9)==8975)||(((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399)))))
+ # (((boardderef9)==8975)
+12
+11
+roll
+dup
+13
+1
+roll
+8975
+sub
+not
+ # )
+ # ((((boardderef9)==6626)||(((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399))))
+ # (((boardderef9)==6626)
+13
+12
+roll
+dup
+14
+1
+roll
+6626
+sub
+not
+ # )
+ # ((((boardderef9)==935)||(((boardderef9)==1583)||((boardderef9)==2399)))
+ # (((boardderef9)==935)
+14
+13
+roll
+dup
+15
+1
+roll
+935
+sub
+not
+ # )
+ # ((((boardderef9)==1583)||((boardderef9)==2399))
+ # (((boardderef9)==1583)
+15
+14
+roll
+dup
+16
+1
+roll
+1583
+sub
+not
+ # )
+ # (((boardderef9)==2399)
+16
+15
+roll
+dup
+17
+1
+roll
+2399
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+bz.2f
+5
+ # (assign to new_move
+2
+1
+roll
+pop
+ # ) 
+2:
+ # ((((boardderef10)==473)||(((boardderef10)==140)||(((boardderef10)==9230)||(((boardderef10)==7025)||(((boardderef10)==146)||(((boardderef10)==308)||(((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584))))))))))))))
+ # (((boardderef10)==473)
+4
+3
+roll
+dup
+5
+1
+roll
+473
+sub
+not
+ # )
+ # ((((boardderef10)==140)||(((boardderef10)==9230)||(((boardderef10)==7025)||(((boardderef10)==146)||(((boardderef10)==308)||(((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584)))))))))))))
+ # (((boardderef10)==140)
+5
+4
+roll
+dup
+6
+1
+roll
+140
+sub
+not
+ # )
+ # ((((boardderef10)==9230)||(((boardderef10)==7025)||(((boardderef10)==146)||(((boardderef10)==308)||(((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584))))))))))))
+ # (((boardderef10)==9230)
+6
+5
+roll
+dup
+7
+1
+roll
+9230
+sub
+not
+ # )
+ # ((((boardderef10)==7025)||(((boardderef10)==146)||(((boardderef10)==308)||(((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584)))))))))))
+ # (((boardderef10)==7025)
+7
+6
+roll
+dup
+8
+1
+roll
+7025
+sub
+not
+ # )
+ # ((((boardderef10)==146)||(((boardderef10)==308)||(((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584))))))))))
+ # (((boardderef10)==146)
+8
+7
+roll
+dup
+9
+1
+roll
+146
+sub
+not
+ # )
+ # ((((boardderef10)==308)||(((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584)))))))))
+ # (((boardderef10)==308)
+9
+8
+roll
+dup
+10
+1
+roll
+308
+sub
+not
+ # )
+ # ((((boardderef10)==2657)||(((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584))))))))
+ # (((boardderef10)==2657)
+10
+9
+roll
+dup
+11
+1
+roll
+2657
+sub
+not
+ # )
+ # ((((boardderef10)==7193)||(((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584)))))))
+ # (((boardderef10)==7193)
+11
+10
+roll
+dup
+12
+1
+roll
+7193
+sub
+not
+ # )
+ # ((((boardderef10)==98)||(((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584))))))
+ # (((boardderef10)==98)
+12
+11
+roll
+dup
+13
+1
+roll
+98
+sub
+not
+ # )
+ # ((((boardderef10)==455)||(((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584)))))
+ # (((boardderef10)==455)
+13
+12
+roll
+dup
+14
+1
+roll
+455
+sub
+not
+ # )
+ # ((((boardderef10)==6989)||(((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584))))
+ # (((boardderef10)==6989)
+14
+13
+roll
+dup
+15
+1
+roll
+6989
+sub
+not
+ # )
+ # ((((boardderef10)==9446)||(((boardderef10)==8933)||((boardderef10)==6584)))
+ # (((boardderef10)==9446)
+15
+14
+roll
+dup
+16
+1
+roll
+9446
+sub
+not
+ # )
+ # ((((boardderef10)==8933)||((boardderef10)==6584))
+ # (((boardderef10)==8933)
+16
+15
+roll
+dup
+17
+1
+roll
+8933
+sub
+not
+ # )
+ # (((boardderef10)==6584)
+17
+16
+roll
+dup
+18
+1
+roll
+6584
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+bz.2f
+6
+ # (assign to new_move
+2
+1
+roll
+pop
+ # ) 
+2:
+ # ((((boardderef11)==449)||(((boardderef11)==7982)||(((boardderef11)==6767)||(((boardderef11)==8630)||(((boardderef11)==1151)||((boardderef11)==7469))))))
+ # (((boardderef11)==449)
 4
 3
 roll
@@ -2242,8 +2005,8 @@ roll
 sub
 not
  # )
- # ((((boardderef12)==7982)||(((boardderef12)==6767)||(((boardderef12)==8630)||(((boardderef12)==1151)||((boardderef12)==7469)))))
- # (((boardderef12)==7982)
+ # ((((boardderef11)==7982)||(((boardderef11)==6767)||(((boardderef11)==8630)||(((boardderef11)==1151)||((boardderef11)==7469)))))
+ # (((boardderef11)==7982)
 5
 4
 roll
@@ -2255,8 +2018,8 @@ roll
 sub
 not
  # )
- # ((((boardderef12)==6767)||(((boardderef12)==8630)||(((boardderef12)==1151)||((boardderef12)==7469))))
- # (((boardderef12)==6767)
+ # ((((boardderef11)==6767)||(((boardderef11)==8630)||(((boardderef11)==1151)||((boardderef11)==7469))))
+ # (((boardderef11)==6767)
 6
 5
 roll
@@ -2268,8 +2031,8 @@ roll
 sub
 not
  # )
- # ((((boardderef12)==8630)||(((boardderef12)==1151)||((boardderef12)==7469)))
- # (((boardderef12)==8630)
+ # ((((boardderef11)==8630)||(((boardderef11)==1151)||((boardderef11)==7469)))
+ # (((boardderef11)==8630)
 7
 6
 roll
@@ -2281,8 +2044,8 @@ roll
 sub
 not
  # )
- # ((((boardderef12)==1151)||((boardderef12)==7469))
- # (((boardderef12)==1151)
+ # ((((boardderef11)==1151)||((boardderef11)==7469))
+ # (((boardderef11)==1151)
 8
 7
 roll
@@ -2294,7 +2057,7 @@ roll
 sub
 not
  # )
- # (((boardderef12)==7469)
+ # (((boardderef11)==7469)
 9
 8
 roll
@@ -2370,6 +2133,243 @@ roll
 pop
  # ) 
 2:
+ # ((((boardderef12)==1193)||(((boardderef12)==3398)||(((boardderef12)==1199)||(((boardderef12)==3608)||(((boardderef12)==2393)||(((boardderef12)==4256)||(((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101))))))))))
+ # (((boardderef12)==1193)
+4
+3
+roll
+dup
+5
+1
+roll
+1193
+sub
+not
+ # )
+ # ((((boardderef12)==3398)||(((boardderef12)==1199)||(((boardderef12)==3608)||(((boardderef12)==2393)||(((boardderef12)==4256)||(((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101)))))))))
+ # (((boardderef12)==3398)
+5
+4
+roll
+dup
+6
+1
+roll
+3398
+sub
+not
+ # )
+ # ((((boardderef12)==1199)||(((boardderef12)==3608)||(((boardderef12)==2393)||(((boardderef12)==4256)||(((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101))))))))
+ # (((boardderef12)==1199)
+6
+5
+roll
+dup
+7
+1
+roll
+1199
+sub
+not
+ # )
+ # ((((boardderef12)==3608)||(((boardderef12)==2393)||(((boardderef12)==4256)||(((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101)))))))
+ # (((boardderef12)==3608)
+7
+6
+roll
+dup
+8
+1
+roll
+3608
+sub
+not
+ # )
+ # ((((boardderef12)==2393)||(((boardderef12)==4256)||(((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101))))))
+ # (((boardderef12)==2393)
+8
+7
+roll
+dup
+9
+1
+roll
+2393
+sub
+not
+ # )
+ # ((((boardderef12)==4256)||(((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101)))))
+ # (((boardderef12)==4256)
+9
+8
+roll
+dup
+10
+1
+roll
+4256
+sub
+not
+ # )
+ # ((((boardderef12)==1157)||(((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101))))
+ # (((boardderef12)==1157)
+10
+9
+roll
+dup
+11
+1
+roll
+1157
+sub
+not
+ # )
+ # ((((boardderef12)==3095)||(((boardderef12)==3614)||((boardderef12)==3101)))
+ # (((boardderef12)==3095)
+11
+10
+roll
+dup
+12
+1
+roll
+3095
+sub
+not
+ # )
+ # ((((boardderef12)==3614)||((boardderef12)==3101))
+ # (((boardderef12)==3614)
+12
+11
+roll
+dup
+13
+1
+roll
+3614
+sub
+not
+ # )
+ # (((boardderef12)==3101)
+13
+12
+roll
+dup
+14
+1
+roll
+3101
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+bz.2f
+8
+ # (assign to new_move
+2
+1
+roll
+pop
+ # ) 
+2:
  # (((new_movederef14)==99)
 dup
 99
@@ -2418,8 +2418,8 @@ __entry_0:
 99
  # (assign to new_move
  # ) 
- # ((((boardderef27)==1)||(((boardderef27)==797)||(((boardderef27)==2255)||(((boardderef27)==7844)||(((boardderef27)==9302)||(((boardderef27)==32)||(((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==1)
+ # ((((boardderef27)==3)||(((boardderef27)==174)||(((boardderef27)==198)||(((boardderef27)==13539)||(((boardderef27)==13563)||(((boardderef27)==14265)||(((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==3)
 4
 3
 roll
@@ -2427,12 +2427,12 @@ dup
 5
 1
 roll
-1
+3
 sub
 not
  # )
- # ((((boardderef27)==797)||(((boardderef27)==2255)||(((boardderef27)==7844)||(((boardderef27)==9302)||(((boardderef27)==32)||(((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==797)
+ # ((((boardderef27)==174)||(((boardderef27)==198)||(((boardderef27)==13539)||(((boardderef27)==13563)||(((boardderef27)==14265)||(((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==174)
 5
 4
 roll
@@ -2440,12 +2440,12 @@ dup
 6
 1
 roll
-797
+174
 sub
 not
  # )
- # ((((boardderef27)==2255)||(((boardderef27)==7844)||(((boardderef27)==9302)||(((boardderef27)==32)||(((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==2255)
+ # ((((boardderef27)==198)||(((boardderef27)==13539)||(((boardderef27)==13563)||(((boardderef27)==14265)||(((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==198)
 6
 5
 roll
@@ -2453,12 +2453,12 @@ dup
 7
 1
 roll
-2255
+198
 sub
 not
  # )
- # ((((boardderef27)==7844)||(((boardderef27)==9302)||(((boardderef27)==32)||(((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==7844)
+ # ((((boardderef27)==13539)||(((boardderef27)==13563)||(((boardderef27)==14265)||(((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==13539)
 7
 6
 roll
@@ -2466,12 +2466,12 @@ dup
 8
 1
 roll
-7844
+13539
 sub
 not
  # )
- # ((((boardderef27)==9302)||(((boardderef27)==32)||(((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==9302)
+ # ((((boardderef27)==13563)||(((boardderef27)==14265)||(((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==13563)
 8
 7
 roll
@@ -2479,12 +2479,12 @@ dup
 9
 1
 roll
-9302
+13563
 sub
 not
  # )
- # ((((boardderef27)==32)||(((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==32)
+ # ((((boardderef27)==14265)||(((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==14265)
 9
 8
 roll
@@ -2492,12 +2492,12 @@ dup
 10
 1
 roll
-32
+14265
 sub
 not
  # )
- # ((((boardderef27)==1733)||(((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==1733)
+ # ((((boardderef27)==15723)||(((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==15723)
 10
 9
 roll
@@ -2505,12 +2505,12 @@ dup
 11
 1
 roll
-1733
+15723
 sub
 not
  # )
- # ((((boardderef27)==8312)||(((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))))))))
- # (((boardderef27)==8312)
+ # ((((boardderef27)==933)||(((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==933)
 11
 10
 roll
@@ -2518,12 +2518,12 @@ dup
 12
 1
 roll
-8312
+933
 sub
 not
  # )
- # ((((boardderef27)==734)||(((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))))))
- # (((boardderef27)==734)
+ # ((((boardderef27)==16242)||(((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==16242)
 12
 11
 roll
@@ -2531,12 +2531,12 @@ dup
 13
 1
 roll
-734
+16242
 sub
 not
  # )
- # ((((boardderef27)==2192)||(((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))))))
- # (((boardderef27)==2192)
+ # ((((boardderef27)==16458)||(((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==16458)
 13
 12
 roll
@@ -2544,12 +2544,12 @@ dup
 14
 1
 roll
-2192
+16458
 sub
 not
  # )
- # ((((boardderef27)==6566)||(((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))))
- # (((boardderef27)==6566)
+ # ((((boardderef27)==2415)||(((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==2415)
 14
 13
 roll
@@ -2557,12 +2557,12 @@ dup
 15
 1
 roll
-6566
+2415
 sub
 not
  # )
- # ((((boardderef27)==9)||(((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))))
- # (((boardderef27)==9)
+ # ((((boardderef27)==15780)||(((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==15780)
 15
 14
 roll
@@ -2570,12 +2570,12 @@ dup
 16
 1
 roll
-9
+15780
 sub
 not
  # )
- # ((((boardderef27)==38)||(((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))))
- # (((boardderef27)==38)
+ # ((((boardderef27)==16506)||(((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==16506)
 16
 15
 roll
@@ -2583,12 +2583,12 @@ dup
 17
 1
 roll
-38
+16506
 sub
 not
  # )
- # ((((boardderef27)==272)||(((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))))
- # (((boardderef27)==272)
+ # ((((boardderef27)==7245)||(((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==7245)
 17
 16
 roll
@@ -2596,12 +2596,12 @@ dup
 18
 1
 roll
-272
+7245
 sub
 not
  # )
- # ((((boardderef27)==773)||(((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))))
- # (((boardderef27)==773)
+ # ((((boardderef27)==27)||(((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==27)
 18
 17
 roll
@@ -2609,12 +2609,12 @@ dup
 19
 1
 roll
-773
+27
 sub
 not
  # )
- # ((((boardderef27)==2237)||(((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))))
- # (((boardderef27)==2237)
+ # ((((boardderef27)==81)||(((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==81)
 19
 18
 roll
@@ -2622,12 +2622,12 @@ dup
 20
 1
 roll
-2237
+81
 sub
 not
  # )
- # ((((boardderef27)==6611)||(((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))))
- # (((boardderef27)==6611)
+ # ((((boardderef27)==5502)||(((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==5502)
 20
 19
 roll
@@ -2635,12 +2635,12 @@ dup
 21
 1
 roll
-6611
+5502
 sub
 not
  # )
- # ((((boardderef27)==319)||(((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))))
- # (((boardderef27)==319)
+ # ((((boardderef27)==11334)||(((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==11334)
 21
 20
 roll
@@ -2648,12 +2648,12 @@ dup
 22
 1
 roll
-319
+11334
 sub
 not
  # )
- # ((((boardderef27)==1045)||(((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))))
- # (((boardderef27)==1045)
+ # ((((boardderef27)==8418)||(((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==8418)
 22
 21
 roll
@@ -2661,12 +2661,12 @@ dup
 23
 1
 roll
-1045
+8418
 sub
 not
  # )
- # ((((boardderef27)==2503)||(((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))))
- # (((boardderef27)==2503)
+ # ((((boardderef27)==10524)||(((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==10524)
 23
 22
 roll
@@ -2674,12 +2674,12 @@ dup
 24
 1
 roll
-2503
+10524
 sub
 not
  # )
- # ((((boardderef27)==6877)||(((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))))
- # (((boardderef27)==6877)
+ # ((((boardderef27)==453)||(((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==453)
 24
 23
 roll
@@ -2687,12 +2687,12 @@ dup
 25
 1
 roll
-6877
+453
 sub
 not
  # )
- # ((((boardderef27)==1047)||(((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))))
- # (((boardderef27)==1047)
+ # ((((boardderef27)==1179)||(((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==1179)
 25
 24
 roll
@@ -2700,12 +2700,12 @@ dup
 26
 1
 roll
-1047
+1179
 sub
 not
  # )
- # ((((boardderef27)==2505)||(((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))))
- # (((boardderef27)==2505)
+ # ((((boardderef27)==2637)||(((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==2637)
 26
 25
 roll
@@ -2713,12 +2713,12 @@ dup
 27
 1
 roll
-2505
+2637
 sub
 not
  # )
- # ((((boardderef27)==8338)||(((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))))
- # (((boardderef27)==8338)
+ # ((((boardderef27)==7011)||(((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==7011)
 27
 26
 roll
@@ -2726,12 +2726,12 @@ dup
 28
 1
 roll
-8338
+7011
 sub
 not
  # )
- # ((((boardderef27)==288)||(((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))))
- # (((boardderef27)==288)
+ # ((((boardderef27)==1125)||(((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==1125)
 28
 27
 roll
@@ -2739,12 +2739,12 @@ dup
 29
 1
 roll
-288
+1125
 sub
 not
  # )
- # ((((boardderef27)==995)||(((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))))
- # (((boardderef27)==995)
+ # ((((boardderef27)==3318)||(((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==3318)
 29
 28
 roll
@@ -2752,12 +2752,12 @@ dup
 30
 1
 roll
-995
+3318
 sub
 not
  # )
- # ((((boardderef27)==2453)||(((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))))
- # (((boardderef27)==2453)
+ # ((((boardderef27)==9150)||(((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==9150)
 30
 29
 roll
@@ -2765,12 +2765,12 @@ dup
 31
 1
 roll
-2453
+9150
 sub
 not
  # )
- # ((((boardderef27)==729)||(((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))))
- # (((boardderef27)==729)
+ # ((((boardderef27)==6957)||(((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))))
+ # (((boardderef27)==6957)
 31
 30
 roll
@@ -2778,12 +2778,12 @@ dup
 32
 1
 roll
-729
+6957
 sub
 not
  # )
- # ((((boardderef27)==3661)||(((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))))
- # (((boardderef27)==3661)
+ # ((((boardderef27)==990)||(((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))))
+ # (((boardderef27)==990)
 32
 31
 roll
@@ -2791,12 +2791,12 @@ dup
 33
 1
 roll
-3661
+990
 sub
 not
  # )
- # ((((boardderef27)==3679)||(((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))))
- # (((boardderef27)==3679)
+ # ((((boardderef27)==2448)||(((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))))
+ # (((boardderef27)==2448)
 33
 32
 roll
@@ -2804,12 +2804,12 @@ dup
 34
 1
 roll
-3679
+2448
 sub
 not
  # )
- # ((((boardderef27)==3895)||(((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))))
- # (((boardderef27)==3895)
+ # ((((boardderef27)==6822)||(((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))))
+ # (((boardderef27)==6822)
 34
 33
 roll
@@ -2817,12 +2817,12 @@ dup
 35
 1
 roll
-3895
+6822
 sub
 not
  # )
- # ((((boardderef27)==10213)||(((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))))
- # (((boardderef27)==10213)
+ # ((((boardderef27)==894)||(((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))))
+ # (((boardderef27)==894)
 35
 34
 roll
@@ -2830,12 +2830,12 @@ dup
 36
 1
 roll
-10213
+894
 sub
 not
  # )
- # ((((boardderef27)==3687)||(((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))))
- # (((boardderef27)==3687)
+ # ((((boardderef27)==918)||(((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))))
+ # (((boardderef27)==918)
 36
 35
 roll
@@ -2843,12 +2843,12 @@ dup
 37
 1
 roll
-3687
+918
 sub
 not
  # )
- # ((((boardderef27)==17052)||(((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))))
- # (((boardderef27)==17052)
+ # ((((boardderef27)==1167)||(((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))))
+ # (((boardderef27)==1167)
 37
 36
 roll
@@ -2856,12 +2856,12 @@ dup
 38
 1
 roll
-17052
+1167
 sub
 not
  # )
- # ((((boardderef27)==10708)||(((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))))
- # (((boardderef27)==10708)
+ # ((((boardderef27)==16476)||(((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))))
+ # (((boardderef27)==16476)
 38
 37
 roll
@@ -2869,12 +2869,12 @@ dup
 39
 1
 roll
-10708
+16476
 sub
 not
  # )
- # ((((boardderef27)==3921)||(((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))))
- # (((boardderef27)==3921)
+ # ((((boardderef27)==16203)||(((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))))
+ # (((boardderef27)==16203)
 39
 38
 roll
@@ -2882,12 +2882,12 @@ dup
 40
 1
 roll
-3921
+16203
 sub
 not
  # )
- # ((((boardderef27)==10258)||(((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))))
- # (((boardderef27)==10258)
+ # ((((boardderef27)==16209)||(((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))))
+ # (((boardderef27)==16209)
 40
 39
 roll
@@ -2895,12 +2895,12 @@ dup
 41
 1
 roll
-10258
+16209
 sub
 not
  # )
- # ((((boardderef27)==10474)||(((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))))
- # (((boardderef27)==10474)
+ # ((((boardderef27)==16227)||(((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))))
+ # (((boardderef27)==16227)
 41
 40
 roll
@@ -2908,12 +2908,12 @@ dup
 42
 1
 roll
-10474
+16227
 sub
 not
  # )
- # ((((boardderef27)==16108)||(((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))))
- # (((boardderef27)==16108)
+ # ((((boardderef27)==16443)||(((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))))
+ # (((boardderef27)==16443)
 42
 41
 roll
@@ -2921,12 +2921,12 @@ dup
 43
 1
 roll
-16108
+16443
 sub
 not
  # )
- # ((((boardderef27)==16053)||(((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561))))
- # (((boardderef27)==16053)
+ # ((((boardderef27)==11829)||(((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))))
+ # (((boardderef27)==11829)
 43
 42
 roll
@@ -2934,12 +2934,12 @@ dup
 44
 1
 roll
-16053
+11829
 sub
 not
  # )
- # ((((boardderef27)==16082)||(((boardderef27)==16298)||((boardderef27)==6561)))
- # (((boardderef27)==16082)
+ # ((((boardderef27)==3741)||(((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))))
+ # (((boardderef27)==3741)
 44
 43
 roll
@@ -2947,12 +2947,12 @@ dup
 45
 1
 roll
-16082
+3741
 sub
 not
  # )
- # ((((boardderef27)==16298)||((boardderef27)==6561))
- # (((boardderef27)==16298)
+ # ((((boardderef27)==10734)||(((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))))
+ # (((boardderef27)==10734)
 45
 44
 roll
@@ -2960,11 +2960,12 @@ dup
 46
 1
 roll
-16298
+10734
 sub
 not
  # )
- # (((boardderef27)==6561)
+ # ((((boardderef27)==10788)||(((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))))
+ # (((boardderef27)==10788)
 46
 45
 roll
@@ -2972,8 +2973,439 @@ dup
 47
 1
 roll
-6561
+10788
 sub
+not
+ # )
+ # ((((boardderef27)==4254)||(((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))))
+ # (((boardderef27)==4254)
+47
+46
+roll
+dup
+48
+1
+roll
+4254
+sub
+not
+ # )
+ # ((((boardderef27)==10806)||(((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))))
+ # (((boardderef27)==10806)
+48
+47
+roll
+dup
+49
+1
+roll
+10806
+sub
+not
+ # )
+ # ((((boardderef27)==10338)||(((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))))
+ # (((boardderef27)==10338)
+49
+48
+roll
+dup
+50
+1
+roll
+10338
+sub
+not
+ # )
+ # ((((boardderef27)==10500)||(((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))))
+ # (((boardderef27)==10500)
+50
+49
+roll
+dup
+51
+1
+roll
+10500
+sub
+not
+ # )
+ # ((((boardderef27)==2274)||(((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))))
+ # (((boardderef27)==2274)
+51
+50
+roll
+dup
+52
+1
+roll
+2274
+sub
+not
+ # )
+ # ((((boardderef27)==4038)||(((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))))
+ # (((boardderef27)==4038)
+52
+51
+roll
+dup
+53
+1
+roll
+4038
+sub
+not
+ # )
+ # ((((boardderef27)==10590)||(((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))))
+ # (((boardderef27)==10590)
+53
+52
+roll
+dup
+54
+1
+roll
+10590
+sub
+not
+ # )
+ # ((((boardderef27)==10554)||(((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))))
+ # (((boardderef27)==10554)
+54
+53
+roll
+dup
+55
+1
+roll
+10554
+sub
+not
+ # )
+ # ((((boardderef27)==16071)||(((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))))
+ # (((boardderef27)==16071)
+55
+54
+roll
+dup
+56
+1
+roll
+16071
+sub
+not
+ # )
+ # ((((boardderef27)==16170)||(((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))))
+ # (((boardderef27)==16170)
+56
+55
+roll
+dup
+57
+1
+roll
+16170
+sub
+not
+ # )
+ # ((((boardderef27)==16386)||(((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))))
+ # (((boardderef27)==16386)
+57
+56
+roll
+dup
+58
+1
+roll
+16386
+sub
+not
+ # )
+ # ((((boardderef27)==16287)||(((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))))
+ # (((boardderef27)==16287)
+58
+57
+roll
+dup
+59
+1
+roll
+16287
+sub
+not
+ # )
+ # ((((boardderef27)==10293)||(((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))))
+ # (((boardderef27)==10293)
+59
+58
+roll
+dup
+60
+1
+roll
+10293
+sub
+not
+ # )
+ # ((((boardderef27)==6726)||(((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))))
+ # (((boardderef27)==6726)
+60
+59
+roll
+dup
+61
+1
+roll
+6726
+sub
+not
+ # )
+ # ((((boardderef27)==6750)||(((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890))))
+ # (((boardderef27)==6750)
+61
+60
+roll
+dup
+62
+1
+roll
+6750
+sub
+not
+ # )
+ # ((((boardderef27)==12090)||(((boardderef27)==10371)||((boardderef27)==10890)))
+ # (((boardderef27)==12090)
+62
+61
+roll
+dup
+63
+1
+roll
+12090
+sub
+not
+ # )
+ # ((((boardderef27)==10371)||((boardderef27)==10890))
+ # (((boardderef27)==10371)
+63
+62
+roll
+dup
+64
+1
+roll
+10371
+sub
+not
+ # )
+ # (((boardderef27)==10890)
+64
+63
+roll
+dup
+65
+1
+roll
+10890
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
 not
  # )
 not
@@ -3439,7 +3871,7 @@ not
 not
  # )
 bz.2f
-4
+0
  # (assign to new_move
 2
 1
@@ -3447,8 +3879,1517 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef28)==166)||(((boardderef28)==1651)||(((boardderef28)==4084)||(((boardderef28)==8458)||(((boardderef28)==3835)||(((boardderef28)==10402)||(((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==166)
+ # ((((boardderef28)==172)||(((boardderef28)==1657)||(((boardderef28)==1891)||(((boardderef28)==8209)||(((boardderef28)==406)||(((boardderef28)==955)||(((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==172)
+4
+3
+roll
+dup
+5
+1
+roll
+172
+sub
+not
+ # )
+ # ((((boardderef28)==1657)||(((boardderef28)==1891)||(((boardderef28)==8209)||(((boardderef28)==406)||(((boardderef28)==955)||(((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==1657)
+5
+4
+roll
+dup
+6
+1
+roll
+1657
+sub
+not
+ # )
+ # ((((boardderef28)==1891)||(((boardderef28)==8209)||(((boardderef28)==406)||(((boardderef28)==955)||(((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==1891)
+6
+5
+roll
+dup
+7
+1
+roll
+1891
+sub
+not
+ # )
+ # ((((boardderef28)==8209)||(((boardderef28)==406)||(((boardderef28)==955)||(((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==8209)
+7
+6
+roll
+dup
+8
+1
+roll
+8209
+sub
+not
+ # )
+ # ((((boardderef28)==406)||(((boardderef28)==955)||(((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==406)
+8
+7
+roll
+dup
+9
+1
+roll
+406
+sub
+not
+ # )
+ # ((((boardderef28)==955)||(((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==955)
+9
+8
+roll
+dup
+10
+1
+roll
+955
+sub
+not
+ # )
+ # ((((boardderef28)==1189)||(((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==1189)
+10
+9
+roll
+dup
+11
+1
+roll
+1189
+sub
+not
+ # )
+ # ((((boardderef28)==6724)||(((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==6724)
+11
+10
+roll
+dup
+12
+1
+roll
+6724
+sub
+not
+ # )
+ # ((((boardderef28)==929)||(((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==929)
+12
+11
+roll
+dup
+13
+1
+roll
+929
+sub
+not
+ # )
+ # ((((boardderef28)==13537)||(((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==13537)
+13
+12
+roll
+dup
+14
+1
+roll
+13537
+sub
+not
+ # )
+ # ((((boardderef28)==900)||(((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==900)
+14
+13
+roll
+dup
+15
+1
+roll
+900
+sub
+not
+ # )
+ # ((((boardderef28)==15778)||(((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==15778)
+15
+14
+roll
+dup
+16
+1
+roll
+15778
+sub
+not
+ # )
+ # ((((boardderef28)==7219)||(((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==7219)
+16
+15
+roll
+dup
+17
+1
+roll
+7219
+sub
+not
+ # )
+ # ((((boardderef28)==4250)||(((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==4250)
+17
+16
+roll
+dup
+18
+1
+roll
+4250
+sub
+not
+ # )
+ # ((((boardderef28)==8624)||(((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==8624)
+18
+17
+roll
+dup
+19
+1
+roll
+8624
+sub
+not
+ # )
+ # ((((boardderef28)==3530)||(((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==3530)
+19
+18
+roll
+dup
+20
+1
+roll
+3530
+sub
+not
+ # )
+ # ((((boardderef28)==7904)||(((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==7904)
+20
+19
+roll
+dup
+21
+1
+roll
+7904
+sub
+not
+ # )
+ # ((((boardderef28)==2783)||(((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==2783)
+21
+20
+roll
+dup
+22
+1
+roll
+2783
+sub
+not
+ # )
+ # ((((boardderef28)==7157)||(((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==7157)
+22
+21
+roll
+dup
+23
+1
+roll
+7157
+sub
+not
+ # )
+ # ((((boardderef28)==1163)||(((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==1163)
+23
+22
+roll
+dup
+24
+1
+roll
+1163
+sub
+not
+ # )
+ # ((((boardderef28)==2621)||(((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==2621)
+24
+23
+roll
+dup
+25
+1
+roll
+2621
+sub
+not
+ # )
+ # ((((boardderef28)==7742)||(((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==7742)
+25
+24
+roll
+dup
+26
+1
+roll
+7742
+sub
+not
+ # )
+ # ((((boardderef28)==9200)||(((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==9200)
+26
+25
+roll
+dup
+27
+1
+roll
+9200
+sub
+not
+ # )
+ # ((((boardderef28)==758)||(((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==758)
+27
+26
+roll
+dup
+28
+1
+roll
+758
+sub
+not
+ # )
+ # ((((boardderef28)==2315)||(((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==2315)
+28
+27
+roll
+dup
+29
+1
+roll
+2315
+sub
+not
+ # )
+ # ((((boardderef28)==2477)||(((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==2477)
+29
+28
+roll
+dup
+30
+1
+roll
+2477
+sub
+not
+ # )
+ # ((((boardderef28)==2963)||(((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==2963)
+30
+29
+roll
+dup
+31
+1
+roll
+2963
+sub
+not
+ # )
+ # ((((boardderef28)==8795)||(((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==8795)
+31
+30
+roll
+dup
+32
+1
+roll
+8795
+sub
+not
+ # )
+ # ((((boardderef28)==6689)||(((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==6689)
+32
+31
+roll
+dup
+33
+1
+roll
+6689
+sub
+not
+ # )
+ # ((((boardderef28)==6851)||(((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))))
+ # (((boardderef28)==6851)
+33
+32
+roll
+dup
+34
+1
+roll
+6851
+sub
+not
+ # )
+ # ((((boardderef28)==7337)||(((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))))
+ # (((boardderef28)==7337)
+34
+33
+roll
+dup
+35
+1
+roll
+7337
+sub
+not
+ # )
+ # ((((boardderef28)==3314)||(((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))))
+ # (((boardderef28)==3314)
+35
+34
+roll
+dup
+36
+1
+roll
+3314
+sub
+not
+ # )
+ # ((((boardderef28)==7688)||(((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))))
+ # (((boardderef28)==7688)
+36
+35
+roll
+dup
+37
+1
+roll
+7688
+sub
+not
+ # )
+ # ((((boardderef28)==2567)||(((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))))
+ # (((boardderef28)==2567)
+37
+36
+roll
+dup
+38
+1
+roll
+2567
+sub
+not
+ # )
+ # ((((boardderef28)==9146)||(((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))))
+ # (((boardderef28)==9146)
+38
+37
+roll
+dup
+39
+1
+roll
+9146
+sub
+not
+ # )
+ # ((((boardderef28)==857)||(((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))))
+ # (((boardderef28)==857)
+39
+38
+roll
+dup
+40
+1
+roll
+857
+sub
+not
+ # )
+ # ((((boardderef28)==1073)||(((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))))
+ # (((boardderef28)==1073)
+40
+39
+roll
+dup
+41
+1
+roll
+1073
+sub
+not
+ # )
+ # ((((boardderef28)==3017)||(((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))))
+ # (((boardderef28)==3017)
+41
+40
+roll
+dup
+42
+1
+roll
+3017
+sub
+not
+ # )
+ # ((((boardderef28)==7391)||(((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))))
+ # (((boardderef28)==7391)
+42
+41
+roll
+dup
+43
+1
+roll
+7391
+sub
+not
+ # )
+ # ((((boardderef28)==2270)||(((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))))
+ # (((boardderef28)==2270)
+43
+42
+roll
+dup
+44
+1
+roll
+2270
+sub
+not
+ # )
+ # ((((boardderef28)==6905)||(((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))))
+ # (((boardderef28)==6905)
+44
+43
+roll
+dup
+45
+1
+roll
+6905
+sub
+not
+ # )
+ # ((((boardderef28)==8849)||(((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))))
+ # (((boardderef28)==8849)
+45
+44
+roll
+dup
+46
+1
+roll
+8849
+sub
+not
+ # )
+ # ((((boardderef28)==14248)||(((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))))
+ # (((boardderef28)==14248)
+46
+45
+roll
+dup
+47
+1
+roll
+14248
+sub
+not
+ # )
+ # ((((boardderef28)==15706)||(((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))))
+ # (((boardderef28)==15706)
+47
+46
+roll
+dup
+48
+1
+roll
+15706
+sub
+not
+ # )
+ # ((((boardderef28)==3368)||(((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))))
+ # (((boardderef28)==3368)
+48
+47
+roll
+dup
+49
+1
+roll
+3368
+sub
+not
+ # )
+ # ((((boardderef28)==2583)||(((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))))
+ # (((boardderef28)==2583)
+49
+48
+roll
+dup
+50
+1
+roll
+2583
+sub
+not
+ # )
+ # ((((boardderef28)==1019)||(((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))))
+ # (((boardderef28)==1019)
+50
+49
+roll
+dup
+51
+1
+roll
+1019
+sub
+not
+ # )
+ # ((((boardderef28)==3179)||(((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))))
+ # (((boardderef28)==3179)
+51
+50
+roll
+dup
+52
+1
+roll
+3179
+sub
+not
+ # )
+ # ((((boardderef28)==7553)||(((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))))
+ # (((boardderef28)==7553)
+52
+51
+roll
+dup
+53
+1
+roll
+7553
+sub
+not
+ # )
+ # ((((boardderef28)==2531)||(((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))))
+ # (((boardderef28)==2531)
+53
+52
+roll
+dup
+54
+1
+roll
+2531
+sub
+not
+ # )
+ # ((((boardderef28)==9011)||(((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))))
+ # (((boardderef28)==9011)
+54
+53
+roll
+dup
+55
+1
+roll
+9011
+sub
+not
+ # )
+ # ((((boardderef28)==11864)||(((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))))
+ # (((boardderef28)==11864)
+55
+54
+roll
+dup
+56
+1
+roll
+11864
+sub
+not
+ # )
+ # ((((boardderef28)==12098)||(((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))))
+ # (((boardderef28)==12098)
+56
+55
+roll
+dup
+57
+1
+roll
+12098
+sub
+not
+ # )
+ # ((((boardderef28)==1134)||(((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))))
+ # (((boardderef28)==1134)
+57
+56
+roll
+dup
+58
+1
+roll
+1134
+sub
+not
+ # )
+ # ((((boardderef28)==16498)||(((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))))
+ # (((boardderef28)==16498)
+58
+57
+roll
+dup
+59
+1
+roll
+16498
+sub
+not
+ # )
+ # ((((boardderef28)==11827)||(((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))))
+ # (((boardderef28)==11827)
+59
+58
+roll
+dup
+60
+1
+roll
+11827
+sub
+not
+ # )
+ # ((((boardderef28)==11835)||(((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))))
+ # (((boardderef28)==11835)
+60
+59
+roll
+dup
+61
+1
+roll
+11835
+sub
+not
+ # )
+ # ((((boardderef28)==11853)||(((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))))
+ # (((boardderef28)==11853)
+61
+60
+roll
+dup
+62
+1
+roll
+11853
+sub
+not
+ # )
+ # ((((boardderef28)==12069)||(((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))))
+ # (((boardderef28)==12069)
+62
+61
+roll
+dup
+63
+1
+roll
+12069
+sub
+not
+ # )
+ # ((((boardderef28)==2187)||(((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114))))
+ # (((boardderef28)==2187)
+63
+62
+roll
+dup
+64
+1
+roll
+2187
+sub
+not
+ # )
+ # ((((boardderef28)==6985)||(((boardderef28)==12088)||((boardderef28)==12114)))
+ # (((boardderef28)==6985)
+64
+63
+roll
+dup
+65
+1
+roll
+6985
+sub
+not
+ # )
+ # ((((boardderef28)==12088)||((boardderef28)==12114))
+ # (((boardderef28)==12088)
+65
+64
+roll
+dup
+66
+1
+roll
+12088
+sub
+not
+ # )
+ # (((boardderef28)==12114)
+66
+65
+roll
+dup
+67
+1
+roll
+12114
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+bz.2f
+1
+ # (assign to new_move
+2
+1
+roll
+pop
+ # ) 
+2:
+ # ((((boardderef29)==166)||(((boardderef29)==1651)||(((boardderef29)==4084)||(((boardderef29)==8458)||(((boardderef29)==3835)||(((boardderef29)==10402)||(((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==166)
 4
 3
 roll
@@ -3460,8 +5401,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==1651)||(((boardderef28)==4084)||(((boardderef28)==8458)||(((boardderef28)==3835)||(((boardderef28)==10402)||(((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==1651)
+ # ((((boardderef29)==1651)||(((boardderef29)==4084)||(((boardderef29)==8458)||(((boardderef29)==3835)||(((boardderef29)==10402)||(((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==1651)
 5
 4
 roll
@@ -3473,8 +5414,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==4084)||(((boardderef28)==8458)||(((boardderef28)==3835)||(((boardderef28)==10402)||(((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==4084)
+ # ((((boardderef29)==4084)||(((boardderef29)==8458)||(((boardderef29)==3835)||(((boardderef29)==10402)||(((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==4084)
 6
 5
 roll
@@ -3486,8 +5427,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==8458)||(((boardderef28)==3835)||(((boardderef28)==10402)||(((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==8458)
+ # ((((boardderef29)==8458)||(((boardderef29)==3835)||(((boardderef29)==10402)||(((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==8458)
 7
 6
 roll
@@ -3499,8 +5440,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==3835)||(((boardderef28)==10402)||(((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==3835)
+ # ((((boardderef29)==3835)||(((boardderef29)==10402)||(((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==3835)
 8
 7
 roll
@@ -3512,8 +5453,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10402)||(((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==10402)
+ # ((((boardderef29)==10402)||(((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==10402)
 9
 8
 roll
@@ -3525,8 +5466,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10618)||(((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==10618)
+ # ((((boardderef29)==10618)||(((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==10618)
 10
 9
 roll
@@ -3538,8 +5479,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6973)||(((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==6973)
+ # ((((boardderef29)==6973)||(((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==6973)
 11
 10
 roll
@@ -3551,8 +5492,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2407)||(((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==2407)
+ # ((((boardderef29)==2407)||(((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==2407)
 12
 11
 roll
@@ -3564,8 +5505,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2647)||(((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==2647)
+ # ((((boardderef29)==2647)||(((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==2647)
 13
 12
 roll
@@ -3577,8 +5518,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==437)||(((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==437)
+ # ((((boardderef29)==437)||(((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==437)
 14
 13
 roll
@@ -3590,8 +5531,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2381)||(((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==2381)
+ # ((((boardderef29)==2381)||(((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==2381)
 15
 14
 roll
@@ -3603,8 +5544,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6755)||(((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==6755)
+ # ((((boardderef29)==6755)||(((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==6755)
 16
 15
 roll
@@ -3616,8 +5557,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==5702)||(((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==5702)
+ # ((((boardderef29)==5702)||(((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==5702)
 17
 16
 roll
@@ -3629,8 +5570,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==11534)||(((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==11534)
+ # ((((boardderef29)==11534)||(((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==11534)
 18
 17
 roll
@@ -3642,8 +5583,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==5486)||(((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==5486)
+ # ((((boardderef29)==5486)||(((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==5486)
 19
 18
 roll
@@ -3655,8 +5596,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==5189)||(((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==5189)
+ # ((((boardderef29)==5189)||(((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==5189)
 20
 19
 roll
@@ -3668,8 +5609,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==11021)||(((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==11021)
+ # ((((boardderef29)==11021)||(((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==11021)
 21
 20
 roll
@@ -3681,8 +5622,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==4082)||(((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==4082)
+ # ((((boardderef29)==4082)||(((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==4082)
 22
 21
 roll
@@ -3694,8 +5635,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==8456)||(((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==8456)
+ # ((((boardderef29)==8456)||(((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==8456)
 23
 22
 roll
@@ -3707,8 +5648,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==8267)||(((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==8267)
+ # ((((boardderef29)==8267)||(((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==8267)
 24
 23
 roll
@@ -3720,8 +5661,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==11858)||(((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==11858)
+ # ((((boardderef29)==11858)||(((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==11858)
 25
 24
 roll
@@ -3733,8 +5674,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==12074)||(((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==12074)
+ # ((((boardderef29)==12074)||(((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==12074)
 26
 25
 roll
@@ -3746,8 +5687,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2597)||(((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==2597)
+ # ((((boardderef29)==2597)||(((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==2597)
 27
 26
 roll
@@ -3759,8 +5700,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10400)||(((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==10400)
+ # ((((boardderef29)==10400)||(((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==10400)
 28
 27
 roll
@@ -3772,8 +5713,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10616)||(((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==10616)
+ # ((((boardderef29)==10616)||(((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==10616)
 29
 28
 roll
@@ -3785,8 +5726,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6971)||(((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==6971)
+ # ((((boardderef29)==6971)||(((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==6971)
 30
 29
 roll
@@ -3798,8 +5739,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==1325)||(((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==1325)
+ # ((((boardderef29)==1325)||(((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==1325)
 31
 30
 roll
@@ -3811,8 +5752,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==3518)||(((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==3518)
+ # ((((boardderef29)==3518)||(((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==3518)
 32
 31
 roll
@@ -3824,8 +5765,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==9350)||(((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==9350)
+ # ((((boardderef29)==9350)||(((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==9350)
 33
 32
 roll
@@ -3837,8 +5778,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==7892)||(((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==7892)
+ # ((((boardderef29)==7892)||(((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==7892)
 34
 33
 roll
@@ -3850,8 +5791,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==3356)||(((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==3356)
+ # ((((boardderef29)==3356)||(((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==3356)
 35
 34
 roll
@@ -3863,8 +5804,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==7730)||(((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))))
- # (((boardderef28)==7730)
+ # ((((boardderef29)==7730)||(((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==7730)
 36
 35
 roll
@@ -3876,8 +5817,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==9188)||(((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))))
- # (((boardderef28)==9188)
+ # ((((boardderef29)==9188)||(((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==9188)
 37
 36
 roll
@@ -3889,8 +5830,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6995)||(((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))))
- # (((boardderef28)==6995)
+ # ((((boardderef29)==6995)||(((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))))
+ # (((boardderef29)==6995)
 38
 37
 roll
@@ -3902,8 +5843,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==845)||(((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))))
- # (((boardderef28)==845)
+ # ((((boardderef29)==845)||(((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))))
+ # (((boardderef29)==845)
 39
 38
 roll
@@ -3915,8 +5856,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==1007)||(((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))))
- # (((boardderef28)==1007)
+ # ((((boardderef29)==1007)||(((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))))
+ # (((boardderef29)==1007)
 40
 39
 roll
@@ -3928,8 +5869,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2951)||(((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))))
- # (((boardderef28)==2951)
+ # ((((boardderef29)==2951)||(((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))))
+ # (((boardderef29)==2951)
 41
 40
 roll
@@ -3941,8 +5882,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==7325)||(((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))))
- # (((boardderef28)==7325)
+ # ((((boardderef29)==7325)||(((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))))
+ # (((boardderef29)==7325)
 42
 41
 roll
@@ -3954,8 +5895,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2216)||(((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))))
- # (((boardderef28)==2216)
+ # ((((boardderef29)==2216)||(((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))))
+ # (((boardderef29)==2216)
 43
 42
 roll
@@ -3967,8 +5908,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6590)||(((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))))
- # (((boardderef28)==6590)
+ # ((((boardderef29)==6590)||(((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))))
+ # (((boardderef29)==6590)
 44
 43
 roll
@@ -3980,8 +5921,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==1109)||(((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))))
- # (((boardderef28)==1109)
+ # ((((boardderef29)==1109)||(((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))))
+ # (((boardderef29)==1109)
 45
 44
 roll
@@ -3993,8 +5934,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==3302)||(((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))))
- # (((boardderef28)==3302)
+ # ((((boardderef29)==3302)||(((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))))
+ # (((boardderef29)==3302)
 46
 45
 roll
@@ -4006,8 +5947,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==9134)||(((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))))
- # (((boardderef28)==9134)
+ # ((((boardderef29)==9134)||(((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))))
+ # (((boardderef29)==9134)
 47
 46
 roll
@@ -4019,8 +5960,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6941)||(((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))))
- # (((boardderef28)==6941)
+ # ((((boardderef29)==6941)||(((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))))
+ # (((boardderef29)==6941)
 48
 47
 roll
@@ -4032,8 +5973,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==812)||(((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))))
- # (((boardderef28)==812)
+ # ((((boardderef29)==812)||(((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))))
+ # (((boardderef29)==812)
 49
 48
 roll
@@ -4045,8 +5986,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2303)||(((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))))
- # (((boardderef28)==2303)
+ # ((((boardderef29)==2303)||(((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))))
+ # (((boardderef29)==2303)
 50
 49
 roll
@@ -4058,8 +5999,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==2519)||(((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))))
- # (((boardderef28)==2519)
+ # ((((boardderef29)==2519)||(((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))))
+ # (((boardderef29)==2519)
 51
 50
 roll
@@ -4071,8 +6012,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==3005)||(((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))))
- # (((boardderef28)==3005)
+ # ((((boardderef29)==3005)||(((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))))
+ # (((boardderef29)==3005)
 52
 51
 roll
@@ -4084,8 +6025,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==8837)||(((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))))
- # (((boardderef28)==8837)
+ # ((((boardderef29)==8837)||(((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))))
+ # (((boardderef29)==8837)
 53
 52
 roll
@@ -4097,8 +6038,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6644)||(((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))))
- # (((boardderef28)==6644)
+ # ((((boardderef29)==6644)||(((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))))
+ # (((boardderef29)==6644)
 54
 53
 roll
@@ -4110,8 +6051,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==243)||(((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))))
- # (((boardderef28)==243)
+ # ((((boardderef29)==243)||(((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))))
+ # (((boardderef29)==243)
 55
 54
 roll
@@ -4123,8 +6064,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10644)||(((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))))
- # (((boardderef28)==10644)
+ # ((((boardderef29)==10644)||(((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))))
+ # (((boardderef29)==10644)
 56
 55
 roll
@@ -4136,8 +6077,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10239)||(((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))))
- # (((boardderef28)==10239)
+ # ((((boardderef29)==10239)||(((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))))
+ # (((boardderef29)==10239)
 57
 56
 roll
@@ -4149,8 +6090,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10455)||(((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))))
- # (((boardderef28)==10455)
+ # ((((boardderef29)==10455)||(((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))))
+ # (((boardderef29)==10455)
 58
 57
 roll
@@ -4162,8 +6103,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==16180)||(((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))))
- # (((boardderef28)==16180)
+ # ((((boardderef29)==16180)||(((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))))
+ # (((boardderef29)==16180)
 59
 58
 roll
@@ -4175,8 +6116,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==16342)||(((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))))
- # (((boardderef28)==16342)
+ # ((((boardderef29)==16342)||(((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))))
+ # (((boardderef29)==16342)
 60
 59
 roll
@@ -4188,8 +6129,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==16154)||(((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))))
- # (((boardderef28)==16154)
+ # ((((boardderef29)==16154)||(((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))))
+ # (((boardderef29)==16154)
 61
 60
 roll
@@ -4201,8 +6142,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==16316)||(((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))))
- # (((boardderef28)==16316)
+ # ((((boardderef29)==16316)||(((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))))
+ # (((boardderef29)==16316)
 62
 61
 roll
@@ -4214,8 +6155,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==16125)||(((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))))
- # (((boardderef28)==16125)
+ # ((((boardderef29)==16125)||(((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))))
+ # (((boardderef29)==16125)
 63
 62
 roll
@@ -4227,8 +6168,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==16370)||(((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))))
- # (((boardderef28)==16370)
+ # ((((boardderef29)==16370)||(((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))))
+ # (((boardderef29)==16370)
 64
 63
 roll
@@ -4240,8 +6181,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10322)||(((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))))
- # (((boardderef28)==10322)
+ # ((((boardderef29)==10322)||(((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))))
+ # (((boardderef29)==10322)
 65
 64
 roll
@@ -4253,8 +6194,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10538)||(((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))))
- # (((boardderef28)==10538)
+ # ((((boardderef29)==10538)||(((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))))
+ # (((boardderef29)==10538)
 66
 65
 roll
@@ -4266,8 +6207,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10640)||(((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))))
- # (((boardderef28)==10640)
+ # ((((boardderef29)==10640)||(((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))))
+ # (((boardderef29)==10640)
 67
 66
 roll
@@ -4279,8 +6220,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==6966)||(((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611))))
- # (((boardderef28)==6966)
+ # ((((boardderef29)==6966)||(((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611))))
+ # (((boardderef29)==6966)
 68
 67
 roll
@@ -4292,8 +6233,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10369)||(((boardderef28)==10395)||((boardderef28)==10611)))
- # (((boardderef28)==10369)
+ # ((((boardderef29)==10369)||(((boardderef29)==10395)||((boardderef29)==10611)))
+ # (((boardderef29)==10369)
 69
 68
 roll
@@ -4305,8 +6246,8 @@ roll
 sub
 not
  # )
- # ((((boardderef28)==10395)||((boardderef28)==10611))
- # (((boardderef28)==10395)
+ # ((((boardderef29)==10395)||((boardderef29)==10611))
+ # (((boardderef29)==10395)
 70
 69
 roll
@@ -4318,7 +6259,7 @@ roll
 sub
 not
  # )
- # (((boardderef28)==10611)
+ # (((boardderef29)==10611)
 71
 70
 roll
@@ -5069,1203 +7010,6 @@ not
  # )
 bz.2f
 2
- # (assign to new_move
-2
-1
-roll
-pop
- # ) 
-2:
- # ((((boardderef29)==211)||(((boardderef29)==427)||(((boardderef29)==2668)||(((boardderef29)==7042)||(((boardderef29)==190)||(((boardderef29)==439)||(((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==211)
-4
-3
-roll
-dup
-5
-1
-roll
-211
-sub
-not
- # )
- # ((((boardderef29)==427)||(((boardderef29)==2668)||(((boardderef29)==7042)||(((boardderef29)==190)||(((boardderef29)==439)||(((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==427)
-5
-4
-roll
-dup
-6
-1
-roll
-427
-sub
-not
- # )
- # ((((boardderef29)==2668)||(((boardderef29)==7042)||(((boardderef29)==190)||(((boardderef29)==439)||(((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==2668)
-6
-5
-roll
-dup
-7
-1
-roll
-2668
-sub
-not
- # )
- # ((((boardderef29)==7042)||(((boardderef29)==190)||(((boardderef29)==439)||(((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==7042)
-7
-6
-roll
-dup
-8
-1
-roll
-7042
-sub
-not
- # )
- # ((((boardderef29)==190)||(((boardderef29)==439)||(((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==190)
-8
-7
-roll
-dup
-9
-1
-roll
-190
-sub
-not
- # )
- # ((((boardderef29)==439)||(((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==439)
-9
-8
-roll
-dup
-10
-1
-roll
-439
-sub
-not
- # )
- # ((((boardderef29)==2599)||(((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==2599)
-10
-9
-roll
-dup
-11
-1
-roll
-2599
-sub
-not
- # )
- # ((((boardderef29)==7018)||(((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==7018)
-11
-10
-roll
-dup
-12
-1
-roll
-7018
-sub
-not
- # )
- # ((((boardderef29)==9178)||(((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==9178)
-12
-11
-roll
-dup
-13
-1
-roll
-9178
-sub
-not
- # )
- # ((((boardderef29)==9226)||(((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==9226)
-13
-12
-roll
-dup
-14
-1
-roll
-9226
-sub
-not
- # )
- # ((((boardderef29)==6757)||(((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==6757)
-14
-13
-roll
-dup
-15
-1
-roll
-6757
-sub
-not
- # )
- # ((((boardderef29)==8917)||(((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==8917)
-15
-14
-roll
-dup
-16
-1
-roll
-8917
-sub
-not
- # )
- # ((((boardderef29)==149)||(((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==149)
-16
-15
-roll
-dup
-17
-1
-roll
-149
-sub
-not
- # )
- # ((((boardderef29)==311)||(((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==311)
-17
-16
-roll
-dup
-18
-1
-roll
-311
-sub
-not
- # )
- # ((((boardderef29)==2660)||(((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))))
- # (((boardderef29)==2660)
-18
-17
-roll
-dup
-19
-1
-roll
-2660
-sub
-not
- # )
- # ((((boardderef29)==7196)||(((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))))
- # (((boardderef29)==7196)
-19
-18
-roll
-dup
-20
-1
-roll
-7196
-sub
-not
- # )
- # ((((boardderef29)==2642)||(((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))))
- # (((boardderef29)==2642)
-20
-19
-roll
-dup
-21
-1
-roll
-2642
-sub
-not
- # )
- # ((((boardderef29)==7016)||(((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))))
- # (((boardderef29)==7016)
-21
-20
-roll
-dup
-22
-1
-roll
-7016
-sub
-not
- # )
- # ((((boardderef29)==8960)||(((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))))
- # (((boardderef29)==8960)
-22
-21
-roll
-dup
-23
-1
-roll
-8960
-sub
-not
- # )
- # ((((boardderef29)==4469)||(((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))))
- # (((boardderef29)==4469)
-23
-22
-roll
-dup
-24
-1
-roll
-4469
-sub
-not
- # )
- # ((((boardderef29)==4982)||(((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))))
- # (((boardderef29)==4982)
-24
-23
-roll
-dup
-25
-1
-roll
-4982
-sub
-not
- # )
- # ((((boardderef29)==4766)||(((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))))
- # (((boardderef29)==4766)
-25
-24
-roll
-dup
-26
-1
-roll
-4766
-sub
-not
- # )
- # ((((boardderef29)==11318)||(((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))))
- # (((boardderef29)==11318)
-26
-25
-roll
-dup
-27
-1
-roll
-11318
-sub
-not
- # )
- # ((((boardderef29)==248)||(((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))))
- # (((boardderef29)==248)
-27
-26
-roll
-dup
-28
-1
-roll
-248
-sub
-not
- # )
- # ((((boardderef29)==9176)||(((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))))
- # (((boardderef29)==9176)
-28
-27
-roll
-dup
-29
-1
-roll
-9176
-sub
-not
- # )
- # ((((boardderef29)==8915)||(((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))))
- # (((boardderef29)==8915)
-29
-28
-roll
-dup
-30
-1
-roll
-8915
-sub
-not
- # )
- # ((((boardderef29)==7250)||(((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))))
- # (((boardderef29)==7250)
-30
-29
-roll
-dup
-31
-1
-roll
-7250
-sub
-not
- # )
- # ((((boardderef29)==9434)||(((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))))
- # (((boardderef29)==9434)
-31
-30
-roll
-dup
-32
-1
-roll
-9434
-sub
-not
- # )
- # ((((boardderef29)==605)||(((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))))
- # (((boardderef29)==605)
-32
-31
-roll
-dup
-33
-1
-roll
-605
-sub
-not
- # )
- # ((((boardderef29)==2798)||(((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))))
- # (((boardderef29)==2798)
-33
-32
-roll
-dup
-34
-1
-roll
-2798
-sub
-not
- # )
- # ((((boardderef29)==7172)||(((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))))
- # (((boardderef29)==7172)
-34
-33
-roll
-dup
-35
-1
-roll
-7172
-sub
-not
- # )
- # ((((boardderef29)==92)||(((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))))
- # (((boardderef29)==92)
-35
-34
-roll
-dup
-36
-1
-roll
-92
-sub
-not
- # )
- # ((((boardderef29)==383)||(((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))))
- # (((boardderef29)==383)
-36
-35
-roll
-dup
-37
-1
-roll
-383
-sub
-not
- # )
- # ((((boardderef29)==389)||(((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))))
- # (((boardderef29)==389)
-37
-36
-roll
-dup
-38
-1
-roll
-389
-sub
-not
- # )
- # ((((boardderef29)==2582)||(((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))))
- # (((boardderef29)==2582)
-38
-37
-roll
-dup
-39
-1
-roll
-2582
-sub
-not
- # )
- # ((((boardderef29)==6962)||(((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))))
- # (((boardderef29)==6962)
-39
-38
-roll
-dup
-40
-1
-roll
-6962
-sub
-not
- # )
- # ((((boardderef29)==2285)||(((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))))
- # (((boardderef29)==2285)
-40
-39
-roll
-dup
-41
-1
-roll
-2285
-sub
-not
- # )
- # ((((boardderef29)==9228)||(((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))))
- # (((boardderef29)==9228)
-41
-40
-roll
-dup
-42
-1
-roll
-9228
-sub
-not
- # )
- # ((((boardderef29)==6879)||(((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))))
- # (((boardderef29)==6879)
-42
-41
-roll
-dup
-43
-1
-roll
-6879
-sub
-not
- # )
- # ((((boardderef29)==451)||(((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))))
- # (((boardderef29)==451)
-43
-42
-roll
-dup
-44
-1
-roll
-451
-sub
-not
- # )
- # ((((boardderef29)==6827)||(((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))))
- # (((boardderef29)==6827)
-44
-43
-roll
-dup
-45
-1
-roll
-6827
-sub
-not
- # )
- # ((((boardderef29)==2194)||(((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))))
- # (((boardderef29)==2194)
-45
-44
-roll
-dup
-46
-1
-roll
-2194
-sub
-not
- # )
- # ((((boardderef29)==2202)||(((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))))
- # (((boardderef29)==2202)
-46
-45
-roll
-dup
-47
-1
-roll
-2202
-sub
-not
- # )
- # ((((boardderef29)==2220)||(((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))))
- # (((boardderef29)==2220)
-47
-46
-roll
-dup
-48
-1
-roll
-2220
-sub
-not
- # )
- # ((((boardderef29)==2436)||(((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))))
- # (((boardderef29)==2436)
-48
-47
-roll
-dup
-49
-1
-roll
-2436
-sub
-not
- # )
- # ((((boardderef29)==8754)||(((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))))
- # (((boardderef29)==8754)
-49
-48
-roll
-dup
-50
-1
-roll
-8754
-sub
-not
- # )
- # ((((boardderef29)==8939)||(((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910))))
- # (((boardderef29)==8939)
-50
-49
-roll
-dup
-51
-1
-roll
-8939
-sub
-not
- # )
- # ((((boardderef29)==6987)||(((boardderef29)==9171)||((boardderef29)==8910)))
- # (((boardderef29)==6987)
-51
-50
-roll
-dup
-52
-1
-roll
-6987
-sub
-not
- # )
- # ((((boardderef29)==9171)||((boardderef29)==8910))
- # (((boardderef29)==9171)
-52
-51
-roll
-dup
-53
-1
-roll
-9171
-sub
-not
- # )
- # (((boardderef29)==8910)
-53
-52
-roll
-dup
-54
-1
-roll
-8910
-sub
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-bz.2f
-6
  # (assign to new_move
 2
 1
@@ -7518,8 +8262,8 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef31)==1210)||(((boardderef31)==205)||(((boardderef31)==421)||(((boardderef31)==1204)||(((boardderef31)==7252)||(((boardderef31)==1906)||(((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))))))))))))))
- # (((boardderef31)==1210)
+ # ((((boardderef31)==1)||(((boardderef31)==797)||(((boardderef31)==2255)||(((boardderef31)==7844)||(((boardderef31)==9302)||(((boardderef31)==32)||(((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==1)
 4
 3
 roll
@@ -7527,12 +8271,12 @@ dup
 5
 1
 roll
-1210
+1
 sub
 not
  # )
- # ((((boardderef31)==205)||(((boardderef31)==421)||(((boardderef31)==1204)||(((boardderef31)==7252)||(((boardderef31)==1906)||(((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))))))))))))))
- # (((boardderef31)==205)
+ # ((((boardderef31)==797)||(((boardderef31)==2255)||(((boardderef31)==7844)||(((boardderef31)==9302)||(((boardderef31)==32)||(((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==797)
 5
 4
 roll
@@ -7540,12 +8284,12 @@ dup
 6
 1
 roll
-205
+797
 sub
 not
  # )
- # ((((boardderef31)==421)||(((boardderef31)==1204)||(((boardderef31)==7252)||(((boardderef31)==1906)||(((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))))))))))))
- # (((boardderef31)==421)
+ # ((((boardderef31)==2255)||(((boardderef31)==7844)||(((boardderef31)==9302)||(((boardderef31)==32)||(((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==2255)
 6
 5
 roll
@@ -7553,12 +8297,12 @@ dup
 7
 1
 roll
-421
+2255
 sub
 not
  # )
- # ((((boardderef31)==1204)||(((boardderef31)==7252)||(((boardderef31)==1906)||(((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))))))))))))
- # (((boardderef31)==1204)
+ # ((((boardderef31)==7844)||(((boardderef31)==9302)||(((boardderef31)==32)||(((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==7844)
 7
 6
 roll
@@ -7566,12 +8310,12 @@ dup
 8
 1
 roll
-1204
+7844
 sub
 not
  # )
- # ((((boardderef31)==7252)||(((boardderef31)==1906)||(((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))))))))))
- # (((boardderef31)==7252)
+ # ((((boardderef31)==9302)||(((boardderef31)==32)||(((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==9302)
 8
 7
 roll
@@ -7579,12 +8323,12 @@ dup
 9
 1
 roll
-7252
+9302
 sub
 not
  # )
- # ((((boardderef31)==1906)||(((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))))))))))
- # (((boardderef31)==1906)
+ # ((((boardderef31)==32)||(((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==32)
 9
 8
 roll
@@ -7592,12 +8336,12 @@ dup
 10
 1
 roll
-1906
+32
 sub
 not
  # )
- # ((((boardderef31)==8224)||(((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))))))))
- # (((boardderef31)==8224)
+ # ((((boardderef31)==1733)||(((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==1733)
 10
 9
 roll
@@ -7605,12 +8349,12 @@ dup
 11
 1
 roll
-8224
+1733
 sub
 not
  # )
- # ((((boardderef31)==1141)||(((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))))))))
- # (((boardderef31)==1141)
+ # ((((boardderef31)==8312)||(((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==8312)
 11
 10
 roll
@@ -7618,12 +8362,12 @@ dup
 12
 1
 roll
-1141
+8312
 sub
 not
  # )
- # ((((boardderef31)==7720)||(((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))))))
- # (((boardderef31)==7720)
+ # ((((boardderef31)==734)||(((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==734)
 12
 11
 roll
@@ -7631,12 +8375,12 @@ dup
 13
 1
 roll
-7720
+734
 sub
 not
  # )
- # ((((boardderef31)==7756)||(((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))))))
- # (((boardderef31)==7756)
+ # ((((boardderef31)==2192)||(((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))))))
+ # (((boardderef31)==2192)
 13
 12
 roll
@@ -7644,12 +8388,12 @@ dup
 14
 1
 roll
-7756
+2192
 sub
 not
  # )
- # ((((boardderef31)==7459)||(((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))))
- # (((boardderef31)==7459)
+ # ((((boardderef31)==6566)||(((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))))
+ # (((boardderef31)==6566)
 14
 13
 roll
@@ -7657,12 +8401,12 @@ dup
 15
 1
 roll
-7459
+6566
 sub
 not
  # )
- # ((((boardderef31)==7502)||(((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))))
- # (((boardderef31)==7502)
+ # ((((boardderef31)==9)||(((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))))
+ # (((boardderef31)==9)
 15
 14
 roll
@@ -7670,12 +8414,12 @@ dup
 16
 1
 roll
-7502
+9
 sub
 not
  # )
- # ((((boardderef31)==86)||(((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))))
- # (((boardderef31)==86)
+ # ((((boardderef31)==38)||(((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))))
+ # (((boardderef31)==38)
 16
 15
 roll
@@ -7683,12 +8427,12 @@ dup
 17
 1
 roll
-86
+38
 sub
 not
  # )
- # ((((boardderef31)==7457)||(((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))))
- # (((boardderef31)==7457)
+ # ((((boardderef31)==272)||(((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))))
+ # (((boardderef31)==272)
 17
 16
 roll
@@ -7696,12 +8440,12 @@ dup
 18
 1
 roll
-7457
+272
 sub
 not
  # )
- # ((((boardderef31)==7718)||(((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))))
- # (((boardderef31)==7718)
+ # ((((boardderef31)==773)||(((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))))
+ # (((boardderef31)==773)
 18
 17
 roll
@@ -7709,12 +8453,12 @@ dup
 19
 1
 roll
-7718
+773
 sub
 not
  # )
- # ((((boardderef31)==1178)||(((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))))
- # (((boardderef31)==1178)
+ # ((((boardderef31)==2237)||(((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))))
+ # (((boardderef31)==2237)
 19
 18
 roll
@@ -7722,12 +8466,12 @@ dup
 20
 1
 roll
-1178
+2237
 sub
 not
  # )
- # ((((boardderef31)==7496)||(((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))))
- # (((boardderef31)==7496)
+ # ((((boardderef31)==6611)||(((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))))
+ # (((boardderef31)==6611)
 20
 19
 roll
@@ -7735,12 +8479,12 @@ dup
 21
 1
 roll
-7496
+6611
 sub
 not
  # )
- # ((((boardderef31)==7976)||(((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))))
- # (((boardderef31)==7976)
+ # ((((boardderef31)==319)||(((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))))
+ # (((boardderef31)==319)
 21
 20
 roll
@@ -7748,12 +8492,12 @@ dup
 22
 1
 roll
-7976
+319
 sub
 not
  # )
- # ((((boardderef31)==13570)||(((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))))
- # (((boardderef31)==13570)
+ # ((((boardderef31)==1045)||(((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))))
+ # (((boardderef31)==1045)
 22
 21
 roll
@@ -7761,12 +8505,12 @@ dup
 23
 1
 roll
-13570
+1045
 sub
 not
  # )
- # ((((boardderef31)==14272)||(((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))))
- # (((boardderef31)==14272)
+ # ((((boardderef31)==2503)||(((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))))
+ # (((boardderef31)==2503)
 23
 22
 roll
@@ -7774,12 +8518,12 @@ dup
 24
 1
 roll
-14272
+2503
 sub
 not
  # )
- # ((((boardderef31)==1149)||(((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))))
- # (((boardderef31)==1149)
+ # ((((boardderef31)==6877)||(((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))))
+ # (((boardderef31)==6877)
 24
 23
 roll
@@ -7787,12 +8531,12 @@ dup
 25
 1
 roll
-1149
+6877
 sub
 not
  # )
- # ((((boardderef31)==7467)||(((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))))
- # (((boardderef31)==7467)
+ # ((((boardderef31)==1047)||(((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))))
+ # (((boardderef31)==1047)
 25
 24
 roll
@@ -7800,12 +8544,12 @@ dup
 26
 1
 roll
-7467
+1047
 sub
 not
  # )
- # ((((boardderef31)==599)||(((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))))
- # (((boardderef31)==599)
+ # ((((boardderef31)==2505)||(((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))))
+ # (((boardderef31)==2505)
 26
 25
 roll
@@ -7813,12 +8557,12 @@ dup
 27
 1
 roll
-599
+2505
 sub
 not
  # )
- # ((((boardderef31)==2066)||(((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))))
- # (((boardderef31)==2066)
+ # ((((boardderef31)==8338)||(((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))))
+ # (((boardderef31)==8338)
 27
 26
 roll
@@ -7826,12 +8570,12 @@ dup
 28
 1
 roll
-2066
+8338
 sub
 not
  # )
- # ((((boardderef31)==1130)||(((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))))
- # (((boardderef31)==1130)
+ # ((((boardderef31)==288)||(((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))))
+ # (((boardderef31)==288)
 28
 27
 roll
@@ -7839,12 +8583,12 @@ dup
 29
 1
 roll
-1130
+288
 sub
 not
  # )
- # ((((boardderef31)==833)||(((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))))
- # (((boardderef31)==833)
+ # ((((boardderef31)==995)||(((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))))
+ # (((boardderef31)==995)
 29
 28
 roll
@@ -7852,12 +8596,12 @@ dup
 30
 1
 roll
-833
+995
 sub
 not
  # )
- # ((((boardderef31)==6665)||(((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))))
- # (((boardderef31)==6665)
+ # ((((boardderef31)==2453)||(((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))))
+ # (((boardderef31)==2453)
 30
 29
 roll
@@ -7865,12 +8609,12 @@ dup
 31
 1
 roll
-6665
+2453
 sub
 not
  # )
- # ((((boardderef31)==13522)||(((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))))
- # (((boardderef31)==13522)
+ # ((((boardderef31)==729)||(((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))))
+ # (((boardderef31)==729)
 31
 30
 roll
@@ -7878,12 +8622,12 @@ dup
 32
 1
 roll
-13522
+729
 sub
 not
  # )
- # ((((boardderef31)==7768)||(((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))))
- # (((boardderef31)==7768)
+ # ((((boardderef31)==3661)||(((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))))
+ # (((boardderef31)==3661)
 32
 31
 roll
@@ -7891,12 +8635,12 @@ dup
 33
 1
 roll
-7768
+3661
 sub
 not
  # )
- # ((((boardderef31)==399)||(((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))))
- # (((boardderef31)==399)
+ # ((((boardderef31)==3679)||(((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))))
+ # (((boardderef31)==3679)
 33
 32
 roll
@@ -7904,12 +8648,12 @@ dup
 34
 1
 roll
-399
+3679
 sub
 not
  # )
- # ((((boardderef31)==7770)||(((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))))
- # (((boardderef31)==7770)
+ # ((((boardderef31)==3895)||(((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))))
+ # (((boardderef31)==3895)
 34
 33
 roll
@@ -7917,12 +8661,12 @@ dup
 35
 1
 roll
-7770
+3895
 sub
 not
  # )
- # ((((boardderef31)==7481)||(((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713))))
- # (((boardderef31)==7481)
+ # ((((boardderef31)==10213)||(((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))))
+ # (((boardderef31)==10213)
 35
 34
 roll
@@ -7930,12 +8674,12 @@ dup
 36
 1
 roll
-7481
+10213
 sub
 not
  # )
- # ((((boardderef31)==7701)||(((boardderef31)==7452)||((boardderef31)==7713)))
- # (((boardderef31)==7701)
+ # ((((boardderef31)==3687)||(((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))))
+ # (((boardderef31)==3687)
 36
 35
 roll
@@ -7943,12 +8687,12 @@ dup
 37
 1
 roll
-7701
+3687
 sub
 not
  # )
- # ((((boardderef31)==7452)||((boardderef31)==7713))
- # (((boardderef31)==7452)
+ # ((((boardderef31)==17052)||(((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))))
+ # (((boardderef31)==17052)
 37
 36
 roll
@@ -7956,11 +8700,12 @@ dup
 38
 1
 roll
-7452
+17052
 sub
 not
  # )
- # (((boardderef31)==7713)
+ # ((((boardderef31)==10708)||(((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))))
+ # (((boardderef31)==10708)
 38
 37
 roll
@@ -7968,8 +8713,199 @@ dup
 39
 1
 roll
-7713
+10708
 sub
+not
+ # )
+ # ((((boardderef31)==3921)||(((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))))
+ # (((boardderef31)==3921)
+39
+38
+roll
+dup
+40
+1
+roll
+3921
+sub
+not
+ # )
+ # ((((boardderef31)==10258)||(((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))))
+ # (((boardderef31)==10258)
+40
+39
+roll
+dup
+41
+1
+roll
+10258
+sub
+not
+ # )
+ # ((((boardderef31)==10474)||(((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))))
+ # (((boardderef31)==10474)
+41
+40
+roll
+dup
+42
+1
+roll
+10474
+sub
+not
+ # )
+ # ((((boardderef31)==16108)||(((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))))
+ # (((boardderef31)==16108)
+42
+41
+roll
+dup
+43
+1
+roll
+16108
+sub
+not
+ # )
+ # ((((boardderef31)==16053)||(((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561))))
+ # (((boardderef31)==16053)
+43
+42
+roll
+dup
+44
+1
+roll
+16053
+sub
+not
+ # )
+ # ((((boardderef31)==16082)||(((boardderef31)==16298)||((boardderef31)==6561)))
+ # (((boardderef31)==16082)
+44
+43
+roll
+dup
+45
+1
+roll
+16082
+sub
+not
+ # )
+ # ((((boardderef31)==16298)||((boardderef31)==6561))
+ # (((boardderef31)==16298)
+45
+44
+roll
+dup
+46
+1
+roll
+16298
+sub
+not
+ # )
+ # (((boardderef31)==6561)
+46
+45
+roll
+dup
+47
+1
+roll
+6561
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
 not
  # )
 not
@@ -8347,7 +9283,7 @@ not
 not
  # )
 bz.2f
-7
+4
  # (assign to new_move
 2
 1
@@ -9288,8 +10224,8 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef33)==172)||(((boardderef33)==1657)||(((boardderef33)==1891)||(((boardderef33)==8209)||(((boardderef33)==406)||(((boardderef33)==955)||(((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==172)
+ # ((((boardderef33)==211)||(((boardderef33)==427)||(((boardderef33)==2668)||(((boardderef33)==7042)||(((boardderef33)==190)||(((boardderef33)==439)||(((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==211)
 4
 3
 roll
@@ -9297,12 +10233,12 @@ dup
 5
 1
 roll
-172
+211
 sub
 not
  # )
- # ((((boardderef33)==1657)||(((boardderef33)==1891)||(((boardderef33)==8209)||(((boardderef33)==406)||(((boardderef33)==955)||(((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==1657)
+ # ((((boardderef33)==427)||(((boardderef33)==2668)||(((boardderef33)==7042)||(((boardderef33)==190)||(((boardderef33)==439)||(((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==427)
 5
 4
 roll
@@ -9310,12 +10246,12 @@ dup
 6
 1
 roll
-1657
+427
 sub
 not
  # )
- # ((((boardderef33)==1891)||(((boardderef33)==8209)||(((boardderef33)==406)||(((boardderef33)==955)||(((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==1891)
+ # ((((boardderef33)==2668)||(((boardderef33)==7042)||(((boardderef33)==190)||(((boardderef33)==439)||(((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==2668)
 6
 5
 roll
@@ -9323,12 +10259,12 @@ dup
 7
 1
 roll
-1891
+2668
 sub
 not
  # )
- # ((((boardderef33)==8209)||(((boardderef33)==406)||(((boardderef33)==955)||(((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==8209)
+ # ((((boardderef33)==7042)||(((boardderef33)==190)||(((boardderef33)==439)||(((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==7042)
 7
 6
 roll
@@ -9336,12 +10272,12 @@ dup
 8
 1
 roll
-8209
+7042
 sub
 not
  # )
- # ((((boardderef33)==406)||(((boardderef33)==955)||(((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==406)
+ # ((((boardderef33)==190)||(((boardderef33)==439)||(((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==190)
 8
 7
 roll
@@ -9349,12 +10285,12 @@ dup
 9
 1
 roll
-406
+190
 sub
 not
  # )
- # ((((boardderef33)==955)||(((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==955)
+ # ((((boardderef33)==439)||(((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==439)
 9
 8
 roll
@@ -9362,12 +10298,12 @@ dup
 10
 1
 roll
-955
+439
 sub
 not
  # )
- # ((((boardderef33)==1189)||(((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==1189)
+ # ((((boardderef33)==2599)||(((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==2599)
 10
 9
 roll
@@ -9375,12 +10311,12 @@ dup
 11
 1
 roll
-1189
+2599
 sub
 not
  # )
- # ((((boardderef33)==6724)||(((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==6724)
+ # ((((boardderef33)==7018)||(((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==7018)
 11
 10
 roll
@@ -9388,12 +10324,12 @@ dup
 12
 1
 roll
-6724
+7018
 sub
 not
  # )
- # ((((boardderef33)==929)||(((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==929)
+ # ((((boardderef33)==9178)||(((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==9178)
 12
 11
 roll
@@ -9401,12 +10337,12 @@ dup
 13
 1
 roll
-929
+9178
 sub
 not
  # )
- # ((((boardderef33)==13537)||(((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==13537)
+ # ((((boardderef33)==9226)||(((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==9226)
 13
 12
 roll
@@ -9414,12 +10350,12 @@ dup
 14
 1
 roll
-13537
+9226
 sub
 not
  # )
- # ((((boardderef33)==900)||(((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==900)
+ # ((((boardderef33)==6757)||(((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==6757)
 14
 13
 roll
@@ -9427,12 +10363,12 @@ dup
 15
 1
 roll
-900
+6757
 sub
 not
  # )
- # ((((boardderef33)==15778)||(((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==15778)
+ # ((((boardderef33)==8917)||(((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==8917)
 15
 14
 roll
@@ -9440,12 +10376,12 @@ dup
 16
 1
 roll
-15778
+8917
 sub
 not
  # )
- # ((((boardderef33)==7219)||(((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==7219)
+ # ((((boardderef33)==149)||(((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==149)
 16
 15
 roll
@@ -9453,12 +10389,12 @@ dup
 17
 1
 roll
-7219
+149
 sub
 not
  # )
- # ((((boardderef33)==4250)||(((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==4250)
+ # ((((boardderef33)==311)||(((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==311)
 17
 16
 roll
@@ -9466,12 +10402,12 @@ dup
 18
 1
 roll
-4250
+311
 sub
 not
  # )
- # ((((boardderef33)==8624)||(((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==8624)
+ # ((((boardderef33)==2660)||(((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==2660)
 18
 17
 roll
@@ -9479,12 +10415,12 @@ dup
 19
 1
 roll
-8624
+2660
 sub
 not
  # )
- # ((((boardderef33)==3530)||(((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==3530)
+ # ((((boardderef33)==7196)||(((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==7196)
 19
 18
 roll
@@ -9492,12 +10428,12 @@ dup
 20
 1
 roll
-3530
+7196
 sub
 not
  # )
- # ((((boardderef33)==7904)||(((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==7904)
+ # ((((boardderef33)==2642)||(((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))))
+ # (((boardderef33)==2642)
 20
 19
 roll
@@ -9505,12 +10441,12 @@ dup
 21
 1
 roll
-7904
+2642
 sub
 not
  # )
- # ((((boardderef33)==2783)||(((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==2783)
+ # ((((boardderef33)==7016)||(((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))))
+ # (((boardderef33)==7016)
 21
 20
 roll
@@ -9518,12 +10454,12 @@ dup
 22
 1
 roll
-2783
+7016
 sub
 not
  # )
- # ((((boardderef33)==7157)||(((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==7157)
+ # ((((boardderef33)==8960)||(((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))))
+ # (((boardderef33)==8960)
 22
 21
 roll
@@ -9531,12 +10467,12 @@ dup
 23
 1
 roll
-7157
+8960
 sub
 not
  # )
- # ((((boardderef33)==1163)||(((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==1163)
+ # ((((boardderef33)==4469)||(((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))))
+ # (((boardderef33)==4469)
 23
 22
 roll
@@ -9544,12 +10480,12 @@ dup
 24
 1
 roll
-1163
+4469
 sub
 not
  # )
- # ((((boardderef33)==2621)||(((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==2621)
+ # ((((boardderef33)==4982)||(((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))))
+ # (((boardderef33)==4982)
 24
 23
 roll
@@ -9557,12 +10493,12 @@ dup
 25
 1
 roll
-2621
+4982
 sub
 not
  # )
- # ((((boardderef33)==7742)||(((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==7742)
+ # ((((boardderef33)==4766)||(((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))))
+ # (((boardderef33)==4766)
 25
 24
 roll
@@ -9570,12 +10506,12 @@ dup
 26
 1
 roll
-7742
+4766
 sub
 not
  # )
- # ((((boardderef33)==9200)||(((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==9200)
+ # ((((boardderef33)==11318)||(((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))))
+ # (((boardderef33)==11318)
 26
 25
 roll
@@ -9583,12 +10519,12 @@ dup
 27
 1
 roll
-9200
+11318
 sub
 not
  # )
- # ((((boardderef33)==758)||(((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==758)
+ # ((((boardderef33)==248)||(((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))))
+ # (((boardderef33)==248)
 27
 26
 roll
@@ -9596,12 +10532,12 @@ dup
 28
 1
 roll
-758
+248
 sub
 not
  # )
- # ((((boardderef33)==2315)||(((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==2315)
+ # ((((boardderef33)==9176)||(((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))))
+ # (((boardderef33)==9176)
 28
 27
 roll
@@ -9609,12 +10545,12 @@ dup
 29
 1
 roll
-2315
+9176
 sub
 not
  # )
- # ((((boardderef33)==2477)||(((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==2477)
+ # ((((boardderef33)==8915)||(((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))))
+ # (((boardderef33)==8915)
 29
 28
 roll
@@ -9622,12 +10558,12 @@ dup
 30
 1
 roll
-2477
+8915
 sub
 not
  # )
- # ((((boardderef33)==2963)||(((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==2963)
+ # ((((boardderef33)==7250)||(((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))))
+ # (((boardderef33)==7250)
 30
 29
 roll
@@ -9635,12 +10571,12 @@ dup
 31
 1
 roll
-2963
+7250
 sub
 not
  # )
- # ((((boardderef33)==8795)||(((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))))
- # (((boardderef33)==8795)
+ # ((((boardderef33)==9434)||(((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))))
+ # (((boardderef33)==9434)
 31
 30
 roll
@@ -9648,12 +10584,12 @@ dup
 32
 1
 roll
-8795
+9434
 sub
 not
  # )
- # ((((boardderef33)==6689)||(((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))))
- # (((boardderef33)==6689)
+ # ((((boardderef33)==605)||(((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))))
+ # (((boardderef33)==605)
 32
 31
 roll
@@ -9661,12 +10597,12 @@ dup
 33
 1
 roll
-6689
+605
 sub
 not
  # )
- # ((((boardderef33)==6851)||(((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))))
- # (((boardderef33)==6851)
+ # ((((boardderef33)==2798)||(((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))))
+ # (((boardderef33)==2798)
 33
 32
 roll
@@ -9674,12 +10610,12 @@ dup
 34
 1
 roll
-6851
+2798
 sub
 not
  # )
- # ((((boardderef33)==7337)||(((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))))
- # (((boardderef33)==7337)
+ # ((((boardderef33)==7172)||(((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))))
+ # (((boardderef33)==7172)
 34
 33
 roll
@@ -9687,12 +10623,12 @@ dup
 35
 1
 roll
-7337
+7172
 sub
 not
  # )
- # ((((boardderef33)==3314)||(((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))))
- # (((boardderef33)==3314)
+ # ((((boardderef33)==92)||(((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))))
+ # (((boardderef33)==92)
 35
 34
 roll
@@ -9700,12 +10636,12 @@ dup
 36
 1
 roll
-3314
+92
 sub
 not
  # )
- # ((((boardderef33)==7688)||(((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))))
- # (((boardderef33)==7688)
+ # ((((boardderef33)==383)||(((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))))
+ # (((boardderef33)==383)
 36
 35
 roll
@@ -9713,12 +10649,12 @@ dup
 37
 1
 roll
-7688
+383
 sub
 not
  # )
- # ((((boardderef33)==2567)||(((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))))
- # (((boardderef33)==2567)
+ # ((((boardderef33)==389)||(((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))))
+ # (((boardderef33)==389)
 37
 36
 roll
@@ -9726,12 +10662,12 @@ dup
 38
 1
 roll
-2567
+389
 sub
 not
  # )
- # ((((boardderef33)==9146)||(((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))))
- # (((boardderef33)==9146)
+ # ((((boardderef33)==2582)||(((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))))
+ # (((boardderef33)==2582)
 38
 37
 roll
@@ -9739,12 +10675,12 @@ dup
 39
 1
 roll
-9146
+2582
 sub
 not
  # )
- # ((((boardderef33)==857)||(((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))))
- # (((boardderef33)==857)
+ # ((((boardderef33)==6962)||(((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))))
+ # (((boardderef33)==6962)
 39
 38
 roll
@@ -9752,12 +10688,12 @@ dup
 40
 1
 roll
-857
+6962
 sub
 not
  # )
- # ((((boardderef33)==1073)||(((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))))
- # (((boardderef33)==1073)
+ # ((((boardderef33)==2285)||(((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))))
+ # (((boardderef33)==2285)
 40
 39
 roll
@@ -9765,12 +10701,12 @@ dup
 41
 1
 roll
-1073
+2285
 sub
 not
  # )
- # ((((boardderef33)==3017)||(((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))))
- # (((boardderef33)==3017)
+ # ((((boardderef33)==9228)||(((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))))
+ # (((boardderef33)==9228)
 41
 40
 roll
@@ -9778,12 +10714,12 @@ dup
 42
 1
 roll
-3017
+9228
 sub
 not
  # )
- # ((((boardderef33)==7391)||(((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))))
- # (((boardderef33)==7391)
+ # ((((boardderef33)==6879)||(((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))))
+ # (((boardderef33)==6879)
 42
 41
 roll
@@ -9791,12 +10727,12 @@ dup
 43
 1
 roll
-7391
+6879
 sub
 not
  # )
- # ((((boardderef33)==2270)||(((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))))
- # (((boardderef33)==2270)
+ # ((((boardderef33)==451)||(((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))))
+ # (((boardderef33)==451)
 43
 42
 roll
@@ -9804,12 +10740,12 @@ dup
 44
 1
 roll
-2270
+451
 sub
 not
  # )
- # ((((boardderef33)==6905)||(((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))))
- # (((boardderef33)==6905)
+ # ((((boardderef33)==6827)||(((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))))
+ # (((boardderef33)==6827)
 44
 43
 roll
@@ -9817,12 +10753,12 @@ dup
 45
 1
 roll
-6905
+6827
 sub
 not
  # )
- # ((((boardderef33)==8849)||(((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))))
- # (((boardderef33)==8849)
+ # ((((boardderef33)==2194)||(((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))))
+ # (((boardderef33)==2194)
 45
 44
 roll
@@ -9830,12 +10766,12 @@ dup
 46
 1
 roll
-8849
+2194
 sub
 not
  # )
- # ((((boardderef33)==14248)||(((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))))
- # (((boardderef33)==14248)
+ # ((((boardderef33)==2202)||(((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))))
+ # (((boardderef33)==2202)
 46
 45
 roll
@@ -9843,12 +10779,12 @@ dup
 47
 1
 roll
-14248
+2202
 sub
 not
  # )
- # ((((boardderef33)==15706)||(((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))))
- # (((boardderef33)==15706)
+ # ((((boardderef33)==2220)||(((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))))
+ # (((boardderef33)==2220)
 47
 46
 roll
@@ -9856,12 +10792,12 @@ dup
 48
 1
 roll
-15706
+2220
 sub
 not
  # )
- # ((((boardderef33)==3368)||(((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))))
- # (((boardderef33)==3368)
+ # ((((boardderef33)==2436)||(((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))))
+ # (((boardderef33)==2436)
 48
 47
 roll
@@ -9869,12 +10805,12 @@ dup
 49
 1
 roll
-3368
+2436
 sub
 not
  # )
- # ((((boardderef33)==2583)||(((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))))
- # (((boardderef33)==2583)
+ # ((((boardderef33)==8754)||(((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))))
+ # (((boardderef33)==8754)
 49
 48
 roll
@@ -9882,12 +10818,12 @@ dup
 50
 1
 roll
-2583
+8754
 sub
 not
  # )
- # ((((boardderef33)==1019)||(((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))))
- # (((boardderef33)==1019)
+ # ((((boardderef33)==8939)||(((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910))))
+ # (((boardderef33)==8939)
 50
 49
 roll
@@ -9895,12 +10831,12 @@ dup
 51
 1
 roll
-1019
+8939
 sub
 not
  # )
- # ((((boardderef33)==3179)||(((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))))
- # (((boardderef33)==3179)
+ # ((((boardderef33)==6987)||(((boardderef33)==9171)||((boardderef33)==8910)))
+ # (((boardderef33)==6987)
 51
 50
 roll
@@ -9908,12 +10844,12 @@ dup
 52
 1
 roll
-3179
+6987
 sub
 not
  # )
- # ((((boardderef33)==7553)||(((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))))
- # (((boardderef33)==7553)
+ # ((((boardderef33)==9171)||((boardderef33)==8910))
+ # (((boardderef33)==9171)
 52
 51
 roll
@@ -9921,12 +10857,11 @@ dup
 53
 1
 roll
-7553
+9171
 sub
 not
  # )
- # ((((boardderef33)==2531)||(((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))))
- # (((boardderef33)==2531)
+ # (((boardderef33)==8910)
 53
 52
 roll
@@ -9934,319 +10869,8 @@ dup
 54
 1
 roll
-2531
+8910
 sub
-not
- # )
- # ((((boardderef33)==9011)||(((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))))
- # (((boardderef33)==9011)
-54
-53
-roll
-dup
-55
-1
-roll
-9011
-sub
-not
- # )
- # ((((boardderef33)==11864)||(((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))))
- # (((boardderef33)==11864)
-55
-54
-roll
-dup
-56
-1
-roll
-11864
-sub
-not
- # )
- # ((((boardderef33)==12098)||(((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))))
- # (((boardderef33)==12098)
-56
-55
-roll
-dup
-57
-1
-roll
-12098
-sub
-not
- # )
- # ((((boardderef33)==1134)||(((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))))
- # (((boardderef33)==1134)
-57
-56
-roll
-dup
-58
-1
-roll
-1134
-sub
-not
- # )
- # ((((boardderef33)==16498)||(((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))))
- # (((boardderef33)==16498)
-58
-57
-roll
-dup
-59
-1
-roll
-16498
-sub
-not
- # )
- # ((((boardderef33)==11827)||(((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))))
- # (((boardderef33)==11827)
-59
-58
-roll
-dup
-60
-1
-roll
-11827
-sub
-not
- # )
- # ((((boardderef33)==11835)||(((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))))
- # (((boardderef33)==11835)
-60
-59
-roll
-dup
-61
-1
-roll
-11835
-sub
-not
- # )
- # ((((boardderef33)==11853)||(((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))))
- # (((boardderef33)==11853)
-61
-60
-roll
-dup
-62
-1
-roll
-11853
-sub
-not
- # )
- # ((((boardderef33)==12069)||(((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))))
- # (((boardderef33)==12069)
-62
-61
-roll
-dup
-63
-1
-roll
-12069
-sub
-not
- # )
- # ((((boardderef33)==2187)||(((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114))))
- # (((boardderef33)==2187)
-63
-62
-roll
-dup
-64
-1
-roll
-2187
-sub
-not
- # )
- # ((((boardderef33)==6985)||(((boardderef33)==12088)||((boardderef33)==12114)))
- # (((boardderef33)==6985)
-64
-63
-roll
-dup
-65
-1
-roll
-6985
-sub
-not
- # )
- # ((((boardderef33)==12088)||((boardderef33)==12114))
- # (((boardderef33)==12088)
-65
-64
-roll
-dup
-66
-1
-roll
-12088
-sub
-not
- # )
- # (((boardderef33)==12114)
-66
-65
-roll
-dup
-67
-1
-roll
-12114
-sub
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
 not
  # )
 not
@@ -10789,7 +11413,7 @@ not
 not
  # )
 bz.2f
-1
+6
  # (assign to new_move
 2
 1
@@ -10797,8 +11421,845 @@ roll
 pop
  # ) 
 2:
- # ((((boardderef34)==2662)||(((boardderef34)==4066)||(((boardderef34)==3382)||(((boardderef34)==3394)||(((boardderef34)==1202)||(((boardderef34)==203)||(((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))))))))))))))
- # (((boardderef34)==2662)
+ # ((((boardderef34)==1210)||(((boardderef34)==205)||(((boardderef34)==421)||(((boardderef34)==1204)||(((boardderef34)==7252)||(((boardderef34)==1906)||(((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))))))))))))))
+ # (((boardderef34)==1210)
+4
+3
+roll
+dup
+5
+1
+roll
+1210
+sub
+not
+ # )
+ # ((((boardderef34)==205)||(((boardderef34)==421)||(((boardderef34)==1204)||(((boardderef34)==7252)||(((boardderef34)==1906)||(((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))))))))))))))
+ # (((boardderef34)==205)
+5
+4
+roll
+dup
+6
+1
+roll
+205
+sub
+not
+ # )
+ # ((((boardderef34)==421)||(((boardderef34)==1204)||(((boardderef34)==7252)||(((boardderef34)==1906)||(((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))))))))))))
+ # (((boardderef34)==421)
+6
+5
+roll
+dup
+7
+1
+roll
+421
+sub
+not
+ # )
+ # ((((boardderef34)==1204)||(((boardderef34)==7252)||(((boardderef34)==1906)||(((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))))))))))))
+ # (((boardderef34)==1204)
+7
+6
+roll
+dup
+8
+1
+roll
+1204
+sub
+not
+ # )
+ # ((((boardderef34)==7252)||(((boardderef34)==1906)||(((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))))))))))
+ # (((boardderef34)==7252)
+8
+7
+roll
+dup
+9
+1
+roll
+7252
+sub
+not
+ # )
+ # ((((boardderef34)==1906)||(((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))))))))))
+ # (((boardderef34)==1906)
+9
+8
+roll
+dup
+10
+1
+roll
+1906
+sub
+not
+ # )
+ # ((((boardderef34)==8224)||(((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))))))))
+ # (((boardderef34)==8224)
+10
+9
+roll
+dup
+11
+1
+roll
+8224
+sub
+not
+ # )
+ # ((((boardderef34)==1141)||(((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))))))))
+ # (((boardderef34)==1141)
+11
+10
+roll
+dup
+12
+1
+roll
+1141
+sub
+not
+ # )
+ # ((((boardderef34)==7720)||(((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))))))
+ # (((boardderef34)==7720)
+12
+11
+roll
+dup
+13
+1
+roll
+7720
+sub
+not
+ # )
+ # ((((boardderef34)==7756)||(((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))))))
+ # (((boardderef34)==7756)
+13
+12
+roll
+dup
+14
+1
+roll
+7756
+sub
+not
+ # )
+ # ((((boardderef34)==7459)||(((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))))
+ # (((boardderef34)==7459)
+14
+13
+roll
+dup
+15
+1
+roll
+7459
+sub
+not
+ # )
+ # ((((boardderef34)==7502)||(((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))))
+ # (((boardderef34)==7502)
+15
+14
+roll
+dup
+16
+1
+roll
+7502
+sub
+not
+ # )
+ # ((((boardderef34)==86)||(((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))))
+ # (((boardderef34)==86)
+16
+15
+roll
+dup
+17
+1
+roll
+86
+sub
+not
+ # )
+ # ((((boardderef34)==7457)||(((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))))
+ # (((boardderef34)==7457)
+17
+16
+roll
+dup
+18
+1
+roll
+7457
+sub
+not
+ # )
+ # ((((boardderef34)==7718)||(((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))))
+ # (((boardderef34)==7718)
+18
+17
+roll
+dup
+19
+1
+roll
+7718
+sub
+not
+ # )
+ # ((((boardderef34)==1178)||(((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))))
+ # (((boardderef34)==1178)
+19
+18
+roll
+dup
+20
+1
+roll
+1178
+sub
+not
+ # )
+ # ((((boardderef34)==7496)||(((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))))
+ # (((boardderef34)==7496)
+20
+19
+roll
+dup
+21
+1
+roll
+7496
+sub
+not
+ # )
+ # ((((boardderef34)==7976)||(((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))))
+ # (((boardderef34)==7976)
+21
+20
+roll
+dup
+22
+1
+roll
+7976
+sub
+not
+ # )
+ # ((((boardderef34)==13570)||(((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))))
+ # (((boardderef34)==13570)
+22
+21
+roll
+dup
+23
+1
+roll
+13570
+sub
+not
+ # )
+ # ((((boardderef34)==14272)||(((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))))
+ # (((boardderef34)==14272)
+23
+22
+roll
+dup
+24
+1
+roll
+14272
+sub
+not
+ # )
+ # ((((boardderef34)==1149)||(((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))))
+ # (((boardderef34)==1149)
+24
+23
+roll
+dup
+25
+1
+roll
+1149
+sub
+not
+ # )
+ # ((((boardderef34)==7467)||(((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))))
+ # (((boardderef34)==7467)
+25
+24
+roll
+dup
+26
+1
+roll
+7467
+sub
+not
+ # )
+ # ((((boardderef34)==599)||(((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))))
+ # (((boardderef34)==599)
+26
+25
+roll
+dup
+27
+1
+roll
+599
+sub
+not
+ # )
+ # ((((boardderef34)==2066)||(((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))))
+ # (((boardderef34)==2066)
+27
+26
+roll
+dup
+28
+1
+roll
+2066
+sub
+not
+ # )
+ # ((((boardderef34)==1130)||(((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))))
+ # (((boardderef34)==1130)
+28
+27
+roll
+dup
+29
+1
+roll
+1130
+sub
+not
+ # )
+ # ((((boardderef34)==833)||(((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))))
+ # (((boardderef34)==833)
+29
+28
+roll
+dup
+30
+1
+roll
+833
+sub
+not
+ # )
+ # ((((boardderef34)==6665)||(((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))))
+ # (((boardderef34)==6665)
+30
+29
+roll
+dup
+31
+1
+roll
+6665
+sub
+not
+ # )
+ # ((((boardderef34)==13522)||(((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))))
+ # (((boardderef34)==13522)
+31
+30
+roll
+dup
+32
+1
+roll
+13522
+sub
+not
+ # )
+ # ((((boardderef34)==7768)||(((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))))
+ # (((boardderef34)==7768)
+32
+31
+roll
+dup
+33
+1
+roll
+7768
+sub
+not
+ # )
+ # ((((boardderef34)==399)||(((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))))
+ # (((boardderef34)==399)
+33
+32
+roll
+dup
+34
+1
+roll
+399
+sub
+not
+ # )
+ # ((((boardderef34)==7770)||(((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))))
+ # (((boardderef34)==7770)
+34
+33
+roll
+dup
+35
+1
+roll
+7770
+sub
+not
+ # )
+ # ((((boardderef34)==7481)||(((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713))))
+ # (((boardderef34)==7481)
+35
+34
+roll
+dup
+36
+1
+roll
+7481
+sub
+not
+ # )
+ # ((((boardderef34)==7701)||(((boardderef34)==7452)||((boardderef34)==7713)))
+ # (((boardderef34)==7701)
+36
+35
+roll
+dup
+37
+1
+roll
+7701
+sub
+not
+ # )
+ # ((((boardderef34)==7452)||((boardderef34)==7713))
+ # (((boardderef34)==7452)
+37
+36
+roll
+dup
+38
+1
+roll
+7452
+sub
+not
+ # )
+ # (((boardderef34)==7713)
+38
+37
+roll
+dup
+39
+1
+roll
+7713
+sub
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+not
+not
+2
+1
+roll
+not
+not
+add
+not
+not
+ # )
+bz.2f
+7
+ # (assign to new_move
+2
+1
+roll
+pop
+ # ) 
+2:
+ # ((((boardderef35)==2662)||(((boardderef35)==4066)||(((boardderef35)==3382)||(((boardderef35)==3394)||(((boardderef35)==1202)||(((boardderef35)==203)||(((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))))))))))))))
+ # (((boardderef35)==2662)
 4
 3
 roll
@@ -10810,8 +12271,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==4066)||(((boardderef34)==3382)||(((boardderef34)==3394)||(((boardderef34)==1202)||(((boardderef34)==203)||(((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))))))))))))))
- # (((boardderef34)==4066)
+ # ((((boardderef35)==4066)||(((boardderef35)==3382)||(((boardderef35)==3394)||(((boardderef35)==1202)||(((boardderef35)==203)||(((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))))))))))))))
+ # (((boardderef35)==4066)
 5
 4
 roll
@@ -10823,8 +12284,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3382)||(((boardderef34)==3394)||(((boardderef34)==1202)||(((boardderef34)==203)||(((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))))))))))))
- # (((boardderef34)==3382)
+ # ((((boardderef35)==3382)||(((boardderef35)==3394)||(((boardderef35)==1202)||(((boardderef35)==203)||(((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))))))))))))
+ # (((boardderef35)==3382)
 6
 5
 roll
@@ -10836,8 +12297,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3394)||(((boardderef34)==1202)||(((boardderef34)==203)||(((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))))))))))))
- # (((boardderef34)==3394)
+ # ((((boardderef35)==3394)||(((boardderef35)==1202)||(((boardderef35)==203)||(((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))))))))))))
+ # (((boardderef35)==3394)
 7
 6
 roll
@@ -10849,8 +12310,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==1202)||(((boardderef34)==203)||(((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))))))))))
- # (((boardderef34)==1202)
+ # ((((boardderef35)==1202)||(((boardderef35)==203)||(((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))))))))))
+ # (((boardderef35)==1202)
 8
 7
 roll
@@ -10862,8 +12323,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==203)||(((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))))))))))
- # (((boardderef34)==203)
+ # ((((boardderef35)==203)||(((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))))))))))
+ # (((boardderef35)==203)
 9
 8
 roll
@@ -10875,8 +12336,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==1184)||(((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))))))))
- # (((boardderef34)==1184)
+ # ((((boardderef35)==1184)||(((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))))))))
+ # (((boardderef35)==1184)
 10
 9
 roll
@@ -10888,8 +12349,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==923)||(((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))))))))
- # (((boardderef34)==923)
+ # ((((boardderef35)==923)||(((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))))))))
+ # (((boardderef35)==923)
 11
 10
 roll
@@ -10901,8 +12362,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3128)||(((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))))))
- # (((boardderef34)==3128)
+ # ((((boardderef35)==3128)||(((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))))))
+ # (((boardderef35)==3128)
 12
 11
 roll
@@ -10914,8 +12375,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==5954)||(((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))))))
- # (((boardderef34)==5954)
+ # ((((boardderef35)==5954)||(((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))))))
+ # (((boardderef35)==5954)
 13
 12
 roll
@@ -10927,8 +12388,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==1904)||(((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))))
- # (((boardderef34)==1904)
+ # ((((boardderef35)==1904)||(((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))))
+ # (((boardderef35)==1904)
 14
 13
 roll
@@ -10940,8 +12401,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==1139)||(((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))))
- # (((boardderef34)==1139)
+ # ((((boardderef35)==1139)||(((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))))
+ # (((boardderef35)==1139)
 15
 14
 roll
@@ -10953,8 +12414,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3083)||(((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))))
- # (((boardderef34)==3083)
+ # ((((boardderef35)==3083)||(((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))))
+ # (((boardderef35)==3083)
 16
 15
 roll
@@ -10966,8 +12427,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3344)||(((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))))
- # (((boardderef34)==3344)
+ # ((((boardderef35)==3344)||(((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))))
+ # (((boardderef35)==3344)
 17
 16
 roll
@@ -10979,8 +12440,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==419)||(((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))))
- # (((boardderef34)==419)
+ # ((((boardderef35)==419)||(((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))))
+ # (((boardderef35)==419)
 18
 17
 roll
@@ -10992,8 +12453,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==443)||(((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))))
- # (((boardderef34)==443)
+ # ((((boardderef35)==443)||(((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))))
+ # (((boardderef35)==443)
 19
 18
 roll
@@ -11005,8 +12466,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3122)||(((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))))
- # (((boardderef34)==3122)
+ # ((((boardderef35)==3122)||(((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))))
+ # (((boardderef35)==3122)
 20
 19
 roll
@@ -11018,8 +12479,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==2387)||(((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))))
- # (((boardderef34)==2387)
+ # ((((boardderef35)==2387)||(((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))))
+ # (((boardderef35)==2387)
 21
 20
 roll
@@ -11031,8 +12492,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==414)||(((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))))
- # (((boardderef34)==414)
+ # ((((boardderef35)==414)||(((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))))
+ # (((boardderef35)==414)
 22
 21
 roll
@@ -11044,8 +12505,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3093)||(((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))))
- # (((boardderef34)==3093)
+ # ((((boardderef35)==3093)||(((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))))
+ # (((boardderef35)==3093)
 23
 22
 roll
@@ -11057,8 +12518,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==2655)||(((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))))
- # (((boardderef34)==2655)
+ # ((((boardderef35)==2655)||(((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))))
+ # (((boardderef35)==2655)
 24
 23
 roll
@@ -11070,8 +12531,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==1346)||(((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))))
- # (((boardderef34)==1346)
+ # ((((boardderef35)==1346)||(((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))))
+ # (((boardderef35)==1346)
 25
 24
 roll
@@ -11083,8 +12544,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==2636)||(((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))))
- # (((boardderef34)==2636)
+ # ((((boardderef35)==2636)||(((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))))
+ # (((boardderef35)==2636)
 26
 25
 roll
@@ -11096,8 +12557,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==397)||(((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))))
- # (((boardderef34)==397)
+ # ((((boardderef35)==397)||(((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))))
+ # (((boardderef35)==397)
 27
 26
 roll
@@ -11109,8 +12570,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==4774)||(((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))))
- # (((boardderef34)==4774)
+ # ((((boardderef35)==4774)||(((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))))
+ # (((boardderef35)==4774)
 28
 27
 roll
@@ -11122,8 +12583,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3396)||(((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))))
- # (((boardderef34)==3396)
+ # ((((boardderef35)==3396)||(((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))))
+ # (((boardderef35)==3396)
 29
 28
 roll
@@ -11135,8 +12596,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==2590)||(((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))))
- # (((boardderef34)==2590)
+ # ((((boardderef35)==2590)||(((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))))
+ # (((boardderef35)==2590)
 30
 29
 roll
@@ -11148,8 +12609,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3107)||(((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))))
- # (((boardderef34)==3107)
+ # ((((boardderef35)==3107)||(((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))))
+ # (((boardderef35)==3107)
 31
 30
 roll
@@ -11161,8 +12622,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3327)||(((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))))
- # (((boardderef34)==3327)
+ # ((((boardderef35)==3327)||(((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))))
+ # (((boardderef35)==3327)
 32
 31
 roll
@@ -11174,8 +12635,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3078)||(((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))))
- # (((boardderef34)==3078)
+ # ((((boardderef35)==3078)||(((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))))
+ # (((boardderef35)==3078)
 33
 32
 roll
@@ -11187,8 +12648,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3733)||(((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))))
- # (((boardderef34)==3733)
+ # ((((boardderef35)==3733)||(((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))))
+ # (((boardderef35)==3733)
 34
 33
 roll
@@ -11200,8 +12661,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==4092)||(((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))))
- # (((boardderef34)==4092)
+ # ((((boardderef35)==4092)||(((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))))
+ # (((boardderef35)==4092)
 35
 34
 roll
@@ -11213,8 +12674,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==3903)||(((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922))))
- # (((boardderef34)==3903)
+ # ((((boardderef35)==3903)||(((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922))))
+ # (((boardderef35)==3903)
 36
 35
 roll
@@ -11226,8 +12687,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==4246)||(((boardderef34)==4030)||((boardderef34)==2922)))
- # (((boardderef34)==4246)
+ # ((((boardderef35)==4246)||(((boardderef35)==4030)||((boardderef35)==2922)))
+ # (((boardderef35)==4246)
 37
 36
 roll
@@ -11239,8 +12700,8 @@ roll
 sub
 not
  # )
- # ((((boardderef34)==4030)||((boardderef34)==2922))
- # (((boardderef34)==4030)
+ # ((((boardderef35)==4030)||((boardderef35)==2922))
+ # (((boardderef35)==4030)
 38
 37
 roll
@@ -11252,7 +12713,7 @@ roll
 sub
 not
  # )
- # (((boardderef34)==2922)
+ # (((boardderef35)==2922)
 39
 38
 roll
@@ -11651,1467 +13112,6 @@ not
  # )
 bz.2f
 8
- # (assign to new_move
-2
-1
-roll
-pop
- # ) 
-2:
- # ((((boardderef35)==3)||(((boardderef35)==174)||(((boardderef35)==198)||(((boardderef35)==13539)||(((boardderef35)==13563)||(((boardderef35)==14265)||(((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==3)
-4
-3
-roll
-dup
-5
-1
-roll
-3
-sub
-not
- # )
- # ((((boardderef35)==174)||(((boardderef35)==198)||(((boardderef35)==13539)||(((boardderef35)==13563)||(((boardderef35)==14265)||(((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==174)
-5
-4
-roll
-dup
-6
-1
-roll
-174
-sub
-not
- # )
- # ((((boardderef35)==198)||(((boardderef35)==13539)||(((boardderef35)==13563)||(((boardderef35)==14265)||(((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==198)
-6
-5
-roll
-dup
-7
-1
-roll
-198
-sub
-not
- # )
- # ((((boardderef35)==13539)||(((boardderef35)==13563)||(((boardderef35)==14265)||(((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==13539)
-7
-6
-roll
-dup
-8
-1
-roll
-13539
-sub
-not
- # )
- # ((((boardderef35)==13563)||(((boardderef35)==14265)||(((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==13563)
-8
-7
-roll
-dup
-9
-1
-roll
-13563
-sub
-not
- # )
- # ((((boardderef35)==14265)||(((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==14265)
-9
-8
-roll
-dup
-10
-1
-roll
-14265
-sub
-not
- # )
- # ((((boardderef35)==15723)||(((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==15723)
-10
-9
-roll
-dup
-11
-1
-roll
-15723
-sub
-not
- # )
- # ((((boardderef35)==933)||(((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==933)
-11
-10
-roll
-dup
-12
-1
-roll
-933
-sub
-not
- # )
- # ((((boardderef35)==16242)||(((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==16242)
-12
-11
-roll
-dup
-13
-1
-roll
-16242
-sub
-not
- # )
- # ((((boardderef35)==16458)||(((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==16458)
-13
-12
-roll
-dup
-14
-1
-roll
-16458
-sub
-not
- # )
- # ((((boardderef35)==2415)||(((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==2415)
-14
-13
-roll
-dup
-15
-1
-roll
-2415
-sub
-not
- # )
- # ((((boardderef35)==15780)||(((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==15780)
-15
-14
-roll
-dup
-16
-1
-roll
-15780
-sub
-not
- # )
- # ((((boardderef35)==16506)||(((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==16506)
-16
-15
-roll
-dup
-17
-1
-roll
-16506
-sub
-not
- # )
- # ((((boardderef35)==7245)||(((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==7245)
-17
-16
-roll
-dup
-18
-1
-roll
-7245
-sub
-not
- # )
- # ((((boardderef35)==27)||(((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==27)
-18
-17
-roll
-dup
-19
-1
-roll
-27
-sub
-not
- # )
- # ((((boardderef35)==81)||(((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==81)
-19
-18
-roll
-dup
-20
-1
-roll
-81
-sub
-not
- # )
- # ((((boardderef35)==5502)||(((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==5502)
-20
-19
-roll
-dup
-21
-1
-roll
-5502
-sub
-not
- # )
- # ((((boardderef35)==11334)||(((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==11334)
-21
-20
-roll
-dup
-22
-1
-roll
-11334
-sub
-not
- # )
- # ((((boardderef35)==8418)||(((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==8418)
-22
-21
-roll
-dup
-23
-1
-roll
-8418
-sub
-not
- # )
- # ((((boardderef35)==10524)||(((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==10524)
-23
-22
-roll
-dup
-24
-1
-roll
-10524
-sub
-not
- # )
- # ((((boardderef35)==453)||(((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==453)
-24
-23
-roll
-dup
-25
-1
-roll
-453
-sub
-not
- # )
- # ((((boardderef35)==1179)||(((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==1179)
-25
-24
-roll
-dup
-26
-1
-roll
-1179
-sub
-not
- # )
- # ((((boardderef35)==2637)||(((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==2637)
-26
-25
-roll
-dup
-27
-1
-roll
-2637
-sub
-not
- # )
- # ((((boardderef35)==7011)||(((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==7011)
-27
-26
-roll
-dup
-28
-1
-roll
-7011
-sub
-not
- # )
- # ((((boardderef35)==1125)||(((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==1125)
-28
-27
-roll
-dup
-29
-1
-roll
-1125
-sub
-not
- # )
- # ((((boardderef35)==3318)||(((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))))
- # (((boardderef35)==3318)
-29
-28
-roll
-dup
-30
-1
-roll
-3318
-sub
-not
- # )
- # ((((boardderef35)==9150)||(((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))))
- # (((boardderef35)==9150)
-30
-29
-roll
-dup
-31
-1
-roll
-9150
-sub
-not
- # )
- # ((((boardderef35)==6957)||(((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))))
- # (((boardderef35)==6957)
-31
-30
-roll
-dup
-32
-1
-roll
-6957
-sub
-not
- # )
- # ((((boardderef35)==990)||(((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))))
- # (((boardderef35)==990)
-32
-31
-roll
-dup
-33
-1
-roll
-990
-sub
-not
- # )
- # ((((boardderef35)==2448)||(((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))))
- # (((boardderef35)==2448)
-33
-32
-roll
-dup
-34
-1
-roll
-2448
-sub
-not
- # )
- # ((((boardderef35)==6822)||(((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))))
- # (((boardderef35)==6822)
-34
-33
-roll
-dup
-35
-1
-roll
-6822
-sub
-not
- # )
- # ((((boardderef35)==894)||(((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))))
- # (((boardderef35)==894)
-35
-34
-roll
-dup
-36
-1
-roll
-894
-sub
-not
- # )
- # ((((boardderef35)==918)||(((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))))
- # (((boardderef35)==918)
-36
-35
-roll
-dup
-37
-1
-roll
-918
-sub
-not
- # )
- # ((((boardderef35)==1167)||(((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))))
- # (((boardderef35)==1167)
-37
-36
-roll
-dup
-38
-1
-roll
-1167
-sub
-not
- # )
- # ((((boardderef35)==16476)||(((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))))
- # (((boardderef35)==16476)
-38
-37
-roll
-dup
-39
-1
-roll
-16476
-sub
-not
- # )
- # ((((boardderef35)==16203)||(((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))))
- # (((boardderef35)==16203)
-39
-38
-roll
-dup
-40
-1
-roll
-16203
-sub
-not
- # )
- # ((((boardderef35)==16209)||(((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))))
- # (((boardderef35)==16209)
-40
-39
-roll
-dup
-41
-1
-roll
-16209
-sub
-not
- # )
- # ((((boardderef35)==16227)||(((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))))
- # (((boardderef35)==16227)
-41
-40
-roll
-dup
-42
-1
-roll
-16227
-sub
-not
- # )
- # ((((boardderef35)==16443)||(((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))))
- # (((boardderef35)==16443)
-42
-41
-roll
-dup
-43
-1
-roll
-16443
-sub
-not
- # )
- # ((((boardderef35)==11829)||(((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))))
- # (((boardderef35)==11829)
-43
-42
-roll
-dup
-44
-1
-roll
-11829
-sub
-not
- # )
- # ((((boardderef35)==3741)||(((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))))
- # (((boardderef35)==3741)
-44
-43
-roll
-dup
-45
-1
-roll
-3741
-sub
-not
- # )
- # ((((boardderef35)==10734)||(((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))))
- # (((boardderef35)==10734)
-45
-44
-roll
-dup
-46
-1
-roll
-10734
-sub
-not
- # )
- # ((((boardderef35)==10788)||(((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))))
- # (((boardderef35)==10788)
-46
-45
-roll
-dup
-47
-1
-roll
-10788
-sub
-not
- # )
- # ((((boardderef35)==4254)||(((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))))
- # (((boardderef35)==4254)
-47
-46
-roll
-dup
-48
-1
-roll
-4254
-sub
-not
- # )
- # ((((boardderef35)==10806)||(((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))))
- # (((boardderef35)==10806)
-48
-47
-roll
-dup
-49
-1
-roll
-10806
-sub
-not
- # )
- # ((((boardderef35)==10338)||(((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))))
- # (((boardderef35)==10338)
-49
-48
-roll
-dup
-50
-1
-roll
-10338
-sub
-not
- # )
- # ((((boardderef35)==10500)||(((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))))
- # (((boardderef35)==10500)
-50
-49
-roll
-dup
-51
-1
-roll
-10500
-sub
-not
- # )
- # ((((boardderef35)==2274)||(((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))))
- # (((boardderef35)==2274)
-51
-50
-roll
-dup
-52
-1
-roll
-2274
-sub
-not
- # )
- # ((((boardderef35)==4038)||(((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))))
- # (((boardderef35)==4038)
-52
-51
-roll
-dup
-53
-1
-roll
-4038
-sub
-not
- # )
- # ((((boardderef35)==10590)||(((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))))
- # (((boardderef35)==10590)
-53
-52
-roll
-dup
-54
-1
-roll
-10590
-sub
-not
- # )
- # ((((boardderef35)==10554)||(((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))))
- # (((boardderef35)==10554)
-54
-53
-roll
-dup
-55
-1
-roll
-10554
-sub
-not
- # )
- # ((((boardderef35)==16071)||(((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))))
- # (((boardderef35)==16071)
-55
-54
-roll
-dup
-56
-1
-roll
-16071
-sub
-not
- # )
- # ((((boardderef35)==16170)||(((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))))
- # (((boardderef35)==16170)
-56
-55
-roll
-dup
-57
-1
-roll
-16170
-sub
-not
- # )
- # ((((boardderef35)==16386)||(((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))))
- # (((boardderef35)==16386)
-57
-56
-roll
-dup
-58
-1
-roll
-16386
-sub
-not
- # )
- # ((((boardderef35)==16287)||(((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))))
- # (((boardderef35)==16287)
-58
-57
-roll
-dup
-59
-1
-roll
-16287
-sub
-not
- # )
- # ((((boardderef35)==10293)||(((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))))
- # (((boardderef35)==10293)
-59
-58
-roll
-dup
-60
-1
-roll
-10293
-sub
-not
- # )
- # ((((boardderef35)==6726)||(((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))))
- # (((boardderef35)==6726)
-60
-59
-roll
-dup
-61
-1
-roll
-6726
-sub
-not
- # )
- # ((((boardderef35)==6750)||(((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890))))
- # (((boardderef35)==6750)
-61
-60
-roll
-dup
-62
-1
-roll
-6750
-sub
-not
- # )
- # ((((boardderef35)==12090)||(((boardderef35)==10371)||((boardderef35)==10890)))
- # (((boardderef35)==12090)
-62
-61
-roll
-dup
-63
-1
-roll
-12090
-sub
-not
- # )
- # ((((boardderef35)==10371)||((boardderef35)==10890))
- # (((boardderef35)==10371)
-63
-62
-roll
-dup
-64
-1
-roll
-10371
-sub
-not
- # )
- # (((boardderef35)==10890)
-64
-63
-roll
-dup
-65
-1
-roll
-10890
-sub
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-not
-not
-2
-1
-roll
-not
-not
-add
-not
-not
- # )
-bz.2f
-0
  # (assign to new_move
 2
 1

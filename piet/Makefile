@@ -1,5 +1,8 @@
 all: tic-tac-toe npiet
 
+clean:
+	rm bin/npiet tic-tac-toe.asm tic-tac-toe.pnm tic-tac-toe.png
+
 npiet: bin/npiet.c
 	cc -o bin/npiet bin/npiet.c
 
