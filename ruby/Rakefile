@@ -1,3 +1,4 @@
+require 'erubis'
 require 'set'
 require 'rake'
 require 'rspec'
@@ -17,68 +18,24 @@ RSpec::Core::RakeTask.new(:spec_coverage) do |t|
   SimpleCov.start
 end
 
-
 RSpec::Core::RakeTask.new(:spec_all_coverage) do |t|
   SimpleCov.start
 end
 
-desc "Generates piet scripts"
-task :generates_piet_scripts do
+desc "Generates piet script"
+task :generates_piet_script do
+  template = Erubis::Eruby.new(File.read("views/get_computer_move.erb"))
+
   computer = UnbeatableTicTacToe.new(Game::COMPUTER)
   human    = PlaysAllPossibleMoves.new(Game::HUMAN)
 
-  def output_script(filename, method_name, game)
-    File.open(filename, "w") do |file|
-      file.puts <<-EOF
-      #{method_name}(board)
-      {
-        new_move=99;
-      EOF
+  computer_goes_first = SavesResults.new(computer, human, 1)
+  computer_goes_first.play
 
-      game.results.sort_by { |move, boards| move }.each do |move, boards|
-        boards = boards.uniq.map { |board| "(board == #{board})" }.join(" || ")
-        file.puts "        if (#{boards}) { new_move = #{move}; }"
-      end
+  human_goes_first = SavesResults.new(human, computer, 2)
+  human_goes_first.play
 
-      file.puts <<-EOF
+  combined_results = computer_goes_first.results.merge(human_goes_first.results) { |move, computer_boards, human_boards| computer_boards | human_boards }
 
-        if (new_move == 99)
-        {
-          asm { @"No move available\\r\\n" }
-          while (1)
-          {
-          }
-        }
-
-        return new_move;
-      }
-      EOF
-    end
-  end
-
-  game = SavesResults.new(computer, human, 1)
-  game.play
-  output_script("../piet/goes_first.script", "get_computer_move_going_first", game)
-
-  game = SavesResults.new(human, computer, 2)
-  game.play
-  output_script("../piet/goes_last.script", "get_computer_move_going_last", game)
-end
-
-desc "Generates yaml files"
-task :generates_yaml_files do
-  computer = UnbeatableTicTacToe.new(Game::COMPUTER)
-  human    = PlaysAllPossibleMoves.new(Game::HUMAN)
-
-  def output_yaml(file, game)
-    File.write(file, game.results.to_yaml)
-  end
-
-  game = SavesResults.new(computer, human, 1)
-  game.play
-  output_yaml("goes_first.yml", game)
-
-  game = SavesResults.new(human, computer, 2)
-  game.play
-  output_yaml("goes_last.yml", game)
+  File.write("../piet/get_computer_move.script", template.result(binding))
 end

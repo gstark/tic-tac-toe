@@ -1,0 +1,18 @@
+get_computer_move(board)
+{
+  new_move=99;
+
+  <% combined_results.sort_by { |move, boards| move }.each do |move, boards| -%>
+  if (<%= boards.uniq.sort.map { |board| "(board == #{board})" }.join(" || ") %>) { new_move = <%= move %>; }
+  <% end -%>
+
+  if (new_move == 99)
+  {
+    asm { @"No move available\\r\\n" }
+    while (1)
+    {
+    }
+  }
+
+  return new_move;
+}

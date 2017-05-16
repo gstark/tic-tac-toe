@@ -1,5 +1,6 @@
 source :rubygems
 
+gem 'erubis'
 gem 'rspec', '~> 3.4'
 gem 'simplecov'
 
