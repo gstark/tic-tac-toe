@@ -12,10 +12,13 @@ get_computer_move(board)
 <% (0..8).each do |move| %>
 get_computer_move_<%= move %>(board)
 {
+  result = 0;
+
   if (<%= combined_results[move].uniq.sort.map { |board| "(board == #{board})" }.join(" || ") %>) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 <% end %>

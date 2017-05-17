@@ -33,73 +33,100 @@ get_computer_move(board)
 
 get_computer_move_0(board)
 {
+  result = 0;
+
   if ((board == 0) || (board == 3) || (board == 27) || (board == 81) || (board == 174) || (board == 198) || (board == 453) || (board == 894) || (board == 918) || (board == 933) || (board == 990) || (board == 1125) || (board == 1167) || (board == 1179) || (board == 2274) || (board == 2415) || (board == 2448) || (board == 2637) || (board == 3318) || (board == 3741) || (board == 4038) || (board == 4254) || (board == 5502) || (board == 6726) || (board == 6750) || (board == 6822) || (board == 6957) || (board == 7011) || (board == 7245) || (board == 8418) || (board == 9150) || (board == 10293) || (board == 10338) || (board == 10371) || (board == 10500) || (board == 10524) || (board == 10554) || (board == 10590) || (board == 10734) || (board == 10788) || (board == 10806) || (board == 10890) || (board == 11334) || (board == 11829) || (board == 12090) || (board == 13539) || (board == 13563) || (board == 14265) || (board == 15723) || (board == 15780) || (board == 16071) || (board == 16170) || (board == 16203) || (board == 16209) || (board == 16227) || (board == 16242) || (board == 16287) || (board == 16386) || (board == 16443) || (board == 16458) || (board == 16476) || (board == 16506)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_1(board)
 {
+  result = 0;
+
   if ((board == 29) || (board == 83) || (board == 172) || (board == 290) || (board == 344) || (board == 406) || (board == 731) || (board == 758) || (board == 857) || (board == 900) || (board == 929) || (board == 955) || (board == 992) || (board == 1019) || (board == 1073) || (board == 1134) || (board == 1163) || (board == 1189) || (board == 1657) || (board == 1891) || (board == 2187) || (board == 2234) || (board == 2270) || (board == 2288) || (board == 2315) || (board == 2450) || (board == 2477) || (board == 2531) || (board == 2567) || (board == 2583) || (board == 2621) || (board == 2783) || (board == 2936) || (board == 2963) || (board == 3017) || (board == 3179) || (board == 3314) || (board == 3368) || (board == 3530) || (board == 4250) || (board == 6608) || (board == 6662) || (board == 6689) || (board == 6724) || (board == 6824) || (board == 6851) || (board == 6905) || (board == 6985) || (board == 7157) || (board == 7219) || (board == 7310) || (board == 7337) || (board == 7391) || (board == 7553) || (board == 7688) || (board == 7742) || (board == 7904) || (board == 8209) || (board == 8624) || (board == 8768) || (board == 8795) || (board == 8849) || (board == 9011) || (board == 9146) || (board == 9200) || (board == 11827) || (board == 11835) || (board == 11853) || (board == 11864) || (board == 12069) || (board == 12088) || (board == 12098) || (board == 12114) || (board == 13537) || (board == 14248) || (board == 15706) || (board == 15778) || (board == 16498)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_2(board)
 {
+  result = 0;
+
   if ((board == 116) || (board == 166) || (board == 243) || (board == 245) || (board == 278) || (board == 332) || (board == 437) || (board == 764) || (board == 812) || (board == 818) || (board == 845) || (board == 980) || (board == 1007) || (board == 1109) || (board == 1325) || (board == 1651) || (board == 2189) || (board == 2216) || (board == 2222) || (board == 2276) || (board == 2303) || (board == 2381) || (board == 2407) || (board == 2519) || (board == 2597) || (board == 2647) || (board == 2651) || (board == 2924) || (board == 2951) || (board == 3005) || (board == 3302) || (board == 3356) || (board == 3518) || (board == 3835) || (board == 4082) || (board == 4084) || (board == 5189) || (board == 5486) || (board == 5702) || (board == 6563) || (board == 6590) || (board == 6596) || (board == 6644) || (board == 6650) || (board == 6755) || (board == 6941) || (board == 6966) || (board == 6971) || (board == 6973) || (board == 6995) || (board == 7298) || (board == 7325) || (board == 7730) || (board == 7892) || (board == 8267) || (board == 8456) || (board == 8458) || (board == 8837) || (board == 9134) || (board == 9188) || (board == 9350) || (board == 10239) || (board == 10322) || (board == 10369) || (board == 10395) || (board == 10400) || (board == 10402) || (board == 10455) || (board == 10538) || (board == 10611) || (board == 10616) || (board == 10618) || (board == 10640) || (board == 10644) || (board == 11021) || (board == 11534) || (board == 11858) || (board == 12074) || (board == 16125) || (board == 16154) || (board == 16180) || (board == 16316) || (board == 16342) || (board == 16370)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_3(board)
 {
+  result = 0;
+
   if ((board == 5) || (board == 11) || (board == 14) || (board == 262) || (board == 264) || (board == 326) || (board == 342) || (board == 892) || (board == 905) || (board == 907) || (board == 913) || (board == 1553) || (board == 1715) || (board == 1787) || (board == 1793) || (board == 1799) || (board == 2350) || (board == 2358) || (board == 2363) || (board == 2365) || (board == 2371) || (board == 2615) || (board == 3737) || (board == 3743) || (board == 3893) || (board == 3975) || (board == 3986) || (board == 4703) || (board == 5450) || (board == 6170) || (board == 6745) || (board == 7221) || (board == 7947) || (board == 7952) || (board == 7954) || (board == 8111) || (board == 8117) || (board == 8123) || (board == 8285) || (board == 8366) || (board == 9405) || (board == 9410) || (board == 9412) || (board == 10229) || (board == 10304) || (board == 10382) || (board == 10472) || (board == 10864) || (board == 10866) || (board == 11282) || (board == 11768) || (board == 12488) || (board == 15730) || (board == 16045) || (board == 16201) || (board == 16216) || (board == 16450) || (board == 16864) || (board == 17026) || (board == 17098) || (board == 17106)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_4(board)
 {
+  result = 0;
+
   if ((board == 1) || (board == 9) || (board == 32) || (board == 38) || (board == 44) || (board == 68) || (board == 266) || (board == 272) || (board == 288) || (board == 302) || (board == 319) || (board == 729) || (board == 734) || (board == 746) || (board == 773) || (board == 788) || (board == 794) || (board == 797) || (board == 995) || (board == 1045) || (board == 1047) || (board == 1733) || (board == 2192) || (board == 2210) || (board == 2237) || (board == 2246) || (board == 2252) || (board == 2255) || (board == 2453) || (board == 2503) || (board == 2505) || (board == 3661) || (board == 3679) || (board == 3687) || (board == 3895) || (board == 3921) || (board == 6561) || (board == 6566) || (board == 6611) || (board == 6620) || (board == 6877) || (board == 7115) || (board == 7841) || (board == 7844) || (board == 8069) || (board == 8312) || (board == 8338) || (board == 9299) || (board == 9302) || (board == 10213) || (board == 10258) || (board == 10474) || (board == 10708) || (board == 16053) || (board == 16082) || (board == 16108) || (board == 16298) || (board == 17052)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_5(board)
 {
+  result = 0;
+
   if ((board == 110) || (board == 935) || (board == 949) || (board == 959) || (board == 1577) || (board == 1583) || (board == 2399) || (board == 2413) || (board == 2417) || (board == 3133) || (board == 3137) || (board == 3141) || (board == 3143) || (board == 3146) || (board == 3148) || (board == 3154) || (board == 3759) || (board == 3770) || (board == 3850) || (board == 4487) || (board == 5234) || (board == 6626) || (board == 6629) || (board == 6732) || (board == 6737) || (board == 6739) || (board == 6761) || (board == 6791) || (board == 7507) || (board == 7511) || (board == 7517) || (board == 7520) || (board == 7522) || (board == 7528) || (board == 8965) || (board == 8969) || (board == 8973) || (board == 8975) || (board == 8978) || (board == 8980) || (board == 8986) || (board == 10221) || (board == 10377) || (board == 10384) || (board == 10406) || (board == 10410) || (board == 11066) || (board == 11840) || (board == 16144) || (board == 16258) || (board == 16264) || (board == 16882)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_6(board)
 {
+  result = 0;
+
   if ((board == 92) || (board == 98) || (board == 140) || (board == 146) || (board == 149) || (board == 190) || (board == 211) || (board == 248) || (board == 308) || (board == 311) || (board == 383) || (board == 389) || (board == 427) || (board == 439) || (board == 451) || (board == 455) || (board == 473) || (board == 605) || (board == 2194) || (board == 2202) || (board == 2220) || (board == 2285) || (board == 2436) || (board == 2582) || (board == 2599) || (board == 2642) || (board == 2657) || (board == 2660) || (board == 2668) || (board == 2798) || (board == 4469) || (board == 4766) || (board == 4982) || (board == 6584) || (board == 6757) || (board == 6827) || (board == 6879) || (board == 6962) || (board == 6987) || (board == 6989) || (board == 7016) || (board == 7018) || (board == 7025) || (board == 7042) || (board == 7172) || (board == 7193) || (board == 7196) || (board == 7250) || (board == 8754) || (board == 8910) || (board == 8915) || (board == 8917) || (board == 8933) || (board == 8939) || (board == 8960) || (board == 9171) || (board == 9176) || (board == 9178) || (board == 9226) || (board == 9228) || (board == 9230) || (board == 9434) || (board == 9446) || (board == 11318)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_7(board)
 {
+  result = 0;
+
   if ((board == 86) || (board == 205) || (board == 399) || (board == 421) || (board == 449) || (board == 599) || (board == 833) || (board == 1130) || (board == 1141) || (board == 1149) || (board == 1151) || (board == 1178) || (board == 1204) || (board == 1210) || (board == 1906) || (board == 2066) || (board == 6665) || (board == 6767) || (board == 7252) || (board == 7452) || (board == 7457) || (board == 7459) || (board == 7467) || (board == 7469) || (board == 7481) || (board == 7496) || (board == 7502) || (board == 7701) || (board == 7713) || (board == 7718) || (board == 7720) || (board == 7756) || (board == 7768) || (board == 7770) || (board == 7976) || (board == 7982) || (board == 8224) || (board == 8630) || (board == 13522) || (board == 13570) || (board == 14272)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
 get_computer_move_8(board)
 {
+  result = 0;
+
   if ((board == 203) || (board == 397) || (board == 414) || (board == 419) || (board == 443) || (board == 923) || (board == 1139) || (board == 1157) || (board == 1184) || (board == 1193) || (board == 1199) || (board == 1202) || (board == 1346) || (board == 1904) || (board == 2387) || (board == 2393) || (board == 2590) || (board == 2636) || (board == 2655) || (board == 2662) || (board == 2922) || (board == 3078) || (board == 3083) || (board == 3093) || (board == 3095) || (board == 3101) || (board == 3107) || (board == 3122) || (board == 3128) || (board == 3327) || (board == 3344) || (board == 3382) || (board == 3394) || (board == 3396) || (board == 3398) || (board == 3608) || (board == 3614) || (board == 3733) || (board == 3903) || (board == 4030) || (board == 4066) || (board == 4092) || (board == 4246) || (board == 4256) || (board == 4774) || (board == 5954)) {
-    return 1;
+    result = 1;
   }
 
-  return 0;
+  return result;
 }
+
