@@ -1,18 +1,21 @@
 get_computer_move(board)
 {
-  new_move=99;
+  <% (0..8).each do |move| %>
+  if (get_computer_move_<%= move %>(board) == 1) {
+    return <%= move %>;
+  }
+  <% end %>
+  asm { @"Couldn't find a move" }
+  asm { halt }
+}
 
-  <% combined_results.sort_by { |move, boards| move }.each do |move, boards| -%>
-  if (<%= boards.uniq.sort.map { |board| "(board == #{board})" }.join(" || ") %>) { new_move = <%= move %>; }
-  <% end -%>
-
-  if (new_move == 99)
-  {
-    asm { @"No move available\\r\\n" }
-    while (1)
-    {
-    }
+<% (0..8).each do |move| %>
+get_computer_move_<%= move %>(board)
+{
+  if (<%= combined_results[move].uniq.sort.map { |board| "(board == #{board})" }.join(" || ") %>) {
+    return 1;
   }
 
-  return new_move;
+  return 0;
 }
+<% end %>

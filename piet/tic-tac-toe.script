@@ -95,76 +95,77 @@ main()
   }
 }
 
+piece_value(board, position)
+{
+  return (board/exponent(position))%3;
+}
+
 check_for_win_or_tie(board)
 {
-  pos_0 = (board/exponent(0))%3;
-  pos_1 = (board/exponent(1))%3;
-  pos_2 = (board/exponent(2))%3;
-  pos_3 = (board/exponent(3))%3;
-  pos_4 = (board/exponent(4))%3;
-  pos_5 = (board/exponent(5))%3;
-  pos_6 = (board/exponent(6))%3;
-  pos_7 = (board/exponent(7))%3;
-  pos_8 = (board/exponent(8))%3;
+  value_0 = piece_value(board, 0);
+  value_1 = piece_value(board, 1);
+  value_2 = piece_value(board, 2);
+  value_3 = piece_value(board, 3);
+  value_4 = piece_value(board, 4);
+  value_5 = piece_value(board, 5);
+  value_6 = piece_value(board, 6);
+  value_7 = piece_value(board, 7);
+  value_8 = piece_value(board, 8);
 
-  if ((pos_0 == 2 && pos_1 == 2 && pos_2 == 2) ||
-      (pos_3 == 2 && pos_4 == 2 && pos_5 == 2) ||
-      (pos_6 == 2 && pos_7 == 2 && pos_8 == 2) ||
-      (pos_0 == 2 && pos_3 == 2 && pos_6 == 2) ||
-      (pos_1 == 2 && pos_4 == 2 && pos_7 == 2) ||
-      (pos_2 == 2 && pos_5 == 2 && pos_8 == 2) ||
-      (pos_0 == 2 && pos_4 == 2 && pos_8 == 2) ||
-      (pos_2 == 2 && pos_4 == 2 && pos_6 == 2))
+  if ((value_0 * value_1 * value_2 == 8) ||
+      (value_3 * value_4 * value_5 == 8) ||
+      (value_6 * value_7 * value_8 == 8) ||
+      (value_0 * value_3 * value_6 == 8) ||
+      (value_1 * value_4 * value_7 == 8) ||
+      (value_2 * value_5 * value_8 == 8) ||
+      (value_0 * value_4 * value_8 == 8) ||
+      (value_2 * value_4 * value_6 == 8))
   {
-    asm { @"**** I WIN! ****\r\n\r\n" }
-    print_board(board);
-    while (1)
-    {
-
-    }
+    asm { @"\r\n**** I WIN! ****\r\n\r\n" }
+    asm { halt }
   }
 
-  if (pos_0 !=0 && pos_1 !=0 && pos_2 != 0 &&
-      pos_3 !=0 && pos_4 !=0 && pos_5 != 0 &&
-      pos_6 !=0 && pos_7 !=0 && pos_8 != 0)
+  if (value_0 != 0 && value_1 != 0 && value_2 != 0 &&
+      value_3 != 0 && value_4 != 0 && value_5 != 0 &&
+      value_6 != 0 && value_7 != 0 && value_8 != 0)
   {
-    asm { @"**** TIE! ****\r\n\r\n" }
-    print_board(board);
-    while (1)
-    {
-
-    }
+    asm { @"\r\n**** TIE! ****\r\n\r\n" }
+    asm { halt }
   }
 }
 
 print_board(board)
 {
-  print_piece((board/exponent(0))%3, 0);
+  print_piece(board, 0);
   asm { @" " }
-  print_piece((board/exponent(1))%3, 1);
+  print_piece(board, 1);
   asm { @" " }
-  print_piece((board/exponent(2))%3, 2);
+  print_piece(board, 2);
   asm { @"\r\n" }
   asm { @"\r\n" }
-  print_piece((board/exponent(3))%3, 3);
+
+  print_piece(board, 3);
   asm { @" " }
-  print_piece((board/exponent(4)%3), 4);
+  print_piece(board, 4);
   asm { @" " }
-  print_piece((board/exponent(5))%3, 5);
+  print_piece(board, 5);
   asm { @"\r\n" }
   asm { @"\r\n" }
-  print_piece((board/exponent(6))%3, 6);
+
+  print_piece(board, 6);
   asm { @" " }
-  print_piece((board/exponent(7))%3, 7);
+  print_piece(board, 7);
   asm { @" " }
-  print_piece((board/exponent(8))%3, 8);
+  print_piece(board, 8);
   asm { @"\r\n" }
   asm { @"\r\n" }
 }
 
-print_piece(piece, location)
+print_piece(board, position)
 {
-  if (piece == 0) { __outn(location); }
+  piece = piece_value(board, position);
+
+  if (piece == 0) { __outn(position); }
   if (piece == 1) { asm { @"O" } }
   if (piece == 2) { asm { @"X" } }
 }

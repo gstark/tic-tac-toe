@@ -72,7 +72,7 @@ term: integer { $item[1] }
 piet: pinstruction { $item[1] } 
     | pconstant { $item[1] }
 
-pinstruction: /push|pop|add|sub|mul|div|mod|not|gt|ptr|switch|dup|roll|inn|in|outn|out/ { $item[1] }
+pinstruction: /push|pop|add|sub|mul|div|mod|not|gt|ptr|switch|dup|halt|roll|inn|in|outn|out/ { $item[1] }
 
 pconstant: integer { $item[1] }
          | '@' string { '@' . $item[2] }

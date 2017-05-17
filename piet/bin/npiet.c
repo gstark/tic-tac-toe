@@ -1,6 +1,6 @@
 /*
  * npiet.c:						May 2004
- * (schoenfr@web.de)					Jan 2010
+ * (schoenfr@web.de)					Aug 2016
  *
  * npiet is an interperter for the piet programming language.
  * 
@@ -54,7 +54,7 @@
  *
  */
 
-char *version = "v1.3a";
+char *version = "v1.3e";
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -1203,6 +1203,18 @@ read_png (char *fname)
 
 #include <gif_lib.h>
 
+#if defined GIFLIB_MAJOR && GIFLIB_MAJOR >= 5
+static void PrintGifErrorStr(const char *str)
+{
+  fprintf(stderr, "Error in GIF library: %s\n", str);
+}
+
+static void PrintGifError(int errorCode)
+{
+  PrintGifErrorStr(GifErrorString(errorCode));
+}
+#endif
+
 int
 read_gif (char *fname) 
 {
@@ -1217,21 +1229,40 @@ read_gif (char *fname)
     return -1;
   }
 
-  if (! (gif = DGifOpenFileName (fname))) {
+#if defined GIFLIB_MAJOR && GIFLIB_MAJOR >= 5
+  int errcode;
+  gif = DGifOpenFileName (fname, &errcode);
+#else
+  gif = DGifOpenFileName (fname);
+#endif
+
+  if (gif == NULL) {
     /* return error silently: */
     return -1;
   }
   
   if (DGifGetRecordType (gif, &rtype) == GIF_ERROR) {
+#if defined GIFLIB_MAJOR && GIFLIB_MAJOR >= 5
+    PrintGifError (gif->Error);
+#else
     PrintGifError ();
+#endif
+#if defined GIFLIB_MAJOR && (GIFLIB_MAJOR >= 6 || (GIFLIB_MAJOR == 5 && GIFLIB_MINOR >= 1))
+    DGifCloseFile (gif, &errcode);
+#else
     DGifCloseFile (gif);
+#endif
     return -1;
   }
 
   if (rtype != IMAGE_DESC_RECORD_TYPE 
       || DGifGetImageDesc (gif) == GIF_ERROR) {
     fprintf (stderr, "error: unknown gif format - exiting\n");
+#if defined GIFLIB_MAJOR && (GIFLIB_MAJOR >= 6 || (GIFLIB_MAJOR == 5 && GIFLIB_MINOR >= 1))
+    DGifCloseFile (gif, &errcode);
+#else
     DGifCloseFile (gif);
+#endif
     exit (-1);
   }
 
@@ -1297,7 +1328,11 @@ read_gif (char *fname)
     }
   }
 
+#if defined GIFLIB_MAJOR && (GIFLIB_MAJOR >= 6 || (GIFLIB_MAJOR == 5 && GIFLIB_MINOR >= 1))
+  DGifCloseFile (gif, &errcode);
+#else
   DGifCloseFile (gif);
+#endif
 
   return 0;
 }
@@ -1956,7 +1991,7 @@ piet_action (int c_col, int a_col, int num_cells, char *msg)
 	for (i = 0; val > 0 && i < (val % 4); i++) {
 	  p_dir_pointer = turn_dp (p_dir_pointer);
 	}
-	for (i = 0; val < 0 && i > ((-1 * val) % 4); i++) {
+	for (i = 0; val < 0 && i > -((-1 * val) % 4); i--) {
 	  p_dir_pointer = turn_dp_inv (p_dir_pointer);
 	}
 	num_stack--;
